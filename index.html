@@ -3,38 +3,17 @@
     <head>
         <title>Laughter Annotation Tool</title>
         <meta charset="UTF-8">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css" crossorigin="anonymous">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-            </script>
-            <style type="text/css">
-                #main-container {
-                    min-height:  100% !important;
-                }
-            </style>
-            <script>
-                function saveCSV() {
-
-                }
-                function moveTimeStamp(movetype, season, episode) {
-
-                }
-                function getCSV() {
-
-                }
-                function csv2table(data)  {
-                    let table = $("#csvtable");
-                    $(data).each((i, rowdata) => {
-                        let trow = $("<tr scope='row'></tr>");
-                        $(rowdata).each((j, coldata) => {
-                            trow.append($("<td>" + coldata + "</td>"));
-                        });
-                        table.append(trow);
-                    });
-                    return table;
-                }
-            </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <style type="text/css">
+            #main-container {
+                min-height:  100% !important;
+            }
+        </style>
     </head>
 
     <body>
@@ -47,51 +26,82 @@
         </nav>   
         <div class="container-fluid" id="main-container">
             <div class="row">
-                <div class="col-sm-8 col-lg-9">
-                    {% if videourl is defined %}
-                        <video width="320" height="240" controls>
-                            <source src="{{ videourl }}" type="video/mp4">
+                <div class="col-sm-6 col-lg-7">
+                        <video width="90%" id="vidplay" height="60%" controls>
                         </video>
-                        <div class='btn-group'>
-                            <button type="button" class="btn btn-outline-secondary" onclick="moveTimeStamp('prev', {{season}}, {{episode}});">Previous</button>
-                            <button type="button" class='btn btn-outline-primary' onclick="moveTimeStamp('next', {{season}}, {{episode}});">Next</button>
-                            <button type="button" class='btn btn-success' onclick="saveCSV();">Save</button>
+                        <br>
+                        <div class='btn-group' style="margin-right: 10px;">
+                            <button type="button" class='btn btn-success' onclick="modify_laugh(true);"><i class="em em-laughing"></i></button>
+                            <button type="button" class='btn btn-danger' onclick="modify_laugh(false);"><i class="em em-unamused"></i></button>
                         </div>
-                    {% else %}
-                        <h2>Select Episode and then click on "Get CSV Data"!</h2>
-                    {% endif %}
+                        <div class='btn-group'>
+                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', {{season}}, {{episode}});">Previous Timestamp</button>
+                            <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next', {{season}}, {{episode}});">Next Timestamp</button>
+                            <button type="button" class='btn btn-success btn-lg' onclick="saveCSV();">Save</button>
+                        </div>
+                        <br>
                 </div>
-                <div class="col-sm-4 col-lg-3">
-                    <form method="POST" action="{% url 'getvideo' %}">
-                        <input type="number" class="form-control" placeholder="Season">
-                        <input type="number" class="form-control" placeholder="Episode">
-                        <input type="submit" value="Load Episode" class="btn btn-success btn-block">
-                    </form>
+                <div class="col-sm-6 col-lg-5">
+                    <input type="number" class="form-control" placeholder="Season"><br>
+                    <input type="number" class="form-control" placeholder="Episode">
+                    <br>
+                    <input type="file" class="btn btn-success btn-block" id="vidupload">
                 </div>
             </div>
-            {% if videourl is defined %}
-                <div class="row">
-                    <div class="col-sm-12">
-                        <table class="table" id="csvtable">
-                        </table>
-                    </div>
-                </div>
-            {% endif %}
             <div class="row">
-                <div class="col-sm-4 col-lg-3">
+                <div class="col-sm-12">
+                    <table class="table" id="csvtable">
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-lg-4">
+                    <br>
                     <a href="" onclick="getCSV();" class='btn btn-success btn-block'>Get CSV Data</a>
                 </div>
-                <div class="col-sm-8 col-lg-9">
-                    <h3>How to use this?</h3>
+                <div class="col-sm-7 col-lg-8">
+                    <h3 style="font-weight: lighter;">How to use this?</h3>
                     <ol>
-                        <li>Type in the Season and Episode Number, and let the video upload!</li>
+                        <li>Type in the Season and Episode Number and upload the video!</li>
                         <li>Click on Get CSV Data.</li>
-                        <li>The tool will automatically go to timestamps where laughter has been detected in that season.</li>
-                        <li>Click on "Yes" if there <i>really</i> is laughter present in that timestamp. "No" if otherwise.</li>
+                        <li>The tool will automatically go through the respecitve timestamps in that episdoe.</li>
+                        <li>Click on "<i class="em em-laughing"></i>" if there <i>really</i> is laughter present in that timestamp. "<i class="em em-unamused"></i>" otherwise.</li>
                         <li>Click "Next" to go to the next dialogue, and "Prev" for the previous</li>
                         <li class="text-primary">DON'T FORGET TO PRESS "SAVE" WHEN YOU ARE DONE</li>
                     </ol>
                 </div>
             </div>
         </div>
+        <script>
+            function saveCSV() {
+
+            }
+            function moveTimeStamp(movetype, season, episode) {
+
+            }
+            function getCSV() {
+
+            }
+            function csv2table(data)  {
+                let table = $("#csvtable");
+                $(data).each((i, rowdata) => {
+                    let trow = $("<tr scope='row'></tr>");
+                    $(rowdata).each((j, coldata) => {
+                        trow.append($("<td>" + coldata + "</td>"));
+                    });
+                    table.append(trow);
+                });
+                return table;
+            }
+            function playSelectedFile(e) {
+                var URL = window.URL || window.webkitURL,
+                    file = this.files[0],
+                    type = file.type,
+                    videoNode = document.getElementById('vidplay'),
+                    fileURL = URL.createObjectURL(file);
+                videoNode.src = fileURL;
+            }
+            var inputElem = document.getElementById("vidupload");
+            inputElem.addEventListener('change', playSelectedFile, false);
+        </script>
     </body>
