@@ -1,0 +1,25 @@
+{% extends 'main/base.html'%}
+{% block main %}
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <h1>Login</h1>
+            <a href="{% url 'register' %}"><h3>Or Register?</h3></a>
+            <br><br>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-8'>
+            <form method='POST'>
+                <input class='form-control' type='text' name='user_name' placeholder="User Name" required><br>
+                <input class='form-control' type='password' name='password' placeholder="Password" required><br>
+                <input type="submit" class='btn btn-success btn-block'><br>
+            </form>
+        </div>
+        <div class='col-sm-4'>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,149 @@
+{% extends 'main/base.html'%}
+{% block main %}
+{% load static %}
+   <div class="container-fluid" id="main-container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-7">
+                        <video width="90%" src='{{vidlink}}' id="vidplay" height="60%" controls>
+                        </video>
+                        <br>
+                        <div class='btn-group' style="margin-right: 10px;">
+                            <button type="button" class='btn btn-success' onclick="modify_laugh(true);"><i class="em em-laughing"></i></button>
+                            <button type="button" class='btn btn-danger' onclick="modify_laugh(false);"><i class="em em-unamused"></i></button>
+                        </div>
+                        <div class='btn-group'>
+                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev');">Previous Timestamp</button>
+                            <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next');">Next Timestamp</button>
+                            <button type="button" class='btn btn-success btn-lg' onclick="saveCSV();">Save</button>
+                        </div>
+                        <br>
+                </div>
+                <div class="col-sm-6 col-lg-5">
+                    <form method="POST">
+                        <input type="number" class="form-control" placeholder="Season" name='season' required><br>
+                        <input type="number" class="form-control" placeholder="Episode" name='episode' required>
+                        <br>
+                        <input type="submit" class="btn btn-success btn-block" id="vidupload" value="Get Episode">
+                    </form>
+                    <div id='info'>
+                        <br>
+                        <p id='timeinfo'></p>
+                        <p id='laughinfo'></p>
+                    </div>
+                </div>
+            </div>
+            <div class='row' style="visibility: hidden;">
+                <div class='col-sm-12' style="visibility: hidden;">
+                    <form action="{% url 'savecsv' %}" method="POST" style="visibility: hidden;">
+                        <input type="text" name="jsondata" id="jsoninput" required>
+                        <input type="submit" id="submitData">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 style="font-weight: lighter;">How to use this?</h3>
+                    <ol>
+                        <li>Type in the Season and Episode Number to get the video!</li>
+                        <li>The tool will automatically go through the respecitve timestamps in that episode.</li>
+                        <li>Click on "<i class="em em-laughing"></i>" if there <i>really</i> is laughter present in that timestamp. "<i class="em em-unamused"></i>" otherwise.</li>
+                        <li>Click "Next" to go to the next utterance, and "Prev" for the previous</li>
+                        <li class="text-primary">DON'T FORGET TO PRESS "SAVE" WHEN YOU ARE DONE</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tableCount = -1, 
+                jsontosend = "",
+                info = document.getElementById("info"),
+                timeinfo = document.getElementById("timeinfo"),
+                laughinfo = document.getElementById("laughinfo");
+            
+            {% if season == "-1" %}
+                var season = -1, episode = -1;
+                info.style.visibility = 'hidden';
+            {% else %}
+                var season = {{season}}, episode = {{episode}};
+                info.style.visibility = 'visible';
+            {% endif %}
+            
+            {% if csv == "none" %}
+            {% else %}
+                {% autoescape off %}
+                var stro = '{{ csv |escapejs}}';
+                main_data = Papa.parse(stro);
+                main_data = main_data["data"];
+                for(var i=1; i<main_data.length; i++)
+                    if(parseInt(main_data[i][1]) == season && parseInt(main_data[i][2]) == episode)
+                    {
+                        tableCount = i;
+                        break;
+                    }
+                {% endautoescape %}
+            {% endif %}
+
+            function moveTimeStamp(movetype) {
+                if(tableCount == -1)
+                    return alert("Error : Please select Season & Episode.");
+                if(movetype == 'next')
+                {
+                    if(parseInt(main_data[tableCount + 1][1]) == season && parseInt(main_data[tableCount + 1][2]) == episode)
+                        tableCount ++;
+                    else
+                        tableCount = -1;
+                } else {
+                    if(parseInt(main_data[tableCount - 1][1]) == season && parseInt(main_data[tableCount - 1][2]) == episode)
+                        tableCount--;
+                    else
+                        alert("First Utterance.");
+                }
+
+                if(tableCount == -1)
+                    alert("Episode not found or completed");
+
+                timeinfo.innerHTML = "Time : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
+                laughinfo.innerHTML = "";
+                let vid = document.getElementById("vidplay");
+                vid.currentTime = main_data[tableCount][5];
+            }
+
+            function saveCSV()
+            {
+                if(tableCount == -1)
+                    return alert("Error : Please select Season & Episode.");
+
+                jsontosend = '{"' + "{{ username }}" + '" : [' + jsontosend + ']}';
+                textElem = document.getElementById("jsoninput");
+                textElem.value = jsontosend;
+                $("#submitData").click();
+            }
+
+
+            function modify_laugh(yayOrNay)
+            {
+                if(tableCount == -1)
+                    return alert("Error : Please select Season & Episode.");
+
+                jsontosend += '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "laugh" : "' + yayOrNay +'" },';
+                emoji = "<i class='em em-laughing'></i>"
+                if(yayOrNay == false)
+                     emoji = "<i class='em em-unamused'></i>"
+                laughinfo.innerHTML = emoji;
+                setTimeout(moveTimeStamp('next'), 2000);
+            }
+
+            /*
+            function playSelectedFile(e) {
+                var URL = window.URL || window.webkitURL,
+                    file = this.files[0],
+                    type = file.type,
+                    videoNode = document.getElementById('vidplay'),
+                    fileURL = URL.createObjectURL(file);
+                videoNode.src = fileURL;
+            }
+
+            var inputElem = document.getElementById("vidupload");
+            inputElem.addEventListener('change', playSelectedFile, false); */
+        </script>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laughter Annotation Tool</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://raw.githubusercontent.com/mholt/PapaParse/master/papaparse.min.js"></script>
+        <style type="text/css">
+            #main-container {
+                min-height:  100% !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style='background-color:white;'>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#main-container">Laugh Annotation Tool</a>
+                </div>
+            </div>
+        </nav>   
+        {% block main %}
+        {% endblock %}
+    </body>
+</html>

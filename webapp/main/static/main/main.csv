@@ -1,0 +1,162 @@
+"ID","SEASON","EPISODE","SPEAKER","SENTENCE","STARTING TIMESTAMP","ENDING TIMESTAMP","LAUGH"
+"2","8","1","Sheldon","Is it at all possible that you're knitting a pair of pants?","00:00:46,939","00:00:51,152",True
+"3","8","1","Sheldon","Oh, well, no, you're understandably terrified. But, you know, allow me to explain. 45 days ago, um, I embarked on a railroad journey of healing because my university was making me do string theory, and my favorite comic book store burned down, and when my roommate got engaged, my girlfriend wanted to move in with me, which was no doubt a ploy just to see my... well, excuse my language, but my bathing suit parts.","00:00:52,387","00:01:17,125",True
+"4","8","1","Sheldon","Uh, sir, may I use your phone?","00:01:20,564","00:01:22,666",True
+"5","8","1","Sheldon"," I understand that I'm half naked, but there is a reasonable explanation. While I slept in my sleeper car, all my possessions were stolen. Now, typically, I wear pajamas, but I recently adopted a hobo lifestyle and pajamas are the sleep-pants of the Man.","00:01:22,681","00:01:42,850",True
+"6","8","1","Sheldon","I'll have you know, Mahatma Gandhi wore no pants and a nation rallied behind him! My good man... Now, before you walk away... I know that I may appear deranged, but I am, in fact, a world-renowned physicist. Ask me the difference between a boson and a fermion. Go ahead, ask!","00:01:45,282","00:02:02,495",True
+"7","8","1","Sheldon","Bosons have integer spin, fermions have half-integer spin!","00:02:04,642","00:02:08,987",True
+"8","8","1","Sheldon","My legs are getting cold! Why won't anybody help me?","00:02:09,010","00:02:12,479",False
+"9","8","1","Sheldon","uh, I need you to come pick me up.","00:02:57,730","00:03:03,194",True
+"10","8","1","Leonard","to do yoga with Penny.","00:03:04,350","00:03:07,955",True
+"11","8","1","Sheldon","I was robbed. Th-They took my phone, my wallet, my iPad, everything.","00:03:10,086","00:03:16,448",True
+"12","8","1","Sheldon","wearing borrowed pants, I-I don't have I.D., and one of the officers here won't stop calling me Chicken Legs.","00:03:18,190","00:03:27,371",True
+"13","8","1","Leonard","","00:03:28,392","00:03:30,943",True
+"14","8","1","Leonard","Sheldon, hang tight. Hey, do you want me to bring anything?","00:03:37,138","00:03:39,982",True
+"15","8","1","Sheldon","Oh, yes, please. A pair of pants. And my toothbrush. Yeah, and my mail. And a really good comeback for Chicken Legs, because âI know you are, but what am I?â was met with stony silence.","00:03:40,005","00:03:51,752",True
+"16","8","1","Penny"," âWhy did you change your hair? I'm holding my breath until your hair grows back.â","00:04:01,242","00:04:07,119",True
+"17","8","1","Leonard","All right, fine.","00:04:08,537","00:04:09,943",True
+"18","8","1","Leonard","Hey, can you think of a reason I shouldn't invite Amy to come with me?","00:04:10,443","00:04:13,599",True
+"19","8","1","Raj","Got a hot girlfriend now. I want the haters to know.","00:04:26,740","00:04:29,447",True
+"20","8","1","Howard","What are you talking about? No","00:04:30,219","00:04:33,068",True
+"21","8","1","Howard","I just want to pop in and","00:04:39,644","00:04:42,776",True
+"22","8","1","Howard","He was, but now that her cast is off, he moved out. And honestly, I'm kind of glad. It was getting a little weird.","00:04:44,650","00:04:50,994",True
+"23","8","1","Howard","No, not like us. Creepy chummy, like you and your dog.","00:04:57,877","00:05:02,022",True
+"24","8","1","Howard","I mean, he calls her Debbie, she calls him Stewie and they're all giggly around each other. And believe me, when food goes in that mouth, it does not come out.","00:05:07,223","00:05:16,777",True
+"25","8","1","Raj","So are you worried because or are you worried because he's becoming her lover?","00:05:18,082","00:05:24,683",True
+"26","8","1","Howard","First of all, no one can replace me","00:05:24,697","00:05:28,829",True
+"27","8","1","Howard","And secondly, my mother is well past having any kind of sex life.","00:05:30,247","00:05:34,450",False
+"28","8","1","Raj","Okay, okay.","00:05:34,473","00:05:36,488",True
+"29","8","1","Raj","Although many older women lead vibrant, active...","00:05:38,198","00:05:39,901",True
+"30","8","1","Sheldon","Excuse me, Officer Hernandez? Any leads on the person who stole my belongings?","00:05:45,648","00:05:50,345",True
+"31","8","1","Sheldon"," Sherlock Holmes always says when you eliminate the impossible, whatever remains, however improbable, must be the truth. Now, have-have you tried doing that?","00:05:50,375","00:06:03,820",True
+"32","8","1","Sheldon","Well, maybe you should. Th-Th-There's lots of books called âSherlock Holmesâ and there's no books called âOfficer Hernandez.â","00:06:07,252","00:06:15,520",True
+"33","8","1","Leonard","Thanks again for coming. Six hours was gonna be a long drive by myself.","00:06:22,494","00:06:26,673",True
+"34","8","1","Amy","My pleasure. And I'm not angry at all that my boyfriend was in trouble and called you instead of me. I love that!","00:06:26,704","00:06:33,989",True
+"35","8","1","Penny","interview in years. - I'm really nervous. - Don't be.","00:06:41,992","00:06:46,145",True
+"36","8","1","Bernadette"," I'm just getting on a train and leaving forever.","00:00:05,315","00:00:10,239",False
+"37","8","1","Bernadette","So a few things don't go your way and your best decision is to ride the rails like a hobo?","00:00:11,791","00:00:17,623",True
+"38","8","1","Bernadette","Leonard, I am overwhelmed. Everything is changing, and it's simply too much. I need to get away and think.","00:00:18,374","00:00:25,824",True
+"39","8","1","Bernadette","Sheldon... Yes? I'm gonna miss you. Of course you are.","00:00:26,348","00:00:33,159",True
+"40","8","1","Bernadette","You just made that easier.","00:00:34,964","00:00:36,850",True
+"41","8","1","Bernadette","Excuse me.","00:00:41,723","00:00:43,455",True
+"42","8","1","Bernadette","Is it at all possible that you're knitting a pair of pants?","00:00:46,939","00:00:51,152",True
+"43","8","1","Bernadette","Oh, well, no, you're understandably terrified. But, you know, allow me to explain. 45 days ago, um, I embarked on a railroad journey of healing because my university was making me do string theory, and my favorite comic book store burned down, and when my roommate got engaged, my girlfriend wanted to move in with me, which was no doubt a ploy just to see my... well, excuse my language, but my bathing suit parts.","00:00:52,387","00:01:17,125",True
+"44","8","1","Bernadette","Uh, sir, may I use your phone? - I don't think so. - Yeah, well, I understand that I'm half naked, but there is a reasonable explanation. While I slept in my sleeper car, all my possessions were stolen. Now, typically, I wear pajamas, but I recently adopted a hobo lifestyle and pajamas are the sleep-pants of the Man.","00:01:20,564","00:01:42,850",True
+"45","8","1","Bernadette","I'll have you know, Mahatma Gandhi wore no pants and a nation rallied behind him! My good man... Now, before you walk away... I know that I may appear deranged, but I am, in fact, a world-renowned physicist. Ask me the difference between a boson and a fermion. Go ahead, ask!","00:01:45,282","00:02:02,495",True
+"46","8","1","Bernadette","Bosons have integer spin, fermions have half-integer spin!","00:02:04,642","00:02:08,987",True
+"47","8","1","Bernadette","My legs are getting cold! Why won't anybody help me?","00:02:09,010","00:02:12,479",False
+"48","8","1","Bernadette","âª Our whole universe was in a hot, dense state âª âª Then nearly 14 billion years ago expansion started... Wait! âª âª The Earth began to cool âª âª The autotrophs began to drool, Neanderthals developed tools âª âª We built the Wall âª âª <i>We built the pyramids</i> âª âª Math, Science, History, unraveling the mystery âª âª That all started with a big bang âª âª<i> Bang!</i> âª âª The Big Bang Theory 8x01 âª The Locomotion Interruption Original Air Date on Septembe Sync, corrected by <b><i>Elder_Man</i></b>  Resync for WEB-DL by <b><i>Norther</i></b>","00:02:13,297","00:02:38,746",True
+"49","8","1","Bernadette","- Morning. - Hi. Want to do yoga with me? Um, let me just have some coffee first, and then I'll have the strength to tell you how much I won't be doing that.","00:02:40,795","00:02:49,233",True
+"50","8","1","Bernadette","Hello? Hello, Leonard. Hey, buddy. Good to hear your voice. Uh, I'm in Kingman, Arizona, and, uh, I need you to come pick me up.","00:02:52,935","00:03:03,194",True
+"51","8","1","Bernadette","I'd love to. I'm just about to do yoga with Penny.","00:03:04,350","00:03:07,955",True
+"52","8","1","Bernadette","Leonard, I'm at the police station. I was robbed. Th-They took my phone, my wallet, my iPad, everything. Oh, my God, are you okay? No, I'm not okay. I-I'm wearing borrowed pants, I-I don't have I.D., and one of the officers here won't stop calling me Chicken Legs.","00:03:10,086","00:03:27,371",True
+"53","8","1","Bernadette","Okay. Uh, I'll-I'll come get you. What's the address? - Hey, what's going on? - Oh. He got all of his stuff stolen. Oh...","00:03:28,392","00:03:34,731",True
+"54","8","1","Bernadette","Okay... Sheldon, hang tight. Hey, do you want me to bring anything?","00:03:35,460","00:03:39,982",True
+"55","8","1","Bernadette","Oh, yes, please. A pair of pants. And my toothbrush. Yeah, and my mail. And a really good comeback for Chicken Legs, because âI know you are, but what am I?â was met with stony silence.","00:03:40,005","00:03:51,752",True
+"56","8","1","Bernadette","I'll be there as soon as I can. Is he okay? Yeah, he's fine, he's just a little rattled. - Oh... - Feel like driving to Arizona with me? - No, I can't, I have that job interview. - Oh, right. Besides, I don't need six hours of âYour hair is different. âWhy did you change your hair? I'm holding my breath until your hair grows back.â","00:03:52,671","00:04:07,119",True
+"57","8","1","Bernadette","All right, fine.","00:04:08,537","00:04:09,943",True
+"58","8","1","Bernadette","Hey, can you think of a reason I shouldn't invite Amy to come with me? - Nope. - Come on, you didn't even try.","00:04:10,443","00:04:16,397",True
+"59","8","1","Bernadette","Thanks for the lift. - What's wrong with your car? - I'm having my windows untinted.","00:04:18,927","00:04:24,255",True
+"60","8","1","Bernadette","Why? Got a hot girlfriend now. I want the haters to know.","00:04:25,592","00:04:29,447",True
+"61","8","1","Bernadette","What are you talking about? No one's paying attention to you. Wow. How's that Hater-Ade taste, bro?","00:04:30,219","00:04:36,802",True
+"62","8","1","Bernadette","Hey, this isn't the way to work. I just want to pop in and make sure Ma's okay. I thought Stuart was looking after her. He was, but now that her cast is off, he moved out. And honestly, I'm kind of glad. It was getting a little weird.","00:04:38,193","00:04:50,994",True
+"63","8","1","Bernadette","How so? I don't know, they're... chummy.","00:04:51,009","00:04:55,648",True
+"64","8","1","Bernadette","Like us? No, not like us. Creepy chummy, like you and your dog. She feeds him out of her own mouth?","00:04:56,269","00:05:05,773",True
+"65","8","1","Bernadette","I mean, he calls her Debbie, she calls him Stewie and they're all giggly around each other. And believe me, when food goes in that mouth, it does not come out.","00:05:07,223","00:05:16,777",True
+"66","8","1","Bernadette","So are you worried because he's replacing you as a son or are you worried because he's becoming her lover? First of all, no one can replace me as a son. I'm her little matzo ball.","00:05:18,082","00:05:28,829",True
+"67","8","1","Bernadette","And secondly, my mother is well past having any kind of sex life. Okay, okay.","00:05:30,247","00:05:36,488",True
+"68","8","1","Bernadette","Although many older women lead vibrant, active... I said well past it!","00:05:38,198","00:05:41,788",True
+"69","8","1","Bernadette","Excuse me, Officer Hernandez? Any leads on the person who stole my belongings? - Not yet. - Well, perhaps I can help. Sherlock Holmes always says when you eliminate the impossible, whatever remains, however improbable, must be the truth. Now, have-have you tried doing that?","00:05:45,648","00:06:03,820",True
+"70","8","1","Bernadette","Nope. Well, maybe you should. Th-Th-There's lots of books called âSherlock Holmesâ and there's no books called âOfficer Hernandez.â","00:06:05,112","00:06:15,520",True
+"71","8","1","Bernadette","Thanks again for coming. Six hours was gonna be a long drive by myself. My pleasure. And I'm not angry at all that my boyfriend was in trouble and called you instead of me. I love that!","00:06:22,494","00:06:33,989",True
+"72","8","1","Bernadette","Yeah, time's gonna fly by.","00:06:36,396","00:06:38,836",True
+"73","8","1","Bernadette","I haven't been on a job interview in years. - I'm really nervous. - Don't be. You are built for pharmaceutical sales. You're cute, you're flirty and... Started that like there were gonna be three things.","00:06:41,992","00:06:53,398",True
+"74","8","1","Penny","experience in sales. Unless you count the bikini car wash I did in high school. But you already made me take that off my rÃ©sumÃ©.","00:06:55,696","00:07:02,991",True
+"75","8","1","Bernadette","This job is a lot like being a waitress, except instead of pushing the fish tacos 'cause they're about to go bad, you're just pushing our antidepressants before the FDA finds out they may cause rectal bleeding.","00:07:04,033","00:07:14,126",True
+"76","8","1","Penny","Oh, I really appreciate this. I","00:07:30,028","00:07:33,145",True
+"77","8","1","Bernadette","put you up for this job if I didn't think you could handle it.","00:07:36,421","00:07:39,457",True
+"78","8","1","Bernadette","Oh, I understand. You want to do I know. Why don't I get you a job at the Sitting Around All Day Wearing Yoga Pants Factory?","00:07:46,035","00:07:54,894",False
+"79","8","1","Howard"," You just started seeing naked women again, and I don't want you to be confused about where the boobs should be.","00:08:03,439","00:08:10,916",True
+"80","8","1","Stuart","Oh, yeah, I was going to, and then Debbie and I got to talking over dinner the other night. I didn't have anyplace to go, she likes having me around, so we both said, âWhy leave?â at the same time.","00:08:19,128","00:08:29,857",True
+"81","8","1","Stuart","It was precious.","00:08:31,405","00:08:33,216",False
+"82","8","1","Raj","sounds like it was pretty precious.","00:08:37,007","00:08:40,733",True
+"83","8","1","Stuart","","00:08:47,653","00:08:49,818",True
+"84","8","1","Stuart","They're probably on her head.","00:08:50,817","00:08:52,931",False
+"85","8","1","Howard","Or in her neck. Listen.","00:08:53,900","00:08:56,127",True
+"86","8","1","Howard","You staying here seems like something she would've talked to me about.","00:08:57,775","00:09:02,033",False
+"87","8","1","Stuart","Well, maybe if you called your","00:09:02,056","00:09:05,222",True
+"88","8","1","Raj","to pick up the phone.","00:09:08,833","00:09:10,957",True
+"89","8","1","Sheldon","You know, Sherlock Holmes liked to use cocaine to sharpen his focus.","00:09:31,236","00:09:35,582",True
+"90","8","1","Sheldon","But I'm sure those Cool Ranch Doritos are doing the trick.","00:09:37,923","00:09:40,910",True
+"91","8","1","Amy","What do you mean, why did I come? You're my boyfriend. I haven't seen you in over a month. I just drove six hours to help you out. Don't you have anything to say besides, âWhy did you come?â","00:09:53,690","00:10:03,259",True
+"92","8","1","Sheldon"," I feel uncomfortable saying it out loud in front of these police officers.","00:10:04,076","00:10:09,545",True
+"93","8","1","Leonard","So, Sheldon, tell us about your trip.","00:10:28,385","00:10:31,276",True
+"94","8","1","Sheldon"," I went to New York, Chicago, Atlanta, Denver, Seattle.","00:10:31,314","00:10:38,366",False
+"95","8","1","Sheldon","Oh, I have no idea.","00:10:39,670","00:10:40,975",False
+"96","8","1","Sheldon","I never left the train station.","00:10:41,002","00:10:43,025",False
+"97","8","1","Leonard","country and never left a train station?","00:10:44,632","00:10:48,739",True
+"98","8","1","Sheldon","Why would I?","00:10:48,778","00:10:49,989",False
+"99","8","1","Sheldon","That's where all the cool trains are.","00:10:50,013","00:10:52,014",True
+"100","8","1","Penny"," People like me. Some of my favorite people are people.","00:11:07,630","00:11:12,612",True
+"101","8","1","Penny","I feel like I'm saying âpeopleâ a lot. People, people, people, PE... Okay, I'm done.","00:11:13,919","00:11:18,024",True
+"102","8","1","Penny","Uh, well, as a waitress, sales was a big part of my job. I mean, believe me, I convinced a lot of very large customers, who should not be eating cheesecake, to have more cheesecake.","00:11:29,881","00:11:38,549",True
+"103","8","1","Penny","I mean, one of those chubsters even had an insulin pump!","00:11:39,757","00:11:42,876",True
+"104","8","1","Howard"," A grown man in his 30s living with my mother.","00:11:56,145","00:12:00,845",True
+"105","8","1","Raj","That is weird. I thought he was, like, 45.","00:12:00,868","00:12:04,356",True
+"106","8","1","Howard","","00:12:05,579","00:12:07,118",True
+"107","8","1","Raj","He needs a place to stay. I doubt there's any funny business going on. And even if there was, who cares? They're both adults.","00:12:07,133","00:12:15,644",False
+"108","8","1","Howard","care if I slept with your mom?","00:12:15,667","00:12:19,332",True
+"109","8","1","Raj"," I give you my blessing.","00:12:19,352","00:12:23,886",False
+"110","8","1","Howard","my mother and be honest with her.","00:12:25,763","00:12:30,177",False
+"111","8","1","Dan"," How would you convince them to switch to ours?","00:12:54,853","00:13:01,580",True
+"112","8","1","Penny","Okay, thanks.","00:13:21,107","00:13:23,162",True
+"113","8","1","Penny","Um, I'm sor... Listen, could you do me a favor and not tell Bernadette how badly I blew this interview? She'll get upset. And honestly I'm a... a little terrified of her.","00:13:24,537","00:13:34,928",True
+"114","8","1","Dan","","00:13:41,222","00:13:43,586",True
+"115","8","1","Dan","E-Everyone thinks she's so nice with that squeaky little voice.","00:13:45,581","00:13:49,982",False
+"116","8","1","Dan"," Oh! I had to tell her we were cutting the-the research funding for one of the drugs she was developing.","00:14:01,509","00:14:08,335",True
+"117","8","1","Dan","","00:14:10,405","00:14:12,264",True
+"118","8","1","Dan","Oh! We're not gonna tell her about this, right?","00:14:16,908","00:14:19,385",True
+"119","8","1","Sheldon","At the hot dog stand in the Heinz ketchup. At the hot dog stand in the Salt Lake City train station... Heinz ketchup. At the hot dog stand in the Indianapolis train station...","00:14:22,878","00:14:34,620",True
+"120","8","1","Sheldon","","00:14:40,607","00:14:42,302",True
+"121","8","1","Sheldon","Hey, Amy! What do you say? You ready to move on to the mustard round?","00:14:43,772","00:14:47,620",True
+"122","8","1","Amy","Have you not noticed that quietly stewing for the past two hours?","00:14:47,636","00:14:53,209",True
+"123","8","1","Sheldon","I just thought you were bad at the game.","00:14:54,216","00:14:56,472",True
+"124","8","1","Amy"," How could you just go away like that without even saying good-bye, and then call Leonard for help instead of me?","00:14:57,569","00:15:05,635",True
+"125","8","1","Amy","","00:15:14,196","00:15:16,206",True
+"126","8","1","Amy","What do you expect me to do? Stick my fingers in my ears?","00:15:18,701","00:15:22,014",True
+"127","8","1","Sheldon","Well, I was thinking put your head out","00:15:22,029","00:15:25,469",True
+"128","8","1","Sheldon","Please? This'll be quick.","00:15:26,163","00:15:28,585",True
+"129","8","1","Sheldon","Leonard? As soon as we get home, I want to have coitus with Amy.","00:15:33,146","00:15:38,267",True
+"130","8","1","Sheldon","Okay, she can't hear.","00:15:45,992","00:15:47,756",True
+"131","8","1","Sheldon","The reason I called you is because I didn't want Amy to know I couldn't make it on my own.","00:15:50,594","00:15:57,291",False
+"132","8","1","Sheldon","no big deal to you. You idolize me, and nothing could ever knock me off that pedestal you put me on.","00:15:59,361","00:16:06,509",True
+"133","8","1","Leonard","","00:16:07,704","00:16:10,606",True
+"134","8","1","Sheldon","I called Leonard I failed. And I didn't want you to think less of me.","00:16:18,191","00:16:24,814",True
+"135","8","1","Sheldon","Amy just hurt my feelings. I want to break up with her.","00:16:56,098","00:16:59,100",True
+"136","8","1","Howard","","00:17:02,767","00:17:07,491",True
+"137","8","1","Bernadette","","00:17:02,767","00:17:07,491",False
+"138","8","1","Bernadette","I never thought I'd say this, but Penny got a job today.","00:17:08,090","00:17:11,170",True
+"139","8","1","Bernadette","the guy who interviewed her loves me.","00:17:13,743","00:17:18,137",True
+"140","8","1","Stuart","I, uh, kind of got the feeling you might","00:17:26,483","00:17:32,038",True
+"141","8","1","Howard"," He's just gonna live there rent-free? How is that gonna motivate him to get off his butt and get a job? I mean, do you even have a plan?","00:17:34,972","00:17:44,460",True
+"142","8","1","Stuart","my father, okay? And besides, your mother and I were talking...","00:17:44,988","00:17:49,326",False
+"143","8","1","Bernadette"," Nobody's anybody's father.","00:17:54,565","00:17:59,522",True
+"144","8","1","Bernadette","","00:18:10,276","00:18:12,488",True
+"145","8","1","Howard"," That is my mother... Wife! My wife! I said my wife!","00:18:12,504","00:18:18,475",False
+"146","8","1","Stuart","getting us anywhere. When you're ready to apologize, you know where to find me.","00:18:19,474","00:18:24,860",True
+"147","8","1","Sheldon","gone on that trip. I feel no better now than when I left.","00:18:32,199","00:18:36,934",True
+"148","8","1","Leonard","Yeah. If you had told anyone that you were going away on a train by yourself across the country, do you know what they would have said?","00:18:38,647","00:18:45,441",True
+"149","8","1","Amy","But you did do it. So what if it didn't all go your way? That's what makes it an adventure.","00:18:51,581","00:18:56,901",True
+"150","8","1","Sheldon"," Yeah, I'm a lot like Gandalf the Grey.","00:18:57,438","00:19:02,170",True
+"151","8","1","Sheldon","He fought the Balrog and emerged stronger than ever as Gandalf the White. I was robbed of my phone and pants, and I, too, came back stronger. And whiter, too, 'cause I wasn't in direct sunlight for six weeks.","00:19:03,146","00:19:16,569",True
+"152","8","1","Sheldon","Yeah, I feel renewed. I'm ready to deal with any changes that come my way.","00:19:39,906","00:19:45,277",True
+"153","8","1","Sheldon","Your hair is different. You changed your hair. I can't take this. I'm out.","00:19:48,569","00:19:52,430",True
+"154","8","1","Sheldon","Would you like to see pictures from my trip?","00:19:57,632","00:19:59,780",True
+"155","8","1","Sheldon","Yeah, it did, but luckily all my photos got backed up to the Cloud.","00:20:01,219","00:20:04,975",True
+"156","8","1","Leonard","And you thought they all had a silver lining.","00:20:05,003","00:20:07,485",False
+"157","8","1","Sheldon"," Uh, this was the seat I was going to sit in but didn't because there were cracker crumbs on it.","00:20:08,164","00:20:15,433",False
+"158","8","1","Sheldon","As it was first class, I suspect Ritz.","00:20:16,277","00:20:19,446",True
+"159","8","1","Sheldon","This is the train bathroom. This is the Imodium I took so I would never have to use the train bathroom.","00:20:20,715","00:20:28,027",True
+"160","8","1","Penny","country and never left the train station.","00:20:29,142","00:20:32,572",True
+"161","8","1","Sheldon","I know. You know, I almost died in a fire in Des Moines, but I stayed put.","00:20:32,587","00:20:37,267",True
+"162","8","1","Sheldon","FYI... that's when the Imodium gave out.","00:20:38,459","00:20:41,068",True
