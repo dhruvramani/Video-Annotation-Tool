@@ -2,9 +2,12 @@
 {% block main %}
 {% load static %}
    <div class="container-fluid" id="main-container">
+            <div class="alert alert-success">
+                <strong>Status : </strong> <span id="status">{{status}}</span>
+            </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-7">
-                        <video width="90%" src='{{vidlink}}' id="vidplay" height="60%" controls>
+                        <video width="90%" id="vidplay" height="60%" controls>
                         </video>
                         <br>
                         <div class='btn-group' style="margin-right: 10px;">
@@ -23,8 +26,10 @@
                         <input type="number" class="form-control" placeholder="Season" name='season' required><br>
                         <input type="number" class="form-control" placeholder="Episode" name='episode' required>
                         <br>
-                        <input type="submit" class="btn btn-success btn-block" id="vidupload" value="Get Episode">
+                        <input type="submit" class="btn btn-success btn-block" value="Start">
                     </form>
+                    <br>
+                    <input type="file" class="btn btn-success btn-block" id="vidupload">
                     <div id='info'>
                         <br>
                         <p id='timeinfo'></p>
@@ -44,10 +49,11 @@
                 <div class="col-sm-12">
                     <h3 style="font-weight: lighter;">How to use this?</h3>
                     <ol>
-                        <li>Type in the Season and Episode Number to get the video!</li>
+                        <li>Type in the Season and Episode Number click on "Start".</li>
+                        <li>Select the video by clicking on "Choose File".</li>
                         <li>The tool will automatically go through the respecitve timestamps in that episode.</li>
                         <li>Click on "<i class="em em-laughing"></i>" if there <i>really</i> is laughter present in that timestamp. "<i class="em em-unamused"></i>" otherwise.</li>
-                        <li>Click "Next" to go to the next utterance, and "Prev" for the previous</li>
+                        <li>Click "Next Timestamp" to go to the next utterance, and "Prev Timestamp" for the previous</li>
                         <li class="text-primary">DON'T FORGET TO PRESS "SAVE" WHEN YOU ARE DONE</li>
                     </ol>
                 </div>
@@ -58,7 +64,10 @@
                 jsontosend = "",
                 info = document.getElementById("info"),
                 timeinfo = document.getElementById("timeinfo"),
-                laughinfo = document.getElementById("laughinfo");
+                laughinfo = document.getElementById("laughinfo"),
+                vid = document.getElementById("vidplay"),
+                end_timestamp = 1;
+
             
             {% if season == "-1" %}
                 var season = -1, episode = -1;
@@ -83,6 +92,18 @@
                 {% endautoescape %}
             {% endif %}
 
+            function to_sec(timestamp)
+            {
+                var a = timestamp.split(',')[0].split(':');
+                return (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]); 
+            }
+
+            vid.addEventListener("timeupdate", function(){
+                if(this.currentTime >= end_timestamp) {
+                    this.pause();
+                }
+            });
+
             function moveTimeStamp(movetype) {
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
@@ -104,8 +125,9 @@
 
                 timeinfo.innerHTML = "Time : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
                 laughinfo.innerHTML = "";
-                let vid = document.getElementById("vidplay");
-                vid.currentTime = main_data[tableCount][5];
+                vid.currentTime = to_sec(main_data[tableCount][5]);
+                end_timestamp = to_sec(main_data[tableCount][6]);
+                vid.play();
             }
 
             function saveCSV()
@@ -133,17 +155,19 @@
                 setTimeout(moveTimeStamp('next'), 2000);
             }
 
-            /*
+            
             function playSelectedFile(e) {
                 var URL = window.URL || window.webkitURL,
                     file = this.files[0],
                     type = file.type,
                     videoNode = document.getElementById('vidplay'),
                     fileURL = URL.createObjectURL(file);
+                alert("Done");
                 videoNode.src = fileURL;
+                $("#status").html("Episode "+ season +"x"+ episode +" - Video Loaded!<br>Click on Next Timestamp to start");
             }
 
             var inputElem = document.getElementById("vidupload");
-            inputElem.addEventListener('change', playSelectedFile, false); */
+            inputElem.addEventListener('change', playSelectedFile, false); 
         </script>
 {% endblock %}

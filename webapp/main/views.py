@@ -34,10 +34,9 @@ def index(request):
         csvfile = ""
         with open(os.path.join(BASE_DIR, "main.csv"), "r") as f:
             csvfile = f.read()
-        print(csvfile)
-        return render(request, 'main/index.html', {'season' : int(season), 'episode' : int(episode), 'vidlink' : vidlink, "csv" : csvfile, "username" : str(request.user.username)})
+        return render(request, 'main/index.html', {'season' : int(season), 'episode' : int(episode), "csv" : csvfile, "username" : str(request.user.username), "status" : "Episode : {}x{}. Choose Video File.".format(season, episode)})
     
-    return render(request,'main/index.html', {'season' : "-1", 'episode' : "-1", 'vidlink' : "none", "csv" : "none", "username" : "none" })
+    return render(request,'main/index.html', {'season' : "-1", 'episode' : "-1", "csv" : "none", "username" : "none", "status" : "Currently for Season 1 | Follow Instructions Below."})
 
 @csrf_exempt
 def signin(request):

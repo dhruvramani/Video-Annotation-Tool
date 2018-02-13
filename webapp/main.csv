@@ -1,162 +1,976 @@
 "ID","SEASON","EPISODE","SPEAKER","SENTENCE","STARTING TIMESTAMP","ENDING TIMESTAMP","LAUGH"
-"2","8","1","Sheldon","Is it at all possible that you're knitting a pair of pants?","00:00:46,939","00:00:51,152",True
-"3","8","1","Sheldon","Oh, well, no, you're understandably terrified. But, you know, allow me to explain. 45 days ago, um, I embarked on a railroad journey of healing because my university was making me do string theory, and my favorite comic book store burned down, and when my roommate got engaged, my girlfriend wanted to move in with me, which was no doubt a ploy just to see my... well, excuse my language, but my bathing suit parts.","00:00:52,387","00:01:17,125",True
-"4","8","1","Sheldon","Uh, sir, may I use your phone?","00:01:20,564","00:01:22,666",True
-"5","8","1","Sheldon"," I understand that I'm half naked, but there is a reasonable explanation. While I slept in my sleeper car, all my possessions were stolen. Now, typically, I wear pajamas, but I recently adopted a hobo lifestyle and pajamas are the sleep-pants of the Man.","00:01:22,681","00:01:42,850",True
-"6","8","1","Sheldon","I'll have you know, Mahatma Gandhi wore no pants and a nation rallied behind him! My good man... Now, before you walk away... I know that I may appear deranged, but I am, in fact, a world-renowned physicist. Ask me the difference between a boson and a fermion. Go ahead, ask!","00:01:45,282","00:02:02,495",True
-"7","8","1","Sheldon","Bosons have integer spin, fermions have half-integer spin!","00:02:04,642","00:02:08,987",True
-"8","8","1","Sheldon","My legs are getting cold! Why won't anybody help me?","00:02:09,010","00:02:12,479",False
-"9","8","1","Sheldon","uh, I need you to come pick me up.","00:02:57,730","00:03:03,194",True
-"10","8","1","Leonard","to do yoga with Penny.","00:03:04,350","00:03:07,955",True
-"11","8","1","Sheldon","I was robbed. Th-They took my phone, my wallet, my iPad, everything.","00:03:10,086","00:03:16,448",True
-"12","8","1","Sheldon","wearing borrowed pants, I-I don't have I.D., and one of the officers here won't stop calling me Chicken Legs.","00:03:18,190","00:03:27,371",True
-"13","8","1","Leonard","","00:03:28,392","00:03:30,943",True
-"14","8","1","Leonard","Sheldon, hang tight. Hey, do you want me to bring anything?","00:03:37,138","00:03:39,982",True
-"15","8","1","Sheldon","Oh, yes, please. A pair of pants. And my toothbrush. Yeah, and my mail. And a really good comeback for Chicken Legs, because âI know you are, but what am I?â was met with stony silence.","00:03:40,005","00:03:51,752",True
-"16","8","1","Penny"," âWhy did you change your hair? I'm holding my breath until your hair grows back.â","00:04:01,242","00:04:07,119",True
-"17","8","1","Leonard","All right, fine.","00:04:08,537","00:04:09,943",True
-"18","8","1","Leonard","Hey, can you think of a reason I shouldn't invite Amy to come with me?","00:04:10,443","00:04:13,599",True
-"19","8","1","Raj","Got a hot girlfriend now. I want the haters to know.","00:04:26,740","00:04:29,447",True
-"20","8","1","Howard","What are you talking about? No","00:04:30,219","00:04:33,068",True
-"21","8","1","Howard","I just want to pop in and","00:04:39,644","00:04:42,776",True
-"22","8","1","Howard","He was, but now that her cast is off, he moved out. And honestly, I'm kind of glad. It was getting a little weird.","00:04:44,650","00:04:50,994",True
-"23","8","1","Howard","No, not like us. Creepy chummy, like you and your dog.","00:04:57,877","00:05:02,022",True
-"24","8","1","Howard","I mean, he calls her Debbie, she calls him Stewie and they're all giggly around each other. And believe me, when food goes in that mouth, it does not come out.","00:05:07,223","00:05:16,777",True
-"25","8","1","Raj","So are you worried because or are you worried because he's becoming her lover?","00:05:18,082","00:05:24,683",True
-"26","8","1","Howard","First of all, no one can replace me","00:05:24,697","00:05:28,829",True
-"27","8","1","Howard","And secondly, my mother is well past having any kind of sex life.","00:05:30,247","00:05:34,450",False
-"28","8","1","Raj","Okay, okay.","00:05:34,473","00:05:36,488",True
-"29","8","1","Raj","Although many older women lead vibrant, active...","00:05:38,198","00:05:39,901",True
-"30","8","1","Sheldon","Excuse me, Officer Hernandez? Any leads on the person who stole my belongings?","00:05:45,648","00:05:50,345",True
-"31","8","1","Sheldon"," Sherlock Holmes always says when you eliminate the impossible, whatever remains, however improbable, must be the truth. Now, have-have you tried doing that?","00:05:50,375","00:06:03,820",True
-"32","8","1","Sheldon","Well, maybe you should. Th-Th-There's lots of books called âSherlock Holmesâ and there's no books called âOfficer Hernandez.â","00:06:07,252","00:06:15,520",True
-"33","8","1","Leonard","Thanks again for coming. Six hours was gonna be a long drive by myself.","00:06:22,494","00:06:26,673",True
-"34","8","1","Amy","My pleasure. And I'm not angry at all that my boyfriend was in trouble and called you instead of me. I love that!","00:06:26,704","00:06:33,989",True
-"35","8","1","Penny","interview in years. - I'm really nervous. - Don't be.","00:06:41,992","00:06:46,145",True
-"36","8","1","Bernadette"," I'm just getting on a train and leaving forever.","00:00:05,315","00:00:10,239",False
-"37","8","1","Bernadette","So a few things don't go your way and your best decision is to ride the rails like a hobo?","00:00:11,791","00:00:17,623",True
-"38","8","1","Bernadette","Leonard, I am overwhelmed. Everything is changing, and it's simply too much. I need to get away and think.","00:00:18,374","00:00:25,824",True
-"39","8","1","Bernadette","Sheldon... Yes? I'm gonna miss you. Of course you are.","00:00:26,348","00:00:33,159",True
-"40","8","1","Bernadette","You just made that easier.","00:00:34,964","00:00:36,850",True
-"41","8","1","Bernadette","Excuse me.","00:00:41,723","00:00:43,455",True
-"42","8","1","Bernadette","Is it at all possible that you're knitting a pair of pants?","00:00:46,939","00:00:51,152",True
-"43","8","1","Bernadette","Oh, well, no, you're understandably terrified. But, you know, allow me to explain. 45 days ago, um, I embarked on a railroad journey of healing because my university was making me do string theory, and my favorite comic book store burned down, and when my roommate got engaged, my girlfriend wanted to move in with me, which was no doubt a ploy just to see my... well, excuse my language, but my bathing suit parts.","00:00:52,387","00:01:17,125",True
-"44","8","1","Bernadette","Uh, sir, may I use your phone? - I don't think so. - Yeah, well, I understand that I'm half naked, but there is a reasonable explanation. While I slept in my sleeper car, all my possessions were stolen. Now, typically, I wear pajamas, but I recently adopted a hobo lifestyle and pajamas are the sleep-pants of the Man.","00:01:20,564","00:01:42,850",True
-"45","8","1","Bernadette","I'll have you know, Mahatma Gandhi wore no pants and a nation rallied behind him! My good man... Now, before you walk away... I know that I may appear deranged, but I am, in fact, a world-renowned physicist. Ask me the difference between a boson and a fermion. Go ahead, ask!","00:01:45,282","00:02:02,495",True
-"46","8","1","Bernadette","Bosons have integer spin, fermions have half-integer spin!","00:02:04,642","00:02:08,987",True
-"47","8","1","Bernadette","My legs are getting cold! Why won't anybody help me?","00:02:09,010","00:02:12,479",False
-"48","8","1","Bernadette","âª Our whole universe was in a hot, dense state âª âª Then nearly 14 billion years ago expansion started... Wait! âª âª The Earth began to cool âª âª The autotrophs began to drool, Neanderthals developed tools âª âª We built the Wall âª âª <i>We built the pyramids</i> âª âª Math, Science, History, unraveling the mystery âª âª That all started with a big bang âª âª<i> Bang!</i> âª âª The Big Bang Theory 8x01 âª The Locomotion Interruption Original Air Date on Septembe Sync, corrected by <b><i>Elder_Man</i></b>  Resync for WEB-DL by <b><i>Norther</i></b>","00:02:13,297","00:02:38,746",True
-"49","8","1","Bernadette","- Morning. - Hi. Want to do yoga with me? Um, let me just have some coffee first, and then I'll have the strength to tell you how much I won't be doing that.","00:02:40,795","00:02:49,233",True
-"50","8","1","Bernadette","Hello? Hello, Leonard. Hey, buddy. Good to hear your voice. Uh, I'm in Kingman, Arizona, and, uh, I need you to come pick me up.","00:02:52,935","00:03:03,194",True
-"51","8","1","Bernadette","I'd love to. I'm just about to do yoga with Penny.","00:03:04,350","00:03:07,955",True
-"52","8","1","Bernadette","Leonard, I'm at the police station. I was robbed. Th-They took my phone, my wallet, my iPad, everything. Oh, my God, are you okay? No, I'm not okay. I-I'm wearing borrowed pants, I-I don't have I.D., and one of the officers here won't stop calling me Chicken Legs.","00:03:10,086","00:03:27,371",True
-"53","8","1","Bernadette","Okay. Uh, I'll-I'll come get you. What's the address? - Hey, what's going on? - Oh. He got all of his stuff stolen. Oh...","00:03:28,392","00:03:34,731",True
-"54","8","1","Bernadette","Okay... Sheldon, hang tight. Hey, do you want me to bring anything?","00:03:35,460","00:03:39,982",True
-"55","8","1","Bernadette","Oh, yes, please. A pair of pants. And my toothbrush. Yeah, and my mail. And a really good comeback for Chicken Legs, because âI know you are, but what am I?â was met with stony silence.","00:03:40,005","00:03:51,752",True
-"56","8","1","Bernadette","I'll be there as soon as I can. Is he okay? Yeah, he's fine, he's just a little rattled. - Oh... - Feel like driving to Arizona with me? - No, I can't, I have that job interview. - Oh, right. Besides, I don't need six hours of âYour hair is different. âWhy did you change your hair? I'm holding my breath until your hair grows back.â","00:03:52,671","00:04:07,119",True
-"57","8","1","Bernadette","All right, fine.","00:04:08,537","00:04:09,943",True
-"58","8","1","Bernadette","Hey, can you think of a reason I shouldn't invite Amy to come with me? - Nope. - Come on, you didn't even try.","00:04:10,443","00:04:16,397",True
-"59","8","1","Bernadette","Thanks for the lift. - What's wrong with your car? - I'm having my windows untinted.","00:04:18,927","00:04:24,255",True
-"60","8","1","Bernadette","Why? Got a hot girlfriend now. I want the haters to know.","00:04:25,592","00:04:29,447",True
-"61","8","1","Bernadette","What are you talking about? No one's paying attention to you. Wow. How's that Hater-Ade taste, bro?","00:04:30,219","00:04:36,802",True
-"62","8","1","Bernadette","Hey, this isn't the way to work. I just want to pop in and make sure Ma's okay. I thought Stuart was looking after her. He was, but now that her cast is off, he moved out. And honestly, I'm kind of glad. It was getting a little weird.","00:04:38,193","00:04:50,994",True
-"63","8","1","Bernadette","How so? I don't know, they're... chummy.","00:04:51,009","00:04:55,648",True
-"64","8","1","Bernadette","Like us? No, not like us. Creepy chummy, like you and your dog. She feeds him out of her own mouth?","00:04:56,269","00:05:05,773",True
-"65","8","1","Bernadette","I mean, he calls her Debbie, she calls him Stewie and they're all giggly around each other. And believe me, when food goes in that mouth, it does not come out.","00:05:07,223","00:05:16,777",True
-"66","8","1","Bernadette","So are you worried because he's replacing you as a son or are you worried because he's becoming her lover? First of all, no one can replace me as a son. I'm her little matzo ball.","00:05:18,082","00:05:28,829",True
-"67","8","1","Bernadette","And secondly, my mother is well past having any kind of sex life. Okay, okay.","00:05:30,247","00:05:36,488",True
-"68","8","1","Bernadette","Although many older women lead vibrant, active... I said well past it!","00:05:38,198","00:05:41,788",True
-"69","8","1","Bernadette","Excuse me, Officer Hernandez? Any leads on the person who stole my belongings? - Not yet. - Well, perhaps I can help. Sherlock Holmes always says when you eliminate the impossible, whatever remains, however improbable, must be the truth. Now, have-have you tried doing that?","00:05:45,648","00:06:03,820",True
-"70","8","1","Bernadette","Nope. Well, maybe you should. Th-Th-There's lots of books called âSherlock Holmesâ and there's no books called âOfficer Hernandez.â","00:06:05,112","00:06:15,520",True
-"71","8","1","Bernadette","Thanks again for coming. Six hours was gonna be a long drive by myself. My pleasure. And I'm not angry at all that my boyfriend was in trouble and called you instead of me. I love that!","00:06:22,494","00:06:33,989",True
-"72","8","1","Bernadette","Yeah, time's gonna fly by.","00:06:36,396","00:06:38,836",True
-"73","8","1","Bernadette","I haven't been on a job interview in years. - I'm really nervous. - Don't be. You are built for pharmaceutical sales. You're cute, you're flirty and... Started that like there were gonna be three things.","00:06:41,992","00:06:53,398",True
-"74","8","1","Penny","experience in sales. Unless you count the bikini car wash I did in high school. But you already made me take that off my rÃ©sumÃ©.","00:06:55,696","00:07:02,991",True
-"75","8","1","Bernadette","This job is a lot like being a waitress, except instead of pushing the fish tacos 'cause they're about to go bad, you're just pushing our antidepressants before the FDA finds out they may cause rectal bleeding.","00:07:04,033","00:07:14,126",True
-"76","8","1","Penny","Oh, I really appreciate this. I","00:07:30,028","00:07:33,145",True
-"77","8","1","Bernadette","put you up for this job if I didn't think you could handle it.","00:07:36,421","00:07:39,457",True
-"78","8","1","Bernadette","Oh, I understand. You want to do I know. Why don't I get you a job at the Sitting Around All Day Wearing Yoga Pants Factory?","00:07:46,035","00:07:54,894",False
-"79","8","1","Howard"," You just started seeing naked women again, and I don't want you to be confused about where the boobs should be.","00:08:03,439","00:08:10,916",True
-"80","8","1","Stuart","Oh, yeah, I was going to, and then Debbie and I got to talking over dinner the other night. I didn't have anyplace to go, she likes having me around, so we both said, âWhy leave?â at the same time.","00:08:19,128","00:08:29,857",True
-"81","8","1","Stuart","It was precious.","00:08:31,405","00:08:33,216",False
-"82","8","1","Raj","sounds like it was pretty precious.","00:08:37,007","00:08:40,733",True
-"83","8","1","Stuart","","00:08:47,653","00:08:49,818",True
-"84","8","1","Stuart","They're probably on her head.","00:08:50,817","00:08:52,931",False
-"85","8","1","Howard","Or in her neck. Listen.","00:08:53,900","00:08:56,127",True
-"86","8","1","Howard","You staying here seems like something she would've talked to me about.","00:08:57,775","00:09:02,033",False
-"87","8","1","Stuart","Well, maybe if you called your","00:09:02,056","00:09:05,222",True
-"88","8","1","Raj","to pick up the phone.","00:09:08,833","00:09:10,957",True
-"89","8","1","Sheldon","You know, Sherlock Holmes liked to use cocaine to sharpen his focus.","00:09:31,236","00:09:35,582",True
-"90","8","1","Sheldon","But I'm sure those Cool Ranch Doritos are doing the trick.","00:09:37,923","00:09:40,910",True
-"91","8","1","Amy","What do you mean, why did I come? You're my boyfriend. I haven't seen you in over a month. I just drove six hours to help you out. Don't you have anything to say besides, âWhy did you come?â","00:09:53,690","00:10:03,259",True
-"92","8","1","Sheldon"," I feel uncomfortable saying it out loud in front of these police officers.","00:10:04,076","00:10:09,545",True
-"93","8","1","Leonard","So, Sheldon, tell us about your trip.","00:10:28,385","00:10:31,276",True
-"94","8","1","Sheldon"," I went to New York, Chicago, Atlanta, Denver, Seattle.","00:10:31,314","00:10:38,366",False
-"95","8","1","Sheldon","Oh, I have no idea.","00:10:39,670","00:10:40,975",False
-"96","8","1","Sheldon","I never left the train station.","00:10:41,002","00:10:43,025",False
-"97","8","1","Leonard","country and never left a train station?","00:10:44,632","00:10:48,739",True
-"98","8","1","Sheldon","Why would I?","00:10:48,778","00:10:49,989",False
-"99","8","1","Sheldon","That's where all the cool trains are.","00:10:50,013","00:10:52,014",True
-"100","8","1","Penny"," People like me. Some of my favorite people are people.","00:11:07,630","00:11:12,612",True
-"101","8","1","Penny","I feel like I'm saying âpeopleâ a lot. People, people, people, PE... Okay, I'm done.","00:11:13,919","00:11:18,024",True
-"102","8","1","Penny","Uh, well, as a waitress, sales was a big part of my job. I mean, believe me, I convinced a lot of very large customers, who should not be eating cheesecake, to have more cheesecake.","00:11:29,881","00:11:38,549",True
-"103","8","1","Penny","I mean, one of those chubsters even had an insulin pump!","00:11:39,757","00:11:42,876",True
-"104","8","1","Howard"," A grown man in his 30s living with my mother.","00:11:56,145","00:12:00,845",True
-"105","8","1","Raj","That is weird. I thought he was, like, 45.","00:12:00,868","00:12:04,356",True
-"106","8","1","Howard","","00:12:05,579","00:12:07,118",True
-"107","8","1","Raj","He needs a place to stay. I doubt there's any funny business going on. And even if there was, who cares? They're both adults.","00:12:07,133","00:12:15,644",False
-"108","8","1","Howard","care if I slept with your mom?","00:12:15,667","00:12:19,332",True
-"109","8","1","Raj"," I give you my blessing.","00:12:19,352","00:12:23,886",False
-"110","8","1","Howard","my mother and be honest with her.","00:12:25,763","00:12:30,177",False
-"111","8","1","Dan"," How would you convince them to switch to ours?","00:12:54,853","00:13:01,580",True
-"112","8","1","Penny","Okay, thanks.","00:13:21,107","00:13:23,162",True
-"113","8","1","Penny","Um, I'm sor... Listen, could you do me a favor and not tell Bernadette how badly I blew this interview? She'll get upset. And honestly I'm a... a little terrified of her.","00:13:24,537","00:13:34,928",True
-"114","8","1","Dan","","00:13:41,222","00:13:43,586",True
-"115","8","1","Dan","E-Everyone thinks she's so nice with that squeaky little voice.","00:13:45,581","00:13:49,982",False
-"116","8","1","Dan"," Oh! I had to tell her we were cutting the-the research funding for one of the drugs she was developing.","00:14:01,509","00:14:08,335",True
-"117","8","1","Dan","","00:14:10,405","00:14:12,264",True
-"118","8","1","Dan","Oh! We're not gonna tell her about this, right?","00:14:16,908","00:14:19,385",True
-"119","8","1","Sheldon","At the hot dog stand in the Heinz ketchup. At the hot dog stand in the Salt Lake City train station... Heinz ketchup. At the hot dog stand in the Indianapolis train station...","00:14:22,878","00:14:34,620",True
-"120","8","1","Sheldon","","00:14:40,607","00:14:42,302",True
-"121","8","1","Sheldon","Hey, Amy! What do you say? You ready to move on to the mustard round?","00:14:43,772","00:14:47,620",True
-"122","8","1","Amy","Have you not noticed that quietly stewing for the past two hours?","00:14:47,636","00:14:53,209",True
-"123","8","1","Sheldon","I just thought you were bad at the game.","00:14:54,216","00:14:56,472",True
-"124","8","1","Amy"," How could you just go away like that without even saying good-bye, and then call Leonard for help instead of me?","00:14:57,569","00:15:05,635",True
-"125","8","1","Amy","","00:15:14,196","00:15:16,206",True
-"126","8","1","Amy","What do you expect me to do? Stick my fingers in my ears?","00:15:18,701","00:15:22,014",True
-"127","8","1","Sheldon","Well, I was thinking put your head out","00:15:22,029","00:15:25,469",True
-"128","8","1","Sheldon","Please? This'll be quick.","00:15:26,163","00:15:28,585",True
-"129","8","1","Sheldon","Leonard? As soon as we get home, I want to have coitus with Amy.","00:15:33,146","00:15:38,267",True
-"130","8","1","Sheldon","Okay, she can't hear.","00:15:45,992","00:15:47,756",True
-"131","8","1","Sheldon","The reason I called you is because I didn't want Amy to know I couldn't make it on my own.","00:15:50,594","00:15:57,291",False
-"132","8","1","Sheldon","no big deal to you. You idolize me, and nothing could ever knock me off that pedestal you put me on.","00:15:59,361","00:16:06,509",True
-"133","8","1","Leonard","","00:16:07,704","00:16:10,606",True
-"134","8","1","Sheldon","I called Leonard I failed. And I didn't want you to think less of me.","00:16:18,191","00:16:24,814",True
-"135","8","1","Sheldon","Amy just hurt my feelings. I want to break up with her.","00:16:56,098","00:16:59,100",True
-"136","8","1","Howard","","00:17:02,767","00:17:07,491",True
-"137","8","1","Bernadette","","00:17:02,767","00:17:07,491",False
-"138","8","1","Bernadette","I never thought I'd say this, but Penny got a job today.","00:17:08,090","00:17:11,170",True
-"139","8","1","Bernadette","the guy who interviewed her loves me.","00:17:13,743","00:17:18,137",True
-"140","8","1","Stuart","I, uh, kind of got the feeling you might","00:17:26,483","00:17:32,038",True
-"141","8","1","Howard"," He's just gonna live there rent-free? How is that gonna motivate him to get off his butt and get a job? I mean, do you even have a plan?","00:17:34,972","00:17:44,460",True
-"142","8","1","Stuart","my father, okay? And besides, your mother and I were talking...","00:17:44,988","00:17:49,326",False
-"143","8","1","Bernadette"," Nobody's anybody's father.","00:17:54,565","00:17:59,522",True
-"144","8","1","Bernadette","","00:18:10,276","00:18:12,488",True
-"145","8","1","Howard"," That is my mother... Wife! My wife! I said my wife!","00:18:12,504","00:18:18,475",False
-"146","8","1","Stuart","getting us anywhere. When you're ready to apologize, you know where to find me.","00:18:19,474","00:18:24,860",True
-"147","8","1","Sheldon","gone on that trip. I feel no better now than when I left.","00:18:32,199","00:18:36,934",True
-"148","8","1","Leonard","Yeah. If you had told anyone that you were going away on a train by yourself across the country, do you know what they would have said?","00:18:38,647","00:18:45,441",True
-"149","8","1","Amy","But you did do it. So what if it didn't all go your way? That's what makes it an adventure.","00:18:51,581","00:18:56,901",True
-"150","8","1","Sheldon"," Yeah, I'm a lot like Gandalf the Grey.","00:18:57,438","00:19:02,170",True
-"151","8","1","Sheldon","He fought the Balrog and emerged stronger than ever as Gandalf the White. I was robbed of my phone and pants, and I, too, came back stronger. And whiter, too, 'cause I wasn't in direct sunlight for six weeks.","00:19:03,146","00:19:16,569",True
-"152","8","1","Sheldon","Yeah, I feel renewed. I'm ready to deal with any changes that come my way.","00:19:39,906","00:19:45,277",True
-"153","8","1","Sheldon","Your hair is different. You changed your hair. I can't take this. I'm out.","00:19:48,569","00:19:52,430",True
-"154","8","1","Sheldon","Would you like to see pictures from my trip?","00:19:57,632","00:19:59,780",True
-"155","8","1","Sheldon","Yeah, it did, but luckily all my photos got backed up to the Cloud.","00:20:01,219","00:20:04,975",True
-"156","8","1","Leonard","And you thought they all had a silver lining.","00:20:05,003","00:20:07,485",False
-"157","8","1","Sheldon"," Uh, this was the seat I was going to sit in but didn't because there were cracker crumbs on it.","00:20:08,164","00:20:15,433",False
-"158","8","1","Sheldon","As it was first class, I suspect Ritz.","00:20:16,277","00:20:19,446",True
-"159","8","1","Sheldon","This is the train bathroom. This is the Imodium I took so I would never have to use the train bathroom.","00:20:20,715","00:20:28,027",True
-"160","8","1","Penny","country and never left the train station.","00:20:29,142","00:20:32,572",True
-"161","8","1","Sheldon","I know. You know, I almost died in a fire in Des Moines, but I stayed put.","00:20:32,587","00:20:37,267",True
-"162","8","1","Sheldon","FYI... that's when the Imodium gave out.","00:20:38,459","00:20:41,068",True
+"2","1","1","Sheldon","There's no point, I just think it's a good idea for a T-shirt.","00:00:14,400","00:00:17,600",True
+"3","1","1","Receptionist","If you have to ask, maybe you shouldn't be here.","00:00:58,900","00:01:01,600",True
+"4","1","1","Leonard","Sheldon, this was your idea. A little extra money to get fractional T-1 bandwidth in the apartment.","00:01:42,800","00:01:48,000",False
+"5","1","1","Sheldon","I know, and I do yearn for faster downloads. But there's some poor woman who's gonna pin her hopes on my sperm. What if she winds up with a toddler who doesn't know if he should use an integral or a differential to solve the area under a curve?","00:01:48,100","00:02:01,700",True
+"6","1","1","Leonard","I don't know... I've never reneged on a proffer of sperm before.","00:02:13,300","00:02:16,500",True
+"7","1","1","Sheldon","You want to hear an interesting thing about stairs?","00:02:41,000","00:02:43,900",True
+"8","1","1","Sheldon","No, it's true, I did a series of experiments when I was 12. My father broke his clavicle.","00:02:55,300","00:02:59,300",True
+"9","1","1","Leonard","Is that why they sent you to boarding school?","00:03:00,700","00:03:02,600",False
+"10","1","1","Sheldon","No. That was a result of my work with lasers.","00:03:02,700","00:03:05,400",True
+"11","1","1","Leonard","We don't mean to interrupt. We live across the hall.","00:03:30,300","00:03:32,500",False
+"12","1","1","Leonard","I think we should be good neighbors and invite her over, make her feel welcome.","00:04:21,900","00:04:25,800",False
+"13","1","1","Sheldon","I have a very wide circle. I have 212 friends on MySpace.","00:04:33,800","00:04:38,900",True
+"14","1","1","Penny","So, what do you guys do for fun around here?","00:05:50,600","00:05:53,000",False
+"15","1","1","Penny","This looks like some serious stuff. - Leonard, did you do this? - Actually, that's my work.","00:06:34,300","00:06:39,300",True
+"16","1","1","Sheldon","Yeah. Well, it's just some quantum mechanics with a little string theory doodling around the edges. That part there, that's just a joke. It's a spoof of the Born-Oppenheimer approximation.","00:06:41,200","00:06:50,700",True
+"17","1","1","Penny","So you're like one of those Beautiful Mind genius guys.","00:06:52,100","00:06:55,400",False
+"18","1","1","Sheldon","If by ""holy smokes"", you mean a derivative restatement of the kind of stuff you can find scribbled on the wall of any men's room at MIT, sure.","00:07:06,100","00:07:12,700",True
+"19","1","1","Leonard","At least I didn't have to invent 26 dimensions just to make the math come out.","00:07:19,100","00:07:23,000",True
+"20","1","1","Sheldon","In the winter, that seat is close enough to the radiator to remain warm, and yet not so close as to cause perspiration In the summer, it's directly in the path of a cross-breeze created by opening windows there and there. It faces the television at an angle that is neither direct, thus discouraging conversation, nor so far wide as to create a parallax distortion. I could go on, but I think I've made my point.","00:07:46,000","00:08:06,100",True
+"21","1","1","Sheldon","That's not true. Koothrappali and Wolowitz come over all the time.","00:08:44,100","00:08:46,800",False
+"22","1","1","Leonard","Yeah. It's like regular Boggle, but... in Klingon.","00:09:00,400","00:09:04,000",True
+"23","1","1","Leonard","That's probably enough about us. So, tell us about you.","00:09:07,400","00:09:10,300",False
+"24","1","1","Leonard","I think what Sheldon's trying to say is that Sagittarius wouldn't have been our first guess.","00:09:31,000","00:09:35,900",False
+"25","1","1","Penny","Yeah, a lot of people think I'm a water sign. Okay, let's see, what else. I'm a vegetarian. Except for fish. And the occasional steak. I love steak!","00:09:36,400","00:09:45,500",True
+"26","1","1","Leonard","Well... do you have some sort of a job?","00:09:55,600","00:09:57,900",True
+"27","1","1","Sheldon","It took you 4 years to get through high school?","00:10:57,900","00:11:00,000",True
+"28","1","1","Leonard","Should I say something? I feel like I should say something.","00:11:10,400","00:11:13,000",False
+"29","1","1","Leonard","No, it's not crazy. It's a... It's a paradox. Paradoxes are part of nature. Think about light. If you look at Huygens, light is a wave, as confirmed by the double-slit experiments, but then along comes Albert Einstein and discovers that light behaves like particles, too.","00:11:28,100","00:11:47,100",False
+"31","1","1","Penny","I'm so sorry. I'm such a mess. On top of everything else, I'm all gross from moving and my stupid shower doesn't even work.","00:11:53,700","00:12:00,000",True
+"32","1","1","Penny","Really? Would it be totally weird if I used it?","00:12:03,000","00:12:05,000",False
+"33","1","1","Sheldon","It has been some time since we've had a woman take her clothes off in our apartment.","00:12:27,000","00:12:31,000",True
+"34","1","1","Leonard","That's not true. Remember at Thanksgiving, my grandmother with Alzheimer's had that episode?","00:12:31,800","00:12:36,200",False
+"35","1","1","Sheldon","Point taken. It has been some time since we've had a woman take her clothes off, after which we didn't want to rip our eyes out.","00:12:38,300","00:12:44,400",True
+"36","1","1","Leonard","The worst part was watching her carve that turkey.","00:12:45,800","00:12:48,700",True
+"37","1","1","Sheldon","So what exactly are you trying to accomplish here?","00:12:49,700","00:12:52,600",False
+"38","1","1","Leonard","I'm not trying to have sex with her.","00:12:57,100","00:12:59,400",False
+"39","1","1","Leonard","What makes you think she wouldn't have sex with me? I'm a male and she's a female.","00:13:02,800","00:13:07,100",False
+"40","1","1","Leonard","I'm not going to engage in hypotheticals here. I'm just trying to be a good neighbor.","00:13:10,800","00:13:15,000",False
+"41","1","1","Sheldon","Do you think this possibility will be helped or hindered when she discovers your Luke Skywalker no-more-tears shampoo?","00:13:26,800","00:13:32,600",True
+"42","1","1","Howard","It's a Stephen Hawking lecture from MIT in 1974.","00:13:46,900","00:13:51,000",False
+"43","1","1","Leonard","And she's not a lady. She's just a new neighbor.","00:14:10,100","00:14:12,600",False
+"44","1","1","Howard","And you want us out because you're anticipating coitus?","00:14:16,500","00:14:19,600",True
+"45","1","1","Howard","It's French for ""good shower. "" It's a sentiment I can express in six languages.","00:15:01,100","00:15:05,700",True
+"46","1","1","Leonard","Sure, you can ask me a favor. I would do you a favor for you.","00:15:31,800","00:15:34,900",True
+"47","1","1","Penny","It's just not the kind of thing you ask a guy you just met.","00:15:40,200","00:15:43,500",False
+"48","1","1","Sheldon","I really think we should examine the chain of causality here.","00:15:53,800","00:15:56,800",False
+"49","1","1","Sheldon","A beautiful woman stands naked in our shower. Event B... we drive halfway across town to retrieve a television set from the aforementioned woman's ex-boyfriend. Query... on what plane of existence is there even a semi-rational link between these events?","00:15:58,400","00:16:11,700",False
+"50","1","1","Leonard","She asked me to do her a favor, Sheldon.","00:16:12,900","00:16:15,200",False
+"51","1","1","Sheldon","Yes, well, that may be the proximal cause of our journey, but we both know it only exists in contradistinction to the higher level distal cause.","00:16:15,500","00:16:22,500",False
+"52","1","1","Leonard","That's a biological impossibility. And you didn't have to come.","00:16:26,200","00:16:29,700",True
+"53","1","1","Leonard","Come on, you know how it is with breakups.","00:16:37,400","00:16:39,300",False
+"54","1","1","Sheldon","You did not break up with Joyce Kim. She defected to North Korea.","00:16:44,300","00:16:47,500",True
+"55","1","1","Sheldon","Leonard, the two of us can't even carry a TV.","00:17:08,800","00:17:11,400",True
+"56","1","1","Penny","So, you guys work with Leonard and Sheldon at the university?","00:17:13,600","00:17:16,500",False
+"57","1","1","Howard","He speaks English. He just can't speak to women.","00:17:25,100","00:17:27,800",True
+"58","1","1","Leonard","We're not going to give up just like that.","00:17:54,200","00:17:56,100",False
+"59","1","1","Leonard","Excuse me. If I were to give up on the first little hitch, I never would have identified the fingerprints of string theory in the aftermath of the Big Bang.","00:18:00,800","00:18:08,300",True
+"60","1","1","Sheldon","It's just a privilege to watch your mind at work.","00:18:25,900","00:18:28,500",True
+"61","1","1","Leonard","Come on, we have a combined IQ of 360. We should be able to figure out how to get into a stupid building.","00:18:29,700","00:18:35,400",False
+"62","1","1","Man","How the hell did you get in the building?","00:19:05,100","00:19:06,800",False
+"63","1","1","Leonard","Sheldon, I am so sorry I dragged you through this.","00:19:36,600","00:19:39,400",False
+"64","1","1","Sheldon","It's okay. It wasn't my first pantsing and it won't be my last.","00:19:39,600","00:19:43,300",True
+"65","1","1","Leonard","Anyway, I've learned my lesson. She's out of my league, I'm done with her. Got my work, one day I'll win the Nobel Prize and then I'll die alone.","00:19:56,500","00:20:04,500",False
+"66","1","1","Sheldon","Don't think like that. You're not going to die alone.","00:20:04,700","00:20:07,600",False
+"67","1","1","Sheldon","And you're certainly not going to win a Nobel Prize.","00:20:12,000","00:20:14,900",True
+"68","1","1","Howard","This is one of my favorite places to kick back after a quest. They have a great house ale.","00:20:15,500","00:20:20,800",True
+"69","1","1","Howard","Yeah, I've had him since level ten. His name is Buttons. Anyway, if you had your own game character we could hang out, maybe go on a quest.","00:20:22,700","00:20:32,800",False
+"70","1","1","Penny","I don't think I'll be able to stop thinking about it.","00:20:37,300","00:20:39,800",True
+"71","1","1","Leonard","Well, your ex-boyfriend sends his regards and I think the rest is fairly self-explanatory.","00:20:48,500","00:20:53,500",True
+"72","1","1","Penny","I'm so sorry. I really thought if you guys went instead of me he wouldn't be such an ass.","00:20:54,200","00:20:58,800",False
+"73","1","1","Sheldon","That was a valid...? What is happening to you?","00:21:01,100","00:21:03,700",True
+"74","1","1","Penny","Really, thank you so much for going and trying, you're just... You're so terrific. Really. Why don't you put some clothes on, I'll get my purse, and dinner is on me, okay?","00:21:04,900","00:21:17,000",False
+"76","1","1","Sheldon","We can't have Thai food, - we had Indian for lunch. - So?","00:21:46,000","00:21:48,800",False
+"78","1","1","Howard","Turn left on Lake Street and head up to Colorado. I know a wonderful little sushi bar that has karaoke.","00:22:01,700","00:22:06,700",False
+"79","1","1","Sheldon","I don't know what your odds are in the world as a whole, but as far as the population of this car goes, you're a veritable mack daddy.","00:22:21,500","00:22:27,700",True
+"80","1","2","Sheldon","Since it's not bee season, you can have my epinephrine.","00:00:09,700","00:00:12,300",True
+"81","1","2","Sheldon","Thailand has had the fork since the latter half of the 19th Century. Interestingly  they don't put the fork in their mouth-- they use it to put the food on a spoon which then goes into their mouth.","00:00:17,600","00:00:25,900",True
+"83","1","2","Leonard","So, you're coming home from work. That's great. How was work?","00:00:48,200","00:00:50,800",False
+"84","1","2","Howard","- Haven't you ever been told how beautiful you are in flawless Russian?","00:01:22,500","00:01:26,200",True
+"85","1","2","Sheldon","Don't take it personally, it's his pathology. He can't talk to women.","00:01:39,300","00:01:42,600",False
+"86","1","2","Leonard","If you don't have any other plans, do you want to join us for Thai food and a Superman movie marathon?","00:02:04,100","00:02:08,900",False
+"87","1","2","Penny","A marathon? How many Superman movies are there?","00:02:09,300","00:02:11,900",False
+"88","1","2","Penny","I do like the one where Lois Lane falls from the helicopter and Superman swooshes down and catches her. Which one was that?","00:02:15,400","00:02:20,600",True
+"90","1","2","Sheldon","Lois Lane is falling, accelerating at an initial rate of 32 feet per second per second. Superman swoops down to save her by reaching out two arms of steel. Miss Lane, who is now traveling at approximately 120 miles an hour, hits them and is immediately sliced into three equal pieces.","00:02:31,600","00:02:45,200",True
+"91","1","2","Sheldon","In what space, sir? She's two feet above the ground. Frankly, if he really loved her, he'd let her hit the pavement. It'd be a more merciful death.","00:02:51,400","00:02:59,400",True
+"92","1","2","Leonard","Excuse me, your entire argument is predicated on the assumption that Superman's flight is a feat of strength.","00:03:00,300","00:03:06,600",True
+"93","1","2","Sheldon","Are you listening  to yourself? It is well established that his flight is a feat of strength. It is an extension of his ability to leap tall buildings, an ability he derives from exposure to Earth's yellow sun.","00:03:06,800","00:03:15,600",True
+"94","1","2","Sheldon","A combination of the moon's solar reflection and the energy-storage capacity of Kryptonian skin cells.","00:03:17,800","00:03:22,600",True
+"95","1","2","Leonard","Her apartment's on the fourth floor but the elevator's broken, so... You're just gonna be done? Okay. Cool. Thanks","00:04:14,200","00:04:19,500",False
+"97","1","2","Leonard","We don't need strength-- we're physicists. We are the intellectual descendants of Archimedes. Give me a fulcrum and a lever and I can move the Earth. It's just a matter of... I don't have this.","00:04:33,500","00:04:42,700",True
+"98","1","2","Sheldon","Yes, but they all involve a green lantern and a power ring.","00:04:55,200","00:04:57,900",True
+"99","1","2","Sheldon","You do understand that our efforts here will in no way increase the odds of you having sexual congress with this woman.","00:05:52,600","00:05:58,200",True
+"100","1","2","Leonard","I'm doing this to be a good neighbor. In any case, there's no way it could lower the odds.","00:06:06,000","00:06:11,300",True
+"104","1","2","Sheldon","The Mandelbrot set of complex numbers is a little messy. This is chaos. Excuse me. Explain to me an organizational system where a tray of flatware on a couch is valid.","00:06:39,700","00:06:49,900",True
+"105","1","2","Sheldon","I'm just inferring this is a couch because the evidence suggests the coffee table is having a tiny garage sale.","00:06:51,200","00:06:56,300",True
+"106","1","2","Leonard","Did it ever occur to you that not everyone has the compulsive need to sort, organize and label the entire world around them?","00:06:58,000","00:07:03,900",False
+"107","1","2","Sheldon","Excuse me, but I think we've both found that helpful at times.","00:07:15,500","00:07:18,100",True
+"108","1","2","Sheldon","This is not your home. This is not anyone's home. This is a swirling vortex of entropy.","00:07:28,400","00:07:33,600",False
+"109","1","2","Leonard","When the transvestite lived here, you didn't care how he kept the place.","00:07:35,600","00:07:38,900",False
+"110","1","2","Penny","Great. Was it hard getting it up the stairs?","00:07:57,000","00:07:59,000",True
+"111","1","2","Sheldon","I had no choice. I couldn't sleep knowing that just outside my bedroom was our living room, and just outside our living room was that hallway, and immediately adjacent to the hallway was... this.","00:09:31,300","00:09:41,100",True
+"112","1","2","Leonard","Do you realize that if Penny wakes up, there is no reasonable explanation as to why we're here.","00:09:43,400","00:09:48,100",False
+"113","1","2","Leonard","No, no, you gave me an explanation. Its reasonableness will be determined by a jury of your peers.","00:09:51,900","00:09:57,500",True
+"114","1","2","Sheldon","You might want to speak in a lower register.","00:10:06,400","00:10:09,000",False
+"115","1","2","Leonard","I accept your premise. Now, please, let's go.","00:10:36,900","00:10:39,600",False
+"116","1","2","Sheldon","If you have time to lean, you have time to clean.","00:10:46,500","00:10:49,300",True
+"117","1","2","Sheldon","I have to say I slept splendidly. Granted, not long, but just deeply and well.","00:11:04,300","00:11:10,300",True
+"118","1","2","Sheldon","Granted, my methods may have been somewhat unorthodox, but I think the end result will be a measurable enhancement - to Penny's quality of life - You've convinced me.","00:11:21,800","00:11:29,700",False
+"119","1","2","Penny","You came into my apartment last night while I was sleeping?!","00:12:19,400","00:12:21,800",False
+"120","1","2","Sheldon","Really more to organize. You're not actually dirty, per se.","00:12:23,400","00:12:26,000",True
+"121","1","2","Leonard","Oh, yes, we discussed it at length last night.","00:12:33,500","00:12:35,600",True
+"122","1","2","Penny","And what kind of doctor removes shoes from asses?","00:12:51,000","00:12:53,900",False
+"123","1","2","Sheldon","Boy, you are all over the place this morning.","00:14:02,700","00:14:05,300",True
+"124","1","2","Sheldon","I have a master's and two Ph.D.s, I should not have to do this.","00:14:09,400","00:14:12,100",True
+"125","1","2","Sheldon","I am truly sorry for what happened last night. I take full responsibility. And I hope that it won't color your opinion of Leonard, who is not only a wonderful guy, but also, I hear, a gentle and thorough lover.","00:14:15,100","00:14:27,600",True
+"127","1","2","Penny","That's exactly what I thought. Thank you for listening. You're a doll.","00:16:02,500","00:16:06,300",False
+"128","1","2","Raj","Actually, I was less the chatter than the chat-ee.","00:16:51,500","00:16:54,000",True
+"129","1","2","Leonard","What did she say? Is she still mad at me?","00:16:54,900","00:16:56,900",False
+"130","1","2","Raj","Well, she was upset at first, but probably because her sister shot somebody.","00:16:57,100","00:17:01,200",True
+"131","1","2","Raj","But then there was something about you, and then she hugged me.","00:17:03,600","00:17:06,900",True
+"133","1","2","Penny","You guys, seriously, I grew up on a farm, okay? I rebuilt a tractor engine when I was, like, 12. I think I can put together a cheap, Swedish media center.","00:18:53,800","00:19:00,500",False
+"134","1","2","Leonard","No, please. We insist. It's the least we can do, considering.","00:19:00,600","00:19:03,600",False
+"135","1","2","Howard","These instructions are a pictographic representation of the least imaginative way to assemble these components. This, right here is why Sweden has no space program.","00:19:10,900","00:19:19,100",True
+"136","1","2","Penny","Well, it looked pretty good in the store.","00:19:20,700","00:19:22,400",False
+"137","1","2","Leonard","It is an inefficient design. For example, she has a flat screen TV, which means all the space behind it is wasted.","00:19:22,700","00:19:27,700",False
+"139","1","2","Howard","The PVC comes down here. Maybe a little corrugated sheet metal as a radiator here.","00:19:55,300","00:19:58,900",False
+"140","1","2","Penny","It's hot in here. I think I'll just take off all my clothes.","00:20:05,800","00:20:08,300",True
+"141","1","3","Leonard","Don't panic. This is what the last 97 hours have been about.","00:00:18,830","00:00:21,783",True
+"142","1","3","Howard","Stay frosty. There's a horde of armed goblins on the other side of that gate guarding the Sword of Asaroth.","00:00:22,183","00:00:27,595",True
+"143","1","3","Leonard","Warriors, unsheathe your weapons. Magic wielders, raise your wands.","00:00:27,942","00:00:30,961",False
+"145","1","3","Howard","Sheldon, he's got Raj. Use your sleep spell!","00:01:02,560","00:01:04,592",False
+"146","1","3","Sheldon","There is no more Sheldon. I am the sword master!","00:01:12,750","00:01:16,203",True
+"147","1","3","Leonard","No. I can't look at you or your avatar right now.","00:02:12,400","00:02:15,400",True
+"148","1","3","Sheldon","Don't forget the mail you took accidentally on purpose as an excuse to talk to her.","00:02:24,700","00:02:28,400",True
+"149","1","3","Howard","Stealing snail mail-- very old school. I like it.","00:02:31,100","00:02:33,700",True
+"150","1","3","Penny","Thank you. I've got to talk to that mailman.","00:02:56,100","00:02:58,100",False
+"151","1","3","Howard","Kissing, what kind of kissing? Cheeks? Lips? Chaste? French?","00:03:32,700","00:03:35,700",True
+"152","1","3","Sheldon","Don't tell me that your hopeless infatuation is devolving into pointless jealousy.","00:03:44,600","00:03:48,300",False
+"153","1","3","Leonard","I'm done with Penny. I'm going to be more realistic and go after someone my own speed.","00:04:25,600","00:04:30,200",False
+"154","1","3","Sheldon","The dietician at the cafeteria with the limp and the lazy eye?","00:04:34,000","00:04:37,200",True
+"155","1","3","Howard","I don't know. You guys work in the same lab.","00:04:52,100","00:04:53,900",False
+"156","1","3","Leonard","I've done it. About two seconds. 2.6 for minestrone.","00:05:37,400","00:05:40,100",True
+"157","1","3","Leonard","Anyway, I was thinking more of a bio-social exploration with a neuro-chemical overlay.","00:05:46,900","00:05:51,900",False
+"158","1","3","Leonard","I was going to characterize it as the modification of our colleague-slash-friendship paradigm with the addition of a date-like component, but we don't need to quibble over terminology.","00:05:57,200","00:06:06,900",True
+"159","1","3","Lesley","Interesting. And would you agree that the primary way we would evaluate either the success or failure of the date would be based on the biochemical reaction during the good night kiss?","00:06:21,700","00:06:30,300",False
+"160","1","3","Lesley","Why don't we just stipulate that the date goes well and move to the key variable?","00:06:33,400","00:06:37,000",False
+"161","1","3","Leonard","- You proposed the experiment. I think you should present your findings first.","00:07:02,700","00:07:07,000",True
+"162","1","3","Howard","Sheldon, if you were a robot, and I knew and you didn't...","00:07:37,900","00:07:42,900",True
+"164","1","3","Howard","Maybe-- although the history of science fiction is not on your side.","00:07:57,600","00:08:01,100",True
+"165","1","3","Sheldon","Okay, let me ask you this-- when I learn that I'm a robot, would I be bound by Asimov's Three Laws of Robotics?","00:08:02,200","00:08:09,800",True
+"166","1","3","Howard","That's true. Have you ever harmed a human being or through inaction allowed a human being to come to harm?","00:08:17,800","00:08:22,300",False
+"167","1","3","Howard","- Have you ever harmed yourself or allowed yourself to be harmed except in cases where a human being would have been endangered?","00:08:22,500","00:08:28,600",False
+"168","1","3","Leonard","Oh, we tried kissing, but the Earth didn't move.","00:08:47,800","00:08:50,600",True
+"169","1","3","Leonard","I mean, any more than the 383 miles that it was going to move anyway.","00:08:52,100","00:08:55,800",True
+"170","1","3","Sheldon","Oh, I've seen that look before. This is just going to be two weeks of moping and tedious emo songs and calling me to come down to pet stores to look at cats.","00:08:58,300","00:09:07,100",True
+"171","1","3","Sheldon","I don't know if I can take it.","00:09:09,500","00:09:11,000",False
+"173","1","3","Howard","I happen to know a place where there are plenty of eligible women and Leonard could have his pick.","00:09:20,700","00:09:25,600",True
+"174","1","3","Howard","I think Mrs. Tishman's got her eye on you. I've been there. You're in for a treat.","00:09:51,800","00:09:57,100",False
+"175","1","3","Sheldon","If you're compiling a mix CD for a double suicide. Oh, I hope that scratching post is for you.","00:10:29,000","00:10:35,600",True
+"176","1","3","Leonard","I know what you're thinking. I've taken your asthma into account. There's a feline geneticist in San Diego who's developed the cutest little hypoallergenic calicos.","00:10:36,800","00:10:44,700",True
+"177","1","3","Sheldon","Do you really think you can satisfy your need for a relationship with a genetically altered cat?","00:10:52,200","00:10:56,400",False
+"178","1","3","Sheldon","No, no, that was not my point. My point was don't buy a cat.","00:11:45,600","00:11:50,400",True
+"180","1","3","Leonard","I was wondering if you had plans for dinner.","00:12:12,000","00:12:13,900",False
+"181","1","3","Leonard","There is an inherent ambiguity in the word ""dinner."" Technically it refers to the largest meal of the day whenever it's consumed. So to clarify here, by dinner I mean supper.","00:12:16,800","00:12:25,100",False
+"182","1","3","Sheldon","No. The dark crescent-shaped patterns under your arms conceal it nicely.","00:13:49,100","00:13:53,400",True
+"183","1","3","Sheldon","- What time is your date? - 6:30.","00:13:55,800","00:13:57,700",False
+"184","1","3","Sheldon","No, well, now there's always the possibility that alcohol and poor judgment on her part might lead to a nice romantic evening.","00:14:24,000","00:14:31,200",True
+"185","1","3","Leonard","You're right. Alcohol, poor judgment-- it could go well.","00:14:32,900","00:14:35,900",True
+"186","1","3","Leonard","You could've stopped at ""it could go well.""","00:14:46,700","00:14:49,100",False
+"187","1","3","Leonard","I mean, I'm a perfectly nice guy. There's no reason we couldn't go and have a lovely dinner, maybe take a walk afterwards, talk about things we have in common. You love pottery? I love pottery! There's a pause, we both know what's happening. I lean in, we kiss. It's a little tentative at first, but then I realize she's kissing me back. She's biting my lower lip! She wants me! This thing is going the distance! We're going to have sex! Oh, God, oh, my God!","00:14:52,600","00:15:19,000",False
+"188","1","3","Sheldon","- What?! - It's a biofeedback technique. It's relaxation through brain wave manipulation. I read a paper about it in Journal of American Neuroscience. It was a little sparsely sourced, but I think the basic science is valid. I probably have it here somewhere.","00:15:43,500","00:15:55,600",True
+"189","1","3","Leonard","Who am I kidding? I can't go through with this. You need to call her and cancel.","00:15:56,500","00:16:00,000",True
+"191","1","3","Sheldon","I'll just tell her that you had a routine colonoscopy and haven't quite bounced back.","00:16:19,400","00:16:23,200",True
+"192","1","3","Leonard","I can't, because if I don't show up she'll still be expecting you.","00:16:26,600","00:16:29,300",False
+"193","1","3","Leonard","Stop asking me all these questions. I need to take another shower.","00:16:33,100","00:16:36,800",False
+"194","1","3","Penny","So are the rest of the guys meeting us here?","00:16:40,200","00:16:42,000",False
+"195","1","3","Leonard","We both have people in our lives who... want to nip intestinal polyps in the bud.","00:17:02,600","00:17:08,500",True
+"196","1","3","Leonard","Well, with the exception of string theory, not much has happened since the 1930s. And you can't prove string theory. At best you can say, ""Hey, look, my idea has an internal logical consistency.""","00:17:22,300","00:17:34,700",True
+"197","1","3","Penny","Doug? Oh, yeah, I don't know. I mean, you know, he's nice and funny, but...","00:18:04,300","00:18:08,900",False
+"198","1","3","Leonard","Just say the ""but"" thing about Doug and then I'll get her back.","00:18:14,600","00:18:17,900",False
+"199","1","3","Penny","No, it's usually over a weekend, and trust me, you do not feel good after it.","00:18:54,500","00:18:58,600",False
+"201","1","3","Penny","You sure you don't want to go to the emergency room? No, I'm okay. It stopped bleeding.","00:20:01,500","00:20:05,800",True
+"202","1","3","Penny","I know, but you did throw up. Isn't that a sign of a concussion?","00:20:06,300","00:20:09,400",False
+"205","1","3","Leonard","When I take a girl on a date-- and I do-- she knows she's been dated.","00:20:56,200","00:21:03,500",True
+"208","1","3","Leonard","I think I might have a little concussion. I'm gonna go lie down for a while. Good night.","00:21:13,300","00:21:17,600",True
+"209","1","4","Sheldon","It's time travel, I will have already done that.","00:00:28,600","00:00:30,600",True
+"211","1","4","Sheldon","You know, I am not going to enjoy this party.","00:00:39,000","00:00:41,000",False
+"212","1","4","Leonard","Then we'll avoid him, we'll meet the new department head, congratulate him, shake his hand and go.","00:00:55,500","00:00:59,700",False
+"213","1","4","Sheldon","How's this? ""Pleased to meet you, Dr. Gablehauser. ""How fortunate for you that the university's ""chosen to hire you, despite the fact ""that you've done no original research in 25 years, ""and instead have written a series of popular books ""that reduce the great concepts of science ""to a series of anecdotes, ""each one dumbed down to accommodate the duration ""of an average bowel movement.","00:00:59,900","00:01:18,600",True
+"214","1","4","Leonard","Well, you did call him a glorified high school science teacher whose last successful experiment was lighting his own farts.","00:02:35,900","00:02:41,800",True
+"215","1","4","Sheldon","I finally have time to test my hypothesis about the separation of the water molecules from the egg proteins and its impact vis-a-vis taste.","00:03:25,600","00:03:32,700",True
+"216","1","4","Leonard","You know, I'm sure if you just apologize to Gablehauser, he would give you your job back.","00:03:41,900","00:03:46,000",False
+"217","1","4","Sheldon","I don't want my job back. I've spent the past three and a half years staring at grease boards full of equations. Before that, I spent four years working on my thesis. Before that, I was in college, and before that, I was in the fifth grade. This is my first day off in decades and I'm going to savor it.","00:03:46,200","00:04:03,000",False
+"218","1","4","Leonard","I'll let you get back to fixing your eggs.","00:04:05,500","00:04:07,500",True
+"219","1","4","Sheldon","Not just fixing my eggs, I'm fixing everyone's eggs.","00:04:07,700","00:04:10,300",True
+"221","1","4","Sheldon","Never mind. You won't get it right. I'd better come with you.","00:05:11,000","00:05:14,900",True
+"222","1","4","Penny","Maybe it's all for the best. I always say when one door closes, another one opens.","00:05:36,900","00:05:41,000",True
+"223","1","4","Sheldon","Or if the first door closing creates a change of air pressure that acts upon the second door.","00:05:49,000","00:05:53,000",True
+"224","1","4","Sheldon","You're not leaving yourself enough space between cars.","00:06:01,000","00:06:03,200",False
+"225","1","4","Sheldon","- No, let me do the math for you. This car weighs, let's say 4,000 pounds. Now add 140 for me, 120 for you...","00:06:03,400","00:06:10,800",True
+"227","1","4","Sheldon","You want to hear an interesting thing about tomatoes?","00:07:06,600","00:07:08,800",False
+"228","1","4","Sheldon","Yes, but anyone who knows anything about the dynamics of bacterial growth knows to pick up their refrigerated food on the way out of the supermarket.","00:07:13,500","00:07:19,800",True
+"229","1","4","Sheldon","Well, there's some value to taking a multivitamin, but the human body can only absorb so much. What you're buying here are the ingredients for very expensive urine.","00:07:46,000","00:07:55,000",True
+"230","1","4","Sheldon","Think about it. It's a product that doesn't spoil and you're going to be needing them for at least the next 30 years.","00:08:30,300","00:08:35,800",True
+"231","1","4","Penny","You want me to buy 30 years worth of tampons?","00:08:36,500","00:08:39,100",True
+"232","1","4","Leonard","Hey, I just ran into Penny. She seemed upset about something.","00:09:12,000","00:09:14,700",False
+"233","1","4","Sheldon","I think it's her time of the month.","00:09:15,100","00:09:17,200",True
+"235","1","4","Sheldon","Oh, that was a dead end. Scrambled eggs are as good as they're ever going to be.","00:09:32,800","00:09:37,100",True
+"236","1","4","Sheldon","I read an article about Japanese scientists who inserted DNA from luminous jellyfish into other animals, and I thought, ""Hey, fish nightlights.""","00:09:41,500","00:09:49,600",True
+"237","1","4","Leonard","- I didn't know what else to do. He's lost all focus. Every day he's got a new obsession.","00:10:34,400","00:10:40,400",True
+"239","1","4","Sheldon","I was working with luminous fish, and I thought...","00:11:13,500","00:11:16,200",False
+"242","1","4","Leonard","Because one of the great minds of the 21st century is raising glow-in-the-dark fish and weaving serapes.","00:11:28,400","00:11:34,100",True
+"243","1","4","Leonard","Really? When was the last time you left the house?","00:11:45,500","00:11:47,700",False
+"244","1","4","Sheldon","Well, then buckle up. In the next four to eight days she's going to get very crabby.","00:11:52,100","00:11:56,500",True
+"245","1","4","Sheldon","Yes, well, I'm not a child-- I'm a grown man, capable of living my life as I see fit. And I certainly don't need someone telling on me to my mother!","00:12:02,100","00:12:09,700",True
+"246","1","4","Howard","Excuse me for being so bold, but I now see where Sheldon gets his smoldering good looks.","00:12:49,200","00:12:54,300",True
+"247","1","4","Mrs","Oh, we will. You have to take your time with Sheldon.","00:13:28,100","00:13:30,500",False
+"248","1","4","Mrs","- Well, poor boy had a fit. Locked himself in his room and built a sonic death ray.","00:14:20,600","00:14:26,000",True
+"249","1","4","Mrs","That's what he called it. Didn't even slow down the neighbor kids.","00:14:28,500","00:14:31,600",True
+"250","1","4","Mrs","It pissed our dog off to no end.","00:14:33,200","00:14:35,100",True
+"251","1","4","Mrs","You know, you two make a cute couple.","00:14:37,400","00:14:39,500",True
+"252","1","4","Penny","Oh, my God, this is the best cobbler I've ever had.","00:15:29,800","00:15:32,400",False
+"253","1","4","Leonard","This is ridiculous. Damn it, Sheldon, snap out of it! You're a physicist-- You belong at the university doing research, not hiding in your room!","00:15:59,800","00:16:07,200",False
+"254","1","4","Mrs","Well, that looks awful fancy. What is that?","00:16:27,600","00:16:30,000",False
+"255","1","4","Mrs","You know how your daddy used to say that you can only fish for so long before you got to throw a stick of dynamite in the water?","00:16:45,300","00:16:52,000",True
+"256","1","4","Sheldon","I'm not going to apologize-- I didn't say anything that wasn't true.","00:17:11,600","00:17:14,300",False
+"257","1","4","Mrs","- Why not? - Because people don't like it!","00:17:22,700","00:17:25,300",True
+"258","1","4","Mrs","Remember all the ass-kickings you got from the neighbor kids?","00:17:27,000","00:17:29,600",True
+"259","1","4","Mrs","Now, let's get crackin'. Shower, shirt, shoes, and let's shove off.","00:17:32,600","00:17:37,300",True
+"260","1","4","Sheldon","There wouldn't have been any ass-kickings if that stupid death ray had worked.","00:17:40,000","00:17:43,800",True
+"261","1","4","Mrs","Leonard, the Lord never gives us more than we can handle. Thankfully, He blessed me with two other children who are dumb as soup.","00:17:53,400","00:18:00,300",True
+"262","1","4","Gablehouser","Now, that's impossible! You must have had him when you were a teenager.","00:18:48,200","00:18:51,400",True
+"263","1","4","Mrs","I'm very proud of you honey. You showed a lot of courage today.","00:19:33,400","00:19:36,800",True
+"264","1","4","Sheldon","Is Dr. Gablehauser going to be my new daddy?","00:19:45,300","00:19:48,100",True
+"265","1","5","Sheldon","All right! I'm moving my infantry division. Augmented by bataillon of orcs from Lord of the Rings. We flank the Tennessee volunteers and the North, once again, wins the battle of Gettysburg.","00:00:00,400","00:00:11,500",True
+"266","1","5","Leonard","No, orcs are magic. Superman is vulnerable to magic. Not to mention you already lost Godzilla to the Illinois cavalry and Hulk.","00:00:17,900","00:00:25,500",True
+"267","1","5","Raj","Why don't you just have Robert E. Lee charge the line with Shiva and Ganesh?","00:00:26,100","00:00:30,000",True
+"268","1","5","Penny","My boss says you have to either order or leave and never come back.","00:00:48,600","00:00:51,900",True
+"269","1","5","Howard","What do you recommend for someone who worked up a man-sized appetite from a morning of weight training and cardio funk?","00:00:52,800","00:00:58,000",True
+"270","1","5","Sheldon","We don't eat here. I don't know what's good.","00:01:05,300","00:01:07,300",False
+"271","1","5","Sheldon","I like hamburgers where we usually have them. You can't make the assumption that I'll like them here.","00:01:13,300","00:01:17,700",True
+"272","1","5","Sheldon","Can't we just go to Big Boy? They only have one burger... the Big Boy.","00:01:25,900","00:01:30,500",True
+"273","1","5","Sheldon","Excuse me, in a world that already includes a Big Boy, why would I settle for something like a Big Boy?","00:01:32,800","00:01:37,400",True
+"274","1","5","Leonard","Leslie and I do research together at the university.","00:02:03,900","00:02:06,200",False
+"275","1","5","Lesley","Yep, come for the breasts, stay for the brains. Glad I ran into you. The Physics Department string quartet needs a new cellist.","00:02:08,900","00:02:16,200",False
+"276","1","5","Leonard","Yeah, my parents felt that naming me Leonard and putting me in Advanced Placement classes wasn't getting me beaten up enough.","00:02:38,600","00:02:45,300",True
+"277","1","5","Howard","If you're into music, I happen to be a human beatbox.","00:02:46,100","00:02:48,900",False
+"278","1","5","Sheldon","- He asked her out once. It was an embarrassing failure.","00:03:06,200","00:03:10,100",True
+"279","1","5","Howard","How can she take your order when you're too neurotic to talk to her?","00:03:22,900","00:03:25,900",True
+"280","1","5","Leonard","What did Penny mean, ""You'd make a cute couple?""","00:03:32,900","00:03:35,200",False
+"281","1","5","Leonard","If Penny didn't know that Leslie had turned me down, then it would unambiguously mean that she, Penny, thought I should ask her, Leslie, out, indicating that she had no interest in me asking her, Penny, out. But, because she did know that I had asked Leslie out and that she, Leslie, had turned me down, then she, Penny, could be offering consolation.","00:03:54,000","00:04:11,200",True
+"282","1","5","Leonard","""That's too bad, you would have made a cute couple,"" but while thinking: ""Good, Leonard remains available.""","00:04:13,200","00:04:19,700",True
+"283","1","5","Sheldon","- You're talking to one of the three men in the Western hemisphere capable of following that train of thought.","00:04:25,600","00:04:31,900",True
+"284","1","5","Sheldon","I said I could follow it. I didn't say I care.","00:04:34,000","00:04:36,600",True
+"285","1","5","Lesley","If you're up for it, we could practice that middle section again.","00:05:32,700","00:05:35,700",False
+"286","1","5","Lesley","Just so we're clear, you understand that me hanging back to practice with you is a pretext for letting you know that I'm sexually available.","00:05:43,700","00:05:49,900",True
+"287","1","5","Lesley","That was before I saw you handling that beautiful piece of wood between your legs.","00:06:02,900","00:06:07,100",True
+"288","1","5","Lesley","I thought I saw your pupils dilate when you looked at her. Which, unless you're a heroin addict, points to sexual attraction.","00:06:31,500","00:06:37,200",True
+"289","1","5","Leonard","I did have a poppy seed bagel for breakfast. Which could cause a positive urine test for opiates, but certainly not dilate my pupils. So I guess there was no point in bringing it up.","00:06:38,700","00:06:48,300",True
+"290","1","5","Leonard","- Good. - Yeah, it is. It is good.","00:07:01,200","00:07:03,700",False
+"292","1","5","Sheldon","I need your opinion on a matter of semiotics.","00:07:50,800","00:07:53,100",False
+"293","1","5","Sheldon","Semiotics. The study of signs and symbols. It's a branch of philosophy related to linguistics.","00:07:55,200","00:08:00,000",True
+"294","1","5","Penny","All right, look, a tie on the doorknob usually means someone doesn't want to be disturbed because, they're... you know, gettin' busy.","00:08:26,800","00:08:33,900",True
+"295","1","5","Sheldon","So you're saying Leonard has a girl in there?","00:08:36,100","00:08:38,000",False
+"296","1","5","Penny","Well, either that or he's lost his tie rack and gotten really into Bryan Adams.","00:08:38,200","00:08:42,700",True
+"297","1","5","Sheldon","Yes, but there's usually planning, courtship, advance notice... Last time, I was able to book a cruise to the Arctic to see a solar eclipse.","00:08:59,500","00:09:08,300",True
+"298","1","5","Penny","You had to leave the state because your roommate was having sex?","00:09:09,700","00:09:13,000",False
+"299","1","5","Sheldon","I didn't have to. The dates just happened to coincide.","00:09:13,300","00:09:16,200",True
+"300","1","5","Sheldon","I don't know what the protocol is here.","00:09:45,400","00:09:47,100",True
+"301","1","5","Sheldon","Do I stay? Do I leave? Do I wait to greet them with a refreshing beverage?","00:09:49,000","00:09:53,700",True
+"302","1","5","Sheldon","Are you insane? Are you out of your mind? Are you-- Look! That fixes the problem I've been having.","00:12:19,000","00:12:24,800",True
+"303","1","5","Sheldon","I don't come into your house and touch your board.","00:12:56,600","00:12:58,700",False
+"304","1","5","Lesley","Sorry, I've got to run. If you come up with an adjective, text me.","00:13:10,000","00:13:13,500",True
+"305","1","5","Leonard","You can stare at your board all day. She's still going to be right.","00:13:22,800","00:13:25,700",False
+"306","1","5","Penny","Just pretty good? I'd think you were doing very good.","00:13:38,900","00:13:42,100",True
+"307","1","5","Leonard","Pretty, very... there's really no objective scale for delineating variations of ""good."" Why do you ask?","00:13:43,900","00:13:49,500",True
+"308","1","5","Penny","Well, a little bird told me that you and Leslie hooked up last night.","00:13:50,100","00:13:53,900",True
+"309","1","5","Sheldon","You're wound awfully tight for a man who's just had sexual intercourse.","00:14:10,900","00:14:14,100",True
+"310","1","5","Sheldon","Do you realize I may have to share a Nobel Prize with your booty call?","00:14:46,200","00:14:50,000",True
+"311","1","5","Sheldon","I don't have to believe in it for her to be lucky.","00:15:10,100","00:15:12,600",True
+"312","1","5","Leonard","Regardless, I have a chance at a real relationship with Leslie. I'm not going to pass that up for some hypothetical future of happiness with a woman who may or may not want me to be happy, with a woman who is currently making me happy.","00:15:13,700","00:15:25,800",True
+"313","1","5","Lesley","Careful, Leonard. Liquid nitrogen, 320 degrees below zero.","00:15:40,500","00:15:43,800",False
+"314","1","5","Lesley","Because I got a bowl of Cheerios and I couldn't find a knife.","00:15:55,200","00:15:58,300",True
+"315","1","5","Leonard","I'm not sure, but I think I'm about to discover how the banana felt.","00:16:24,200","00:16:27,700",True
+"316","1","5","Lesley","Listen, neither of us are neuroscientists, but we both understand the biochemistry of sex. I mean, dopamine in our brains is released across synapses, causing pleasure. You stick electrodes in a rat's brain, give him an orgasm button, he'll push that thing until he starves to death.","00:16:32,200","00:16:45,200",True
+"317","1","5","Lesley","Well, the only difference between us and the rat is that you can't stick an electrode in our hypothalamus. That's where you come in.","00:16:48,300","00:16:54,300",True
+"318","1","5","Lesley","I don't know about your sex drive, but I'm probably good till New Year's.","00:17:02,000","00:17:05,600",True
+"319","1","5","Raj","A little bird told us. Apparently, you are a magnificent beast.","00:17:40,100","00:17:45,400",True
+"320","1","5","Sheldon"," but I think we may be looking at my new Tuesday hamburger.","00:17:59,100","00:18:04,200",True
+"321","1","5","Sheldon","The name always confused me anyway. Souplantation. You can't grow soup.","00:18:17,800","00:18:22,600",True
+"322","1","5","Sheldon","Terrific. You'll be happy to know that I plan to come here every Tuesday night for the foreseeable future.","00:18:28,200","00:18:33,100",False
+"323","1","5","Sheldon","Who do I speak to about permanently reserving this table?","00:18:36,900","00:18:39,600",False
+"325","1","5","Penny","So, hey, how are things with you and Leslie?","00:18:44,900","00:18:48,800",False
+"326","1","5","Leonard","To be honest, I don't think it's going to work out.","00:18:49,800","00:18:52,400",False
+"327","1","5","Leonard","What did she mean by that?! Was that just a generic platitude, or was that a subtle bid for attention?","00:19:03,400","00:19:10,200",False
+"328","1","5","Sheldon","Of course, I'm listening. Blah, blah, hopeless Penny delusion...","00:19:25,900","00:19:29,600",True
+"331","1","7","Sheldon","First we have to decide if those lost six minutes will be coming out of game time, bathroom time or the pizza break.","00:00:50,900","00:00:55,800",True
+"332","1","7","Howard","If we're having anchovies on the pizza, we can't take it out of bathroom time.","00:00:58,000","00:01:01,300",True
+"333","1","7","Howard","See a Penny, pick her up, and all the day you'll have good luck.","00:01:07,600","00:01:11,400",True
+"334","1","7","Penny","There's this girl I know from back in Nebraska, Christy. She called me up, and she's like, ""Hey, how's California?"" And I'm like, ""Awesome,"" 'cause, you know, it's not Nebraska. And the next thing I know she's invited herself out here to stay with me.","00:01:19,500","00:01:30,700",False
+"335","1","7","Penny","Anyway, she got here today and she's just been in my apartment yakity yakking about every guy she slept with in Omaha, which is basically every guy in Omaha, and washing the sluttiest collection of underwear you have ever seen in my bathroom sink.","00:01:34,500","00:01:45,900",False
+"336","1","7","Howard","Is she doing it one thong at a time, or does she throw it all in... ...like some sort of erotic bouillabaisse?","00:01:46,000","00:01:52,000",True
+"337","1","7","Leonard","So if you don't like this Christy, why are you letting her stay?","00:01:58,100","00:02:00,800",False
+"338","1","7","Penny","She was engaged to my cousin while she was sleeping with my brother, so she's kind of family.","00:02:00,900","00:02:05,300",True
+"339","1","7","Leonard","The only way we can play teams at this point is if we cut Raj in half.","00:03:21,600","00:03:25,600",True
+"340","1","7","Raj","Sure, cut the foreigner in half. There's a billion more where he came from.","00:03:25,900","00:03:30,000",True
+"341","1","7","Penny","If you guys need a fourth, I'll play.","00:03:30,700","00:03:32,300",False
+"342","1","7","Sheldon","This is a complex battle simulation with a steep learning curve. There are myriad weapons, vehicles and strategies to master, not to mention an extremely intricate backstory.","00:03:50,000","00:03:58,500",True
+"343","1","7","Penny","Oh cool. Whose head did I just blow off?","00:03:59,600","00:04:02,200",False
+"344","1","7","Sheldon","Okay, that's it. I don't know how, but she is cheating. No one can be that attractive and this skilled at a video game.","00:04:36,400","00:04:42,700",False
+"345","1","7","Sheldon","You laugh now-- you just wait until you need tech support.","00:04:54,700","00:04:57,700",True
+"346","1","7","Penny","Gosh, he's kind of a sore loser, isn't he?","00:04:59,700","00:05:02,000",True
+"347","1","7","Sheldon","It's called carpal tunnel syndrome, and quite frankly you deserve it.","00:05:41,400","00:05:44,300",True
+"348","1","7","Penny","I grew up on a farm, okay? From what I heard, they're either having sex or Howard's caught in a milking machine.","00:05:55,400","00:06:00,700",True
+"349","1","7","Penny","Do you mind if I stay here tonight?","00:06:03,600","00:06:05,200",False
+"350","1","7","Leonard","No, take the couch, or my bed. I just got new pillows. Hypo-allergenic.","00:06:05,500","00:06:10,400",True
+"351","1","7","Leonard","Let me guess. You have a problem with this.","00:06:19,500","00:06:21,300",False
+"352","1","7","Leonard","Your friendship means a lot to me as well. What else?","00:06:31,800","00:06:34,400",True
+"353","1","7","Leonard","I'm sorry, are you suggesting that if we let Penny stay we might succumb to cannibalism?","00:06:47,200","00:06:51,400",True
+"354","1","7","Leonard","If you promise not to chew the flesh off our bones while we sleep, you can stay.","00:06:56,300","00:07:00,600",True
+"355","1","7","Penny","How am I supposed to plan my bodily functions?","00:07:28,500","00:07:30,500",False
+"356","1","7","Sheldon","- Why? - It's culturally universal. A bed, even a temporary bed, is always oriented with the headboard away from the door. It serves the ancient imperative of protecting oneself against marauders.","00:07:46,300","00:07:57,300",True
+"357","1","7","Sheldon","Yes, if you use my toothbrush, I'll jump out that window.","00:08:04,600","00:08:08,100",True
+"358","1","7","Sheldon","Please don't come to my funeral. Have a good night.","00:08:10,000","00:08:12,600",True
+"359","1","7","Leonard","his toothbrush is the red one in the Plexiglas case under the UV light.","00:08:18,500","00:08:22,000",True
+"360","1","7","Leonard","I know. You have a TV in your room. Why don't you just have breakfast in bed?","00:10:22,500","00:10:27,000",True
+"361","1","7","Sheldon","Because I am neither an invalid, nor a woman celebrating Mother's Day.","00:10:27,200","00:10:30,700",True
+"362","1","7","Sheldon","Okay, this cereal has lost all its molecular integrity. I now have a bowl of shredded wheat paste.","00:10:44,600","00:10:49,300",True
+"363","1","7","Penny","Why do you people hate sleep? Are you wearing my robe?","00:10:56,600","00:11:01,200",True
+"364","1","7","Howard","Then we'll probably need to talk about your stuffed bear collection.","00:11:32,400","00:11:36,300",True
+"365","1","7","Sheldon","There's one beloved children's book I'll never read again.","00:11:49,600","00:11:52,300",True
+"366","1","7","Penny","Yeah, no, I meant plans to find someplace to live. Other than with me. Not that I don't love having you, but it's... It's a little crowded.","00:12:07,400","00:12:14,100",False
+"368","1","7","Howard","Let me offer a little outside-the-box thinking here. Why doesn't Christy stay with me?","00:12:20,500","00:12:24,200",False
+"369","1","7","Howard","I'm sorry, I should have mentioned this earlier. My last name is Wolowitz.","00:12:51,300","00:12:55,000",True
+"370","1","7","Howard","When they perfect human cloning, I'm going to order 12 of those.","00:13:17,100","00:13:20,600",True
+"371","1","7","Howard","Who cares? Last night, she pulled off her blouse and I wept.","00:13:24,800","00:13:27,900",True
+"372","1","7","Howard","If you'll excuse me, I have some Bar Mitzvah bonds to cash.","00:13:39,500","00:13:43,600",True
+"373","1","7","Sheldon","Let me walk you through it. Our standard order is: the steamed dumpling appetizer, General Tso's chicken, beef with broccoli, shrimp with lobster sauce and vegetable lo mein. Do you see the problem?","00:13:56,900","00:14:07,500",True
+"374","1","7","Sheldon","What do you want to eliminate? And who gets the extra dumpling?","00:14:22,400","00:14:24,900",True
+"375","1","7","Sheldon","He's putting his needs ahead of the collective good. Where he comes from, that's punishable by death.","00:14:38,900","00:14:43,600",True
+"376","1","7","Leonard","Can we get an order of dumplings but with three instead of four?","00:14:50,800","00:14:53,400",False
+"377","1","7","Leonard","Fine. Bring us three orders of dumplings. - That's 12. We'll each have four. - That works.","00:15:01,200","00:15:06,100",False
+"378","1","7","Sheldon","If we fill up on dumplings, we need to eliminate another entree.","00:15:06,300","00:15:08,800",False
+"379","1","7","Leonard","If we have extra, we'll just take the leftovers home.","00:15:12,000","00:15:14,200",False
+"380","1","7","Leonard","Wolowitz is with his new girlfriend. If you had let me invite Penny, then you would have had your fourth.","00:15:17,900","00:15:22,200",False
+"381","1","7","Sheldon","but we'd have to if she was here!","00:15:29,100","00:15:30,600",True
+"382","1","7","Raj","Can we please make a decision? Not only are there children starving in India, there's an Indian starving right here.","00:15:30,800","00:15:36,000",True
+"383","1","7","Leonard","There's an idea. Why don't we just go out for Indian food?","00:15:38,300","00:15:41,100",True
+"384","1","7","Leonard","With Wolowitz spending all of his time with your friend Christy...","00:16:23,100","00:16:26,100",True
+"385","1","7","Penny","She's not my friend. Friends do not get their friends' Care Bears all sweaty.","00:16:26,300","00:16:29,900",True
+"386","1","7","Leonard","Right. Anyway, uh, with Wolowitz occupied elsewhere, we had something we wanted to ask you.","00:16:31,200","00:16:36,800",False
+"387","1","7","Penny","That's so sweet, but I'm going out dancing with a girlfriend.","00:16:55,100","00:16:58,300",True
+"388","1","7","Penny","Why don't I play with you guys tomorrow?","00:17:09,200","00:17:11,000",False
+"389","1","7","Sheldon","Tonight is <i>Halo</i> night. It's like talking to a wall.","00:17:11,100","00:17:14,200",True
+"390","1","7","Penny","All right, now, Sheldon, you and I are about to have a problem.","00:17:15,500","00:17:18,100",False
+"391","1","7","Sheldon","Yes, but you didn't portray her as completely irrational.","00:17:23,300","00:17:25,800",True
+"392","1","7","Sheldon","Assuming we could dance-- which we can't-- there are three of us and two of them.","00:17:37,200","00:17:41,500",False
+"393","1","7","Sheldon","It's the Chinese restaurant all over again. I assure you that cutting a dumpling in thirds is child's play compared with three men each attempting to dance with 67% of a woman.","00:17:42,700","00:17:52,500",True
+"394","1","7","Sheldon","Your anger is not with me, sir, but with basic mathematics.","00:17:58,300","00:18:00,600",False
+"395","1","7","Sheldon","- The only man who can restore any semblance of balance to our universe.","00:18:07,200","00:18:11,900",False
+"396","1","7","Howard","<i>We can't get to the phone right now because we're having sex!</i>","00:18:15,900","00:18:19,100",True
+"397","1","7","Christie","<i>You're not going to put that on your message, are you?</i>","00:18:21,600","00:18:23,800",False
+"398","1","7","Leonard","Sheldon, think this through. You're going to ask Howard to choose between sex and <i>Halo</i>. No, I'm going to ask him to choose between sex and <i>Halo Three</i>.","00:18:29,900","00:18:38,000",True
+"399","1","7","Sheldon","No, I'm going to ask him to choose between sex and <i>Halo Three</i>. As far as I know, sex has not been upgraded to include Hi-Def graphics and enhanced weapon systems.","00:18:34,500","00:18:43,800",True
+"400","1","7","Leonard","You're right, all sex has is nudity, orgasms and human contact.","00:18:44,100","00:18:47,700",False
+"401","1","7","Howard’s","Why, so you and Howard can hump on it?!","00:18:54,500","00:18:56,600",True
+"402","1","7","Christie","You happy? You drove your own son out of the house.","00:19:06,800","00:19:09,100",True
+"403","1","7","Howard’s","He's not a man, he's a putz! And don't you take that tone with me, you gold digger!","00:19:14,400","00:19:18,500",False
+"404","1","7","Howard","Sheldon, you got him in your sights! Fire! He's charging his plasma rifle!","00:19:49,500","00:19:52,700",False
+"405","1","7","Penny","Hey, guys. My friends and I got tired of dancing, so we came over to have sex with you.","00:20:03,300","00:20:07,700",False
+"406","1","7","Raj","All I've got is a Needler and I'm all out of ammo!","00:20:21,900","00:20:24,300",False
+"407","1","8","Sheldon","The online description was completely misleading. They said: ""8 slots plus removable ID"". To any rational person, that would mean room for nine cards. But they don't tell you the removable ID takes up one slot. It's a nightmare.","00:00:13,759","00:00:26,065",True
+"408","1","8","Sheldon","It's been in every wallet I've owned since I was five.","00:00:33,378","00:00:36,370",True
+"409","1","8","Sheldon","It says, ""Keep this on your person at all times."" It's right here under Batman's signature.","00:00:38,501","00:00:44,347",True
+"410","1","8","Raj","Leonard, may I present, live from New Delhi, Dr. and Mrs. V. M. Koothrappali.","00:00:52,960","00:00:56,819",True
+"411","1","8","Dr","<i>And your parents are comfortable with your limited earning potential?</i>","00:01:26,520","00:01:29,099",True
+"412","1","8","Raj","That's my life. That's my friends. Good to see you. Say good-bye.","00:01:34,921","00:01:37,333",True
+"413","1","8","Howard","Is it just me, or does web chatting with your clothes on seem a little pointless?","00:01:55,800","00:01:59,700",True
+"414","1","8","Raj","The little fat girl that used to kick me in the samosas and call me untouchable?","00:02:03,700","00:02:07,400",True
+"415","1","8","Mrs","<i>Yes. Well, now she's a dental student at USC,</i> <i>so we gave her your contact information.</i>","00:02:07,600","00:02:13,000",False
+"416","1","8","Dr","<i>If you decide on a spring wedding, we can avoid monsoon season.</i>","00:02:21,800","00:02:24,500",True
+"417","1","8","Mrs","<i>It's up to you, dear. We don't want to meddle.</i>","00:02:26,600","00:02:28,600",True
+"418","1","8","Raj","If you don't want to meddle, then why are you?","00:02:28,700","00:02:30,600",True
+"419","1","8","Sheldon","If I may, your parents probably don't consider this meddling. While arranged marriages are no longer the norm, Indian parents continue to have a greater-than-average involvement in their children's love lives.","00:02:30,800","00:02:39,600",False
+"420","1","8","Raj","Why are you telling me about my own culture?","00:02:40,000","00:02:42,200",True
+"421","1","8","Sheldon","It might speak to a cultural aspiration to have one's children enter the medical profession.","00:03:11,000","00:03:15,100",False
+"422","1","8","Sheldon","Romantic love as the basis for marriage has only existed since the 19th century. Up until then, arranged marriages were the norm, and it served society quite well.","00:03:27,600","00:03:36,000",False
+"423","1","8","Leonard","I'm not a big fan of musicals, but I love that show.","00:03:38,300","00:03:40,900",False
+"424","1","8","Howard","Me too. Of course, it speaks to me culturally.","00:03:41,300","00:03:43,800",False
+"425","1","8","Howard","Let's not forget it's got some really catchy tunes.","00:03:48,400","00:03:50,500",True
+"426","1","8","Sheldon","This is Dr. Sheldon Cooper. Yeah, I need to cancel my membership to the planetarium.","00:04:35,500","00:04:40,100",False
+"427","1","8","Sheldon","Well, I'm sorry, too, but there's just no room for you in my wallet.","00:04:43,400","00:04:47,100",True
+"428","1","8","Sheldon","I understand, but it was between you and the Museum of Natural History, and frankly, you don't have dinosaurs.","00:04:49,500","00:04:55,400",True
+"429","1","8","Sheldon","I'll miss you, too. Bye-bye. Okay, I know you're texting about me and I'd really like you to stop.","00:04:57,600","00:05:04,100",True
+"430","1","8","Raj","I've got some feelers out. In the meantime, listen to this.","00:05:12,200","00:05:16,300",True
+"431","1","8","Lalita","Hi, Rajesh. This is Lalita Gupta. Your mother gave my mother your phone number to give to me. So, I'm calling you and... call me back. Bye.","00:05:16,700","00:05:26,400",False
+"432","1","8","Raj","If I don't call her, I won't hear the end of it from my parents.","00:05:35,200","00:05:37,500",False
+"433","1","8","Howard","- What are you doing? - Don't worry. You'll thank me.","00:05:47,700","00:05:49,800",False
+"435","1","8","Howard","Yes, it is good to talk to you, too. So what are you wearing?","00:05:56,600","00:06:03,100",True
+"436","1","8","Howard","Oh, not important. So, anyhow, when would you like to meet? Friday works for me!","00:06:06,300","00:06:13,300",True
+"437","1","8","Howard","I'll call you with a time and place. But in the meantime, keep it real, babe.","00:06:15,000","00:06:20,200",True
+"439","1","8","Raj","For what? Making me sound like a <i>Simpsons</i> character?","00:06:29,800","00:06:32,200",True
+"440","1","8","Leonard","- Look on the bright side, she might turn out to be a nice, beautiful girl.","00:06:35,100","00:06:39,700",False
+"441","1","8","Raj","Great, then we'll get married, I won't be able to talk to her and we'll spend the rest of our lives in total silence.","00:06:40,000","00:06:45,200",True
+"442","1","8","Sheldon","There's a lab animal supply company in Reseda you could try. But if your research is going to have human applications, may I suggest white mice instead? Their brain chemistry is far closer to ours.","00:06:52,300","00:07:03,000",True
+"443","1","8","Penny","I swear to God, one day, I'm going to get the hang of talking to you.","00:07:04,800","00:07:08,700",True
+"444","1","8","Penny","I finally convinced the restaurant to give me a bartending shift, so I need to practice mixing drinks.","00:07:15,400","00:07:19,700",False
+"446","1","8","Penny","How about a Grasshopper? I make a mean Grasshopper. Okay? Good. Coming up. Sheldon, what are you going to have?","00:08:14,100","00:08:20,500",False
+"447","1","8","Sheldon","A Cuba Libre traditionally comes in a tall glass with a lime wedge.","00:08:50,600","00:08:54,200",False
+"448","1","8","Raj","- Amazing. - Ever since I was a little boy, my father wanted me to be a gynecologist like him. How can I be a gynecologist? I can barely look a woman in the eye! You know what? I'm not going to let my parents control my future any longer. It's time for a showdown. Somebody give me a computer with a webcam!","00:09:49,500","00:10:10,200",True
+"449","1","8","Raj","And it's about to tell my parents that I'm not riding an elephant down the aisle with Lalita Gupta.","00:10:14,500","00:10:19,500",True
+"450","1","8","Raj","Haven't you been listening to me? I cannot talk to women.","00:10:26,600","00:10:29,200",False
+"451","1","8","Howard","No, no, let's see how long it takes him.","00:10:30,400","00:10:32,500",True
+"452","1","8","Raj","- Okay, now I just need to make sure I have a Lalita before I meet the Grasshopper.","00:10:50,400","00:10:55,700",True
+"454","1","8","Penny","If you're going to drink on this date, just promise me you won't overdo it.","00:11:02,200","00:11:05,600",False
+"455","1","8","Penny","Yeah, that. Why don't you bring her to my restaurant while I'm tending the bar so I can keep an eye on you.","00:11:17,200","00:11:22,100",True
+"456","1","8","Raj","I can't believe I'm sitting here next to little Lalita Gupta.","00:11:43,400","00:11:46,800",True
+"457","1","8","Raj","Of course you do. Who could forget being that fat?","00:12:13,700","00:12:16,500",True
+"459","1","8","Raj","Are you aware that dentists have an extremely high suicide rate? Not as high as, say, air traffic controllers, but there are far more dentists than air traffic controllers, so in pure numbers, you're still winning.","00:12:24,900","00:12:35,800",False
+"461","1","8","Sheldon","Nothing. I just really didn't want to come.","00:12:55,500","00:12:57,500",True
+"463","1","8","Howard","Oh, yeah. I tried to watch that online, but they wanted my credit card.","00:13:24,500","00:13:27,800",True
+"464","1","8","Sheldon","When I was a little boy and got sick, which was most of the time, my mother would read it to me. It's about an Indian princess who befriends a monkey who was mocked by all the other monkeys because he was different. For some reason, I related to it quite strongly.","00:13:36,400","00:13:50,200",True
+"467","1","8","Sheldon","That woman looks exactly like the pictures of Princess Panchali in the book. How often does one see a beloved fictional character come to life?","00:13:58,800","00:14:06,500",False
+"468","1","8","Sheldon","""Forgive me, Your Highness, for I am but a monkey, ""and it is in my nature to climb. ""I did not mean to gaze upon you as you comb your hair.""","00:14:26,800","00:14:34,300",True
+"469","1","8","Sheldon","You are the living embodiment of the beautiful Princess Panchali.","00:14:37,500","00:14:40,500",False
+"470","1","8","Lalita","Us Indian or ""Come to our casino"" Indian?","00:14:49,000","00:14:51,400",True
+"471","1","8","Sheldon","I shower twice a day and wash my hands as often as I can.","00:15:06,400","00:15:09,700",True
+"472","1","8","Sheldon","It was said that the gods fashioned her eyes out of the stars and that roses were ashamed to bloom in the presence of her ruby lips.","00:15:23,100","00:15:31,100",False
+"473","1","8","Raj","If you do not stop hitting on my lady, you'll feel the full extent of my wrath.","00:15:35,700","00:15:38,600",True
+"474","1","8","Lalita","Let's get something straight here. The only reason I came tonight was to get my parents off my case. I certainly don't need to be getting this Old World crap from you.","00:15:52,900","00:16:00,200",False
+"475","1","8","Sheldon","That's exactly the kind of spirit with which Princess Panchali led the monkeys to freedom.","00:16:00,400","00:16:04,700",True
+"476","1","8","Howard","I'll tell you what happened. I just learned how to pick up Indian chicks.","00:16:23,100","00:16:26,300",True
+"477","1","8","Mrs","<i>What are we supposed to say to Lalita's parents?</i>","00:16:29,500","00:16:31,600",True
+"478","1","8","Dr","<i>I play golf with her father. I won't be able to look at him.</i>","00:16:32,000","00:16:34,600",False
+"479","1","8","Raj","Maybe you should keep your eye on the ball, Papa.","00:16:34,800","00:16:37,300",True
+"480","1","8","Raj","But he's right, Papa. Listen to him. You! You are the one who ruined everything.","00:16:53,900","00:16:59,000",False
+"481","1","8","Raj","Go ahead, tell my parents why they won't have any grandchildren.","00:17:05,700","00:17:08,500",False
+"482","1","8","Sheldon","How would I know? Do you have a low sperm count?","00:17:09,000","00:17:11,500",True
+"483","1","8","Raj","This has nothing to do with my sperm count.","00:17:13,600","00:17:15,700",False
+"484","1","8","Mrs","<i>You are wearing the boxers that we sent you, aren't you?</i>","00:17:15,900","00:17:18,600",True
+"485","1","8","Raj","Can we please stop talking about my testicles? Sheldon, tell them what you did.","00:17:24,500","00:17:28,700",False
+"486","1","8","Leonard","You left with his date. Friends don't do that to each other.","00:17:30,500","00:17:34,100",False
+"487","1","8","Leonard","Take it. It's more than I've ever gotten.","00:17:43,100","00:17:45,300",True
+"488","1","8","Dr","<i>I knew it. He moves to America and he becomes an alcoholic.</i>","00:17:53,300","00:17:56,000",False
+"489","1","8","Raj","- It was just this one time, I swear.","00:17:59,900","00:18:02,700",False
+"490","1","8","Sheldon","We ate, she lectured me on the link between gum disease and heart attacks-- nothing I didn't already know-- and I came home.","00:18:35,500","00:18:42,100",False
+"491","1","8","Sheldon","Why would I see her again? I already have a dentist.","00:18:45,200","00:18:48,700",True
+"492","1","8","Leonard","I wonder who's going to tell his parents they're not having grandchildren?","00:18:54,300","00:18:57,800",True
+"493","1","8","Penny","Oh, maybe a couple virgin Cuba Libres that turned out to be kind of slutty.","00:19:21,600","00:19:26,600",True
+"494","1","9","Sheldon","Look at me, look at me. I've got goosebumps.","00:00:34,844","00:00:36,899",True
+"495","1","9","Howard","No problem... Turning it down. San Francisco, Lisbon, Halifax... ... et voil?","00:01:05,888","00:01:12,291",True
+"496","1","9","Leonard","- Hang on, hang on. Do you not realise what we just did?","00:01:13,487","00:01:17,282",False
+"497","1","9","Penny","Yeah, you turned your stereo down with your laptop.","00:01:17,537","00:01:19,671",False
+"498","1","9","Sheldon","No, we turned our stereo down, by sending a signal around the world via the Internet.","00:01:19,996","00:01:24,561",False
+"499","1","9","Howard","- Enable public access. - Public access enabled.","00:01:32,898","00:01:36,032",False
+"501","1","9","Sheldon","Someone in Sichuan province, China, is using his computer to turn our lights on and off.","00:01:49,618","00:01:55,062",True
+"502","1","9","Howard","The monster truck is out of Austin, Texas, and the blue Viper is being operated from suburban Tel Aviv.","00:02:15,446","00:02:21,893",True
+"503","1","9","Sheldon","You know in the future, when we're disembodied brains in jars, we're going to look at this as eight hours well wasted.","00:03:03,200","00:03:09,400",True
+"504","1","9","Raj","I suppose you could have your android penis circumcised.","00:03:29,100","00:03:32,700",True
+"505","1","9","Raj","But that's something your rabbi would have to discuss with the manufacturer.","00:03:34,700","00:03:37,900",True
+"506","1","9","Sheldon","Not to mention you'd have to power down on saturdays.","00:03:38,400","00:03:41,200",True
+"507","1","9","Sheldon","Well, there's always the possibility that a trash can spontaneously formed around the letter but Occam's rasor would suggest that someone threw it out.","00:03:45,700","00:03:53,700",True
+"508","1","9","Sheldon","I know. I read it before I threw it out.","00:04:03,300","00:04:05,400",True
+"509","1","9","Leonard","Ok, if I may drill down to the bedrock of my question: why did you throw it out?","00:04:07,100","00:04:10,800",False
+"510","1","9","Sheldon","Because I have no interest in standing in the Rose room of the Pasadena Marriot, in front of a group of judgmental strangers who wouldn't recognise true genius if it was standing in front of them giving a speech. Which if I were there, would be.","00:04:10,900","00:04:23,000",True
+"511","1","9","Leonard","Are there any other honours I've got that I don't know about? Did the UPS dropped off a Nobel prize with my name on it?","00:04:35,200","00:04:40,700",False
+"512","1","9","Sheldon","Leonard, please don't take this the wrong way, but the day you win a Nobel prize, is the day I begin my research on the drag coefficient of tassles on flying carpets.","00:04:41,000","00:04:48,200",True
+"513","1","9","Leonard","Ok, let me put it this way: I'm doing it.","00:05:10,500","00:05:12,500",False
+"514","1","9","Leonard","Come on, the only reason you're the lead author is because we went alphabetically. I let you think we went alphabetically to spare you","00:05:15,000","00:05:21,200",False
+"515","1","9","Leonard","Excuse me, I designed the experiment that proved the hypothesis.","00:05:29,200","00:05:32,600",False
+"516","1","9","Leonard","So the entire scientific community is just supposed to take your word? They're not supposed to, but they should.","00:05:34,800","00:05:40,200",True
+"517","1","9","Leonard","Alright, I don't care what you say. I'm going to the conference and I'm presenting our findings And I forbid it.","00:05:41,300","00:05:47,200",False
+"518","1","9","Sheldon","If I'm not taking credit for our work then nobody is.","00:05:49,300","00:05:51,800",False
+"519","1","9","Sheldon","Once again, I'm throwing you a bone. And once again, you are welcome.","00:05:54,200","00:05:58,800",True
+"520","1","9","Penny","So, how's it going with Sheldon? Are you guys still not talking to each other?","00:06:07,900","00:06:11,000",False
+"521","1","9","Leonard","Not only is he still not talking to me, but there's this thing he does where he stares at you and tries to get your brain to explode.","00:06:11,100","00:06:16,500",True
+"522","1","9","Leonard","You know, like in the classic sci-fi movie ""Scanners""? Like... . Bzzz.","00:06:18,400","00:06:23,800",True
+"523","1","9","Leonard","Nevermind. How about this one? It says, I know my physics, but I'm still a fun guy.","00:06:25,600","00:06:32,600",True
+"524","1","9","Penny","Oh, I didn't know they still made corduroy suits. They don't, that's why I saved this one.","00:06:33,200","00:06:38,700",True
+"525","1","9","Leonard","Is this all stuff you want me to try on?","00:06:49,100","00:06:50,700",False
+"526","1","9","Penny","No, this is stuff I want you to throw out.","00:06:50,800","00:06:52,600",True
+"527","1","9","Leonard","You see, Kandor was the capital city of the planet Krypton. It was miniaturised by Brainiac before Krypton exploded and then rescued by Superman.","00:07:05,400","00:07:14,200",True
+"528","1","9","Leonard","It's a lot cooler when girls aren't looking at it.","00:07:18,500","00:07:21,200",True
+"529","1","9","Leonard","I know you won't look. Why would you look? There's nothing to see... Well, not 'nothing'... Sweetie, put the pants on.","00:07:33,900","00:07:39,600",False
+"530","1","9","Penny","So, you know, isn't there maybe some way you and Sheldon could - compromise on this whole presentation thing? - No, No.","00:07:41,400","00:07:47,500",False
+"531","1","9","Leonard","Because it's not a costume, it's a flight suit.","00:08:10,400","00:08:12,400",True
+"532","1","9","Penny","If you mean it should end up in the same place, then I agree. Is this your only tie?","00:08:23,200","00:08:29,600",False
+"533","1","9","Leonard","Technically, yes. But, if you'll notice... It's reversible!","00:08:30,600","00:08:36,200",True
+"534","1","9","Leonard","So it works as two. Sweetie, I don't even think it works as one.","00:08:38,400","00:08:43,000",True
+"535","1","9","Penny","Sweetie, I don't even think it works as one. - Is this all your clothes? - Eh, yeah. Everything since the eighth grade.","00:08:40,100","00:08:48,400",False
+"536","1","9","Sheldon","Just the latest copy of Applied Particle Physics quarterly. Oh, you know, that is so weird that yours came and mine didn't.","00:09:16,600","00:09:23,400",True
+"537","1","9","Penny","Oh, you know, that is so weird that yours came and mine didn't.","00:09:20,100","00:09:23,400",True
+"539","1","9","Penny","Yep. Tip you waitresses. I'm here all week.","00:09:35,000","00:09:39,500",True
+"540","1","9","Sheldon","Penny, just to save you from further awkwardness, know that I'm perfectly comfortable with the two of us climbing the stairs in silence.","00:09:40,600","00:09:46,200",False
+"541","1","9","Sheldon","Galileo and the Pope had a little misunderstanding.","00:10:04,200","00:10:07,400",True
+"542","1","9","Penny","Anyway, I was talking to Leonard this morning and I think he feels really bad about it.","00:10:11,000","00:10:14,800",False
+"543","1","9","Penny","I'm just asking if it's difficult to be fighting with your best friend.","00:10:22,800","00:10:26,100",False
+"544","1","9","Penny","You should just talk to him, I'm sure you guys can work this out.","00:10:44,200","00:10:47,100",False
+"545","1","9","Penny","Yeah, I mean he tried to explain it to me, - I didn't really understand it but... - Of course you didn't. He said: ""Little idea""?","00:11:09,000","00:11:14,300",True
+"548","1","9","Sheldon","And I'm telling you for the last time, it's pandering, it's undignifying, and bite me.","00:12:14,800","00:12:19,600",True
+"549","1","9","Penny","No, no, I didn't say better, I said ""less stained"".","00:12:44,500","00:12:47,200",True
+"550","1","9","Howard","It's ok, just open with a joke, you'll be fine.","00:13:04,000","00:13:06,200",False
+"551","1","9","Leonard","I didn't skip it. It's just an anecdote, it's not science.","00:14:43,300","00:14:46,100",False
+"552","1","9","Sheldon","Oh, I see. It was the apple falling on Newton's head, - was that just an anecdote? - You are not Isaac Newton.","00:14:46,200","00:14:51,900",False
+"553","1","9","Sheldon","No, no, that's true. Gravity would have been apparent to me without the apple.","00:14:52,000","00:14:55,300",True
+"554","1","9","Leonard","Look, if you weren't happy with my presentation then maybe you should have given it with me!","00:15:00,900","00:15:04,700",False
+"555","1","9","Sheldon","Oh, please. I admit that spherical chicken joke, - that was hilarious. - Thank you. But it was straight downhill from there.","00:15:14,700","00:15:20,100",True
+"556","1","9","Leonard","I've had enough of your condescendship. Maybe I didn't go to college when I was 11 like you. Maybe I got my doctorate at 24 instead of 16 but you are not the only person who is smarter than everyone else in this room! No offense.","00:15:20,300","00:15:34,000",True
+"557","1","9","Leonard","And I am clearly not the only person who is tormented by insecurity and has an ego in need of constant validation!","00:15:36,100","00:15:41,800",False
+"558","1","9","Leonard","You cannot blow up my head with your mind!","00:15:58,000","00:16:00,600",False
+"561","1","9","Sheldon","I really don't understand what you're so unhappy about. You begged me to come, I came. There's just no pleasing you.","00:16:50,700","00:16:55,400",True
+"562","1","9","Leonard","You're right, I'm the problem, I'm the one that needs help.","00:16:56,400","00:16:59,000",False
+"563","1","9","Sheldon","Well, that's not much of an apology but I'll take it.","00:16:59,500","00:17:01,600",True
+"564","1","9","Raj","Somebody got the whole thing with their cell phone and put it on YouTube!","00:17:17,900","00:17:20,800",True
+"565","1","9","Leonard","Oh, Jeez. does this suit really look that bad?","00:17:54,600","00:17:57,700",True
+"566","1","9","Sheldon","Forget your suit, look at my arms waving. I'm like a flamingo on Ritalin.","00:17:58,800","00:18:02,300",True
+"567","1","10","Sheldon","I don't guess. As a scientist, I reach conclusions based on observation and experimentation. Although as I'm saying this, it occurs to me you may have been employing a rhetorical device rendering my response moot.","00:01:44,216","00:01:55,362",True
+"568","1","10","Penny","The girl they picked to play Mimi dropped out, and they asked me to replace her.","00:02:10,380","00:02:14,011",False
+"569","1","10","Sheldon","I think that's a week from Tuesday, at 6:00.","00:02:37,096","00:02:38,913",False
+"570","1","10","Sheldon","So, lack of a physiological response while lying is characteristic of a violent sociopath.","00:02:59,635","00:03:04,932",True
+"571","1","10","Sheldon","No, I imagine if you were going to kill me, you'd have done it a long time ago.","00:03:07,726","00:03:11,819",True
+"572","1","10","Sheldon","I'm uncomfortable having been included in your lie to Penny.","00:04:43,864","00:04:46,998",False
+"573","1","10","Sheldon","I would suggest something to the effect of: singing is neither an appropriate vocation nor avocation for you, and if you disagree, I'd recommend you have a CAT scan to look for a tumor pressing on the cognitive processing centers of your brain.","00:05:02,243","00:05:14,025",False
+"574","1","10","Leonard","I couldn't say that. I would have to say, ""You were terrific and I can't wait to hear you sing again.""","00:05:16,101","00:05:21,699",True
+"575","1","10","Leonard","That's the social protocol. It's what you do when you have a friend who's proud of something they really suck at.","00:05:24,400","00:05:30,792",True
+"576","1","10","Sheldon","When we played chess earlier, you were terrific, and I can't wait to play you again. Good night.","00:05:37,834","00:05:42,387",False
+"577","1","10","Sheldon","Simple: If she were to log onto www.socalphysixsgroup.org /activities/other, click on ""Upcoming Events,"" scroll down to ""Seminars,"" download the PDF schedule, and look for the seminar on molecular positronium, bippity, boppity, boo-- our pants are metaphorically on fire.","00:06:06,571","00:06:22,334",False
+"578","1","10","Sheldon","Well, sir, my trousers will not be igniting today.","00:06:27,733","00:06:30,783",True
+"580","1","10","Penny","Do you have any idea what time it is?","00:06:39,813","00:06:41,738",False
+"581","1","10","Sheldon","He lied, and I'm feeling very uncomfortable about it.","00:07:11,914","00:07:14,981",False
+"582","1","10","Leonard","You told her I lied? Why would you tell her I lied?","00:07:27,217","00:07:30,087",True
+"583","1","10","Sheldon","She was going to see through your lie eventually, so I told her that you were lying to protect me.","00:07:35,668","00:07:40,348",True
+"584","1","10","Sheldon","the success or failure of our deceitful enterprise turns on details.","00:08:08,008","00:08:11,194",False
+"585","1","10","Sheldon","I made him up. I think you'd call him Lee.","00:08:13,998","00:08:17,992",True
+"586","1","10","Leonard","I don't get it. I already told her a lie. Why replace it with a different lie?","00:08:19,825","00:08:24,039",False
+"587","1","10","Sheldon","First of all, your lie was laughably transparent, where mine is exquisitely convoluted. While you were sleeping, I was weaving an un-unravelable web.","00:08:24,471","00:08:33,758",True
+"588","1","10","Sheldon","If she Googles ""Leopold Houston,"" she'll find a Facebook page, an online blog depicting his descent into drug use and a desperate yet hopeful listing on eHarmony.com.","00:08:37,569","00:08:46,221",True
+"589","1","10","Leonard","Okay, why would I go to a drug intervention for your cousin?","00:08:48,115","00:08:51,706",False
+"590","1","10","Sheldon","Because it's in Long Beach, and I don't drive.","00:08:52,036","00:08:54,638",True
+"591","1","10","Sheldon","- Of course not. There's no cousin Leo. There's no intervention. Focus, Leonard.","00:08:56,615","00:09:01,786",False
+"592","1","10","Sheldon","We just leave the house on Friday night and we return in the wee hours, emotionally wrung out, from the work of convincing Leo to go back into rehab.","00:09:04,508","00:09:11,755",False
+"593","1","10","Sheldon","For a noble purpose-- to spare me the social embarrassment of having a drug-addled first cousin-- which I'm assuming is embarrassing, yes?","00:09:22,141","00:09:30,064",False
+"594","1","10","Sheldon","That's the best part. You don't have to. I told Penny that you would be embarrassed if you knew that she found out that you had lied, so she's agreed to operate as if the original lie is still in force.","00:09:33,885","00:09:43,642",True
+"595","1","10","Penny","I got to tell you, a lot of friends would let their friend go alone, but that's not who you are. You are the kind of guy who stands by a friend when... Wen he has a symposium to go to.","00:10:15,868","00:10:25,906",False
+"596","1","10","Howard","Wait a minute. Farmanfarmian is speaking and you're bogarting the symposium?","00:10:54,989","00:10:58,402",False
+"597","1","10","Sheldon","Okay, sure. I don't see a problem with that.","00:11:25,407","00:11:28,419",False
+"598","1","10","Howard","No, I'm lost, too. I think she skipped a step.","00:12:00,469","00:12:03,054",False
+"599","1","10","Sheldon","It's a very nice community. The Queen Mary is docked there. Once the largest ocean liner in the world, it's now a hotel and restaurant, where they host a surprisingly gripping murder mystery dinner.","00:12:37,396","00:12:47,094",True
+"600","1","10","Sheldon","No, that's the least of our worries. I've been doing some research on addiction, both the biochemical and behavioral aspects-- and I think there's a problem with the current version of our lie.","00:13:17,119","00:13:26,725",False
+"601","1","10","Leonard","What are you talking about? It's fine! She bought it; it's over.","00:13:26,886","00:13:29,854",True
+"602","1","10","Leonard","There is no Leo! How can you say that?","00:13:47,158","00:13:49,468",True
+"603","1","10","Sheldon","You didn't read the bio, did you? He's not just a middle child, he is the quintessential middle child-- from a broken home, to boot. Psychologically speaking, the attention he gets by rebelling, even to the point of self-destruction, is more emotionally valuable than the help he would get at rehab.","00:13:53,493","00:14:08,883",True
+"604","1","10","Sheldon","Excuse me, we just went over this. As the quintessential middle child, your addiction is rooted in your unmet need for attention.","00:15:21,507","00:15:28,889",True
+"605","1","10","Man","Sheldon, are we really going to go with pop psychology?","00:15:29,049","00:15:32,268",False
+"606","1","10","Sheldon","For your information, this is based on solid research. Just stick with the character profile I wrote for you.","00:15:32,428","00:15:37,565",False
+"607","1","10","Sheldon","I'm sorry. Leonard, this is Toby Loobenfeld. He's a research assistant in the particle physics lab, but he also minored in theater at MIT.","00:15:38,742","00:15:46,657",False
+"608","1","10","Toby","It was more of a double major, actually. Theater and physics. You can guess which one my bourgeois parents pushed me toward.","00:15:47,341","00:15:53,789",False
+"609","1","10","Sheldon","You see, while Leo would not have gone into rehab, it is completely plausible that we would have talked him into leaving the motel and coming home with us.","00:15:57,411","00:16:05,759",True
+"610","1","10","Sheldon","No. We're going with middle child and a genetic predisposition to inadequate serotonin production.","00:16:15,901","00:16:22,026",False
+"611","1","10","Sheldon","Unfortunately, we weren't able to convince him to go to rehab.","00:16:41,080","00:16:44,506",True
+"612","1","10","Penny","Based on what you told me, I am not surprised.","00:16:44,666","00:16:47,146",False
+"613","1","10","Toby","Let me ask you something, Penny. Have you ever woken up in a fleabag motel, covered in your own vomit, next to a transsexual prostitute?","00:17:08,315","00:17:17,328",False
+"614","1","10","Penny","It was okay, I guess. It wasn't a big turnout, but they both really seemed to like it.","00:17:32,947","00:17:37,126",True
+"615","1","10","Leonard","As you can see, detoxing can get pretty ugly. Let's give them some privacy.","00:18:38,725","00:18:42,579",False
+"616","1","10","Penny","I have a video of me singing last night. Do you want to see it?","00:18:46,369","00:18:49,131",True
+"617","1","10","Toby","...but he loved the companionship and the wisdom that his own father failed to provide.","00:19:02,080","00:19:06,982",False
+"619","1","10","Sheldon","He's a homeless drug addict. Where is he going to go?","00:20:02,054","00:20:04,935",False
+"620","1","10","Sheldon","Boy, you have a lot to learn about lying.","00:20:06,015","00:20:07,918",False
+"621","1","11","Sheldon","you're not well suited for three-dimensional chess. Perhaps three-dimensional Candy Land would be more your speed.","00:00:31,411","00:00:37,331",True
+"622","1","11","Sheldon","It must be humbling to suck on so many different levels.","00:00:39,459","00:00:42,650",True
+"623","1","11","Penny","- How was Nebraska? - Well, better than North Dakota. I guess that joke's only funny in Nebraska.","00:00:53,323","00:01:04,872",True
+"624","1","11","Sheldon","From the data at hand, you really can't draw that conclusion. All you can say with absolute certainty is that that joke is not funny here.","00:01:05,395","00:01:11,657",True
+"625","1","11","Penny","- It was the worst trip. Everyone got sick over the weekend.","00:01:20,799","00:01:24,670",False
+"626","1","11","Sheldon","I don't need you to guess. I need you to know. Now, when did the symptoms first appear?","00:01:32,225","00:01:37,118",False
+"627","1","11","Leonard","Penny, you'll have to excuse Sheldon. He's a bit of a germaphobe.","00:02:04,527","00:02:07,418",False
+"628","1","11","Leonard","You'd better go before he starts spraying you with Lysol.","00:02:12,706","00:02:15,262",True
+"630","1","11","Sheldon","If I'm going to get ahead of this thing, I need to find out what's growing in my throat.","00:03:18,267","00:03:23,111",True
+"631","1","11","Leonard","Sheldon, you are not sick. This is, but you are not.","00:03:24,928","00:03:29,689",True
+"632","1","11","Sheldon","We have no idea what pathogen Typhoid she has introduced into our environment. For having never been to Nebraska, I'm fairly certain that I have no corn-husking antibodies.","00:03:30,972","00:03:40,197",True
+"633","1","11","Sheldon","When I'm lying comatose in a hospital relying on inferior minds to cure me, these Jell-O cultures and my accompanying notes will give them a fighting chance.","00:03:45,940","00:03:54,118",True
+"634","1","11","Sheldon","- Put this in the bathroom. - What for?","00:04:01,491","00:04:03,329",False
+"635","1","11","Sheldon","I need to measure my fluid intake and output to make sure my kidneys aren't shutting down.","00:04:03,540","00:04:08,083",True
+"636","1","11","Sheldon","No, that measuring cup has always been for urine.","00:04:13,736","00:04:16,445",True
+"637","1","11","Leonard","You had time to make a label for everything in this apartment including the label maker, but you didn't have ten seconds to make one that said ""urine cup""?","00:04:18,192","00:04:26,101",True
+"638","1","11","Leonard","I guess I owe the Betty Crocker Company a letter of apology.","00:04:37,067","00:04:40,483",True
+"639","1","11","Sheldon","Well, as I predicted, I am sick. My fever has been tracking up exponentially since 2:00 a.m., and I am producing sputum at an alarming rate.","00:06:10,997","00:06:21,176",True
+"641","1","11","Leonard","They're training dogs to operate the centrifuge for when they need dogs to... operate the centrifuge for blind scientists. I have to go.","00:06:57,414","00:07:07,472",True
+"642","1","11","Howard’s","Well, ask them why they're calling at this ungodly hour!","00:07:25,348","00:07:29,313",True
+"644","1","11","Howard","Why are you calling at this ungodly hour?","00:08:27,037","00:08:30,264",True
+"645","1","11","Penny","How could you have gotten if from me? I'm not sick.","00:09:31,253","00:09:33,410",False
+"646","1","11","Penny","Why didn't you just have soup at home?","00:09:53,328","00:09:55,098",False
+"647","1","11","Sheldon","Penny, I have an IQ of 187. Don't you imagine that if there were a way for me to have had soup at home, I would have thought of it?","00:09:55,707","00:10:03,189",True
+"649","1","11","Sheldon","Clearly, febrile delirium is setting in. Please bring me some soup while I still understand what a spoon is for.","00:10:13,572","00:10:20,190",True
+"650","1","11","Raj","I'd like to point out that I voted for orangutan, but you shouted me down.","00:11:11,793","00:11:15,834",True
+"652","1","11","Leonard","- Just tell him to go home. - <i>He won't leave.</i>","00:11:40,009","00:11:42,432",False
+"654","1","11","Penny","It's okay. I didn't really need to work today. It's not like I have rent or car payments or anything.","00:12:26,808","00:12:32,176",True
+"655","1","11","Penny","Sheldon, you are a grown man. Haven't you ever been sick before?","00:12:47,608","00:12:50,523",False
+"656","1","11","Sheldon","Well, once, when I was 15, spending the summer at the Heidelberg Institute in Germany.","00:12:56,187","00:13:01,451",False
+"657","1","11","Penny","And there was no one there to take care of you?","00:13:18,457","00:13:21,136",False
+"658","1","11","Sheldon","- Again? - It was tornado season. And it was an aluminum house.","00:13:28,984","00:13:33,274",True
+"659","1","11","Sheldon","The housekeeper in the faculty residence didn't speak any English. When I finally managed to convince her I was sick, she said, ""Möchtest du eine Darmspülung?""","00:13:35,103","00:13:44,092",True
+"660","1","11","Sheldon","Based on what happened next, I assume it means, ""Would you like an enema?""","00:13:46,742","00:13:50,500",True
+"661","1","11","Sheldon","My Mom used to give me sponge baths.","00:13:58,015","00:14:00,837",True
+"662","1","11","Raj","If you leave now, you can be back before the gorillas rip the crap out of Charlton Heston.","00:14:44,077","00:14:49,028",False
+"663","1","11","Sheldon","Will you please rub this on my chest?","00:15:49,027","00:15:51,469",True
+"664","1","11","Sheldon","My Mom used to sing it to me when I was sick.","00:16:32,643","00:16:34,998",False
+"665","1","11","Leonard","But I can't do it. I can't see anything.","00:17:51,525","00:17:53,625",False
+"666","1","11","Howard","No. You'll be on your hands and knees. You'll need to get the sensor as close as you can to Sheldon's room.","00:18:22,293","00:18:27,444",False
+"667","1","11","Leonard","How do I carry it if I'm on my hands and knees?","00:18:27,759","00:18:30,322",False
+"668","1","11","Howard","Good. From this point forward, you will have to crawl.","00:19:38,939","00:19:41,943",True
+"669","1","11","Howard","Hang on, the sensor's picking up something. Turn your head back.","00:19:48,794","00:19:51,653",False
+"670","1","11","Leonard","Come on, I had to. You see what he's like?","00:20:09,198","00:20:11,839",False
+"672","1","11","Sheldon","Do you think Penny will come here and take care of us?","00:20:54,751","00:20:57,732",True
+"673","1","12","Sheldon","Assuming a device could be invented which would identify the quantum state of matter of an individual in one location and transmit that pattern to a distant location for reassembly, you would not have transported the individual. You would have destroyed him in one location and recreated him in another.","00:00:12,801","00:00:28,373",True
+"674","1","12","Sheldon","Personally, I would never use a transporter, because the original Sheldon would have to be disintegrated in order to create a new Sheldon.","00:00:33,154","00:00:39,954",True
+"675","1","12","Leonard","Would the new Sheldon be in any way an improvement on the old Sheldon?","00:00:41,163","00:00:44,864",True
+"676","1","12","Gablehouser","Gentlemen, I'd like you to meet Dennis Kim. Dennis is a highly sought-after doctoral candidate, and we're hoping he'll do his graduate work here.","00:00:56,533","00:01:04,066",False
+"677","1","12","Sheldon","Not bad... I, myself, started graduate school at 14.","00:01:07,909","00:01:11,347",False
+"678","1","12","Dennis","Well, I lost a year while my family was tunneling out of North Korea.","00:01:11,752","00:01:15,203",True
+"679","1","12","Gablehouser","I thought maybe you boys could show Dennis around. Let him see why we're the best physics research facility in the country.","00:01:20,959","00:01:26,585",False
+"680","1","12","Dennis","I already know you're not. You don't have an Open Science Grid computer or a free electron laser. The string theory research being done here is nothing but a dead end.","00:01:26,705","00:01:34,389",False
+"681","1","12","Sheldon","Excuse me, that is my research, and it is by no means a dead end.","00:01:34,550","00:01:37,953",False
+"682","1","12","Dennis","Obviously you don't see it yet, but trust me, you will.","00:01:38,471","00:01:41,061",True
+"683","1","12","Sheldon","You can count on us. We're on it. What the hell do you mean, ""dead end""?","00:02:02,498","00:02:06,504",True
+"684","1","12","Leonard","Dennis, how long have you been in America?","00:02:48,228","00:02:50,386",False
+"685","1","12","Dennis","Looks like you're doing work in quantum loop corrections.","00:03:25,403","00:03:27,788",False
+"686","1","12","Leonard","Come on. I'll show you the rec center. They've got Nautilus equipment.","00:03:38,301","00:03:41,432",False
+"688","1","12","Leonard","Come on. I'll show you the rec center. Do I look like I lift weights? Not heavy ones.","00:03:38,301","00:03:45,993",True
+"689","1","12","Leonard","It's startling you haven't considered a Lorentz invariant or field theory approach. You think I haven't considered it? You really think I haven't considered it? Have you considered it? - Get him out, Leonard. - Come on, Dennis. I'll show you the radiation lab.","00:03:47,257","00:04:03,034",False
+"690","1","12","Sheldon","Yes. In fact, I am the youngest person ever to win it.","00:04:06,765","00:04:10,308",False
+"691","1","12","Leonard","It's like looking into an obnoxious little mirror, isn't it?","00:04:20,560","00:04:23,057",False
+"693","1","12","Penny","Still can't talk to me unless you're drunk, huh?","00:04:34,185","00:04:36,781",False
+"697","1","12","Sheldon","Dennis Kim is 15 years old, and he's already correcting my work. Today, I went from being Wolfgang Amadeus Mozart, to... - You know, that other guy. - Antonio Salieri?","00:05:03,484","00:05:13,983",False
+"698","1","12","Howard","You know, you don't have so many friends that you can afford to start insulting them.","00:05:18,799","00:05:23,076",False
+"699","1","12","Sheldon","Of course you don't. You've never excelled at anything.","00:05:55,431","00:05:58,459",False
+"700","1","12","Penny","I don't understand exactly how did he get any friends in the first place?","00:06:00,561","00:06:04,117",True
+"701","1","12","Sheldon","I've decided you're right. My career is not over.","00:06:37,469","00:06:40,478",False
+"702","1","12","Sheldon","Since the arrival of Dennis Kim has rendered my research pointless, I just have to find something else to focus on.","00:06:41,816","00:06:46,951",False
+"703","1","12","Sheldon","So I've decided. I'm going to collaborate with you.","00:06:48,447","00:06:51,081",False
+"705","1","12","Sheldon","You chatter on about it all the time, but I've never really paid attention.","00:06:59,018","00:07:02,884",False
+"706","1","12","Sheldon","""Pretty sure"" is not very scientific. Is this how you normally work? Just hunches and guesses and stuff?","00:07:27,570","00:07:32,789",True
+"707","1","12","Sheldon","If you're concerned about sharing credit with me, your name can go first... I'm going.","00:07:50,397","00:07:54,869",True
+"708","1","12","Howard","I've been in this lab for 3 years. You've never come by to say hello.","00:08:38,598","00:08:41,231",False
+"709","1","12","Sheldon","Up until now, I've had better things to do.","00:08:41,392","00:08:43,852",False
+"711","1","12","Howard","When this is done, it will be attached to the payload bay, and the sensor apparatus will rest on it.","00:08:55,432","00:09:00,418",False
+"712","1","12","Sheldon","I notice you're using titanium. Did you give any consideration to carbon nanotubes? They're lighter, cheaper, and have twice the tensile strength.","00:09:15,804","00:09:23,691",False
+"713","1","12","Howard","There's a diploma in my office that says I have a master's in engineering.","00:09:24,319","00:09:28,655",False
+"714","1","12","Sheldon","You also have a note from your mother that says, ""I love you, Bubula.""","00:09:28,864","00:09:32,616",False
+"715","1","12","Sheldon","But neither of those is a cogent argument for titanium over nanotubes.","00:09:34,905","00:09:38,330",False
+"716","1","12","Raj","Do you know what he did? He watched me work for 10 min, and then started to design a simple piece of software that could replace me.","00:10:17,778","00:10:24,506",False
+"717","1","12","Leonard","Like what? He'll never be able to cope with the fact that some 15-year-old kid is smarter and more accomplished than he is.","00:10:33,012","00:10:38,891",False
+"718","1","12","Howard","We don't have to go that far. There are other means available.","00:10:54,895","00:10:58,069",True
+"719","1","12","Raj","We can't send him back to North Korea. He knows how to get out.","00:10:58,189","00:11:02,493",False
+"720","1","12","Howard","The only thing we need to do is make this Kim kid lose his focus.","00:11:04,572","00:11:07,836",False
+"721","1","12","Howard","Yeah, so? When I was 15, I met Denise Palmeri and my grade point average fell from a 5.0 to a 1.8.","00:11:20,848","00:11:26,668",False
+"722","1","12","Gablehouser","Okay, well, speaking of spreads, we're having a small welcoming party this afternoon for Mr. Kim who's agreed to join us here at the university.","00:13:04,860","00:13:12,419",False
+"723","1","12","Sheldon","I really don't understand your objections, professor Goldfarb. Why wouldn't the Sonora desert make a perfectly good promised land?","00:13:46,362","00:13:52,919",False
+"724","1","12","Raj","Yes. There was a very official e-mail sent to everyone whose insurance files indicated they had daughters between the ages of 14 and 16.","00:14:12,818","00:14:20,363",False
+"725","1","12","Leonard","Okay, so we now have a socially-awkward genius in a room full of attractive, age-appropriate women.","00:14:28,995","00:14:33,792",False
+"726","1","12","Howard","All he has to do now is hook up with one of them.","00:14:33,912","00:14:36,254",False
+"727","1","12","Leonard","Anyone else see the flaw in this plan?","00:14:44,306","00:14:46,532",False
+"728","1","12","Howard","I don't think you mean ""we can't."" I think you mean ""we shouldn't.""","00:14:56,771","00:14:59,793",True
+"729","1","12","Leonard","We cannot leave this to chance. Let's pick a girl and figure out how to get her together with Dennis.","00:15:17,351","00:15:22,844",False
+"730","1","12","Leonard","Sure, if he wants to spend two years doing her homework while she drinks herself into a stupor with nonfat White Russians. You're holding her head out of the toilet while she's puking and telling you she wishes ""more guys were like you."" Then she gets into Cornell because you wrote her essay for her and you drive up to visit her one weekend and she acts like she doesn't even know you.","00:15:50,617","00:16:08,177",False
+"731","1","12","Leonard","I think that's our girl. One of us should go talk to her.","00:16:20,228","00:16:22,888",True
+"732","1","12","Leonard","I can't just go up and talk to her. Howard, you talk to her.","00:16:24,981","00:16:28,283",False
+"733","1","12","Raj","- Why don't we do it your way then? We'll arrange for this girl to move in across the hall from Dennis so he can pathetically moon over her for months on end.","00:16:40,697","00:16:49,254",False
+"734","1","12","Gablehouser","Could I have everyone's attention, please? What a wonderful occasion this is, and how fortunate that it should happen to fall on Take Your Daughter to Work Day. We're here to welcome Mr. Dennis Kim to our little family.","00:16:55,196","00:17:10,235",True
+"735","1","12","Gablehouser","Would you like to tell us a little bit about your upcoming research?","00:17:41,349","00:17:44,066",True
+"736","1","12","Dennis","No, thanks. I'm going to the mall with Emma.","00:17:44,558","00:17:46,843",False
+"737","1","12","Raj","Forget the mission. How did that little yutz get a girl on his own?","00:18:30,366","00:18:33,450",False
+"738","1","12","Howard","I guess times have changed since we were young. Smart is the new sexy.","00:18:34,230","00:18:38,478",True
+"739","1","12","Leonard","Then why do we go home alone every night? We're still smart.","00:18:39,571","00:18:42,367",False
+"740","1","12","Howard","Components I built are on the International Space Station and I get a ticket for launching a model rocket in the park.","00:18:54,162","00:18:59,433",False
+"741","1","12","Leonard","I don't know if the ticket was so much for the launch as it was for you telling the policewoman, ""You have to frisk me. I have another rocket in my pants.""","00:18:59,594","00:19:06,933",False
+"742","1","13","Howard","- Maybe they had to go to a clinic. Can you imagine Spock's Dad in a little room with a copy of Pointy Ears and Shapely Rears.","00:00:23,167","00:00:30,599",True
+"743","1","13","Howard","Gentlemen, switching to local nerd news... Fishman, Chen, Chaudury and McNair aren't fielding a team in the university Physics Bowl this year.","00:01:00,326","00:01:08,154",False
+"744","1","13","Leonard","This is our year. With those guys out, the entire Physics Bowl will kneel before Zod.","00:01:24,122","00:01:28,549",False
+"745","1","13","Sheldon","You want me to use my intelligence in a tawdry competition? Would you ask Picasso to play Pictionary? Would you ask Noah Webster to play Boggle? Would you ask Jacques Cousteau to play Go Fish?","00:01:39,345","00:01:52,559",True
+"746","1","13","Leonard","Come on, you need a four-person team. We're four people.","00:01:54,027","00:01:57,040",False
+"747","1","13","Sheldon","By that reasoning we should also play Bridge, hold up a chuppah and enter the Olympic bobsled competition.","00:01:57,160","00:02:02,838",True
+"748","1","13","Leonard","Sheldon, what, do I need to quote Spock's dying words to you?","00:02:06,331","00:02:10,174",False
+"749","1","13","Raj","First order of Physics Bowl business. We need a truly kick-ass team name. Suggestions?","00:02:45,866","00:02:51,841",False
+"750","1","13","Leonard","Let's put it to a vote. All those in favor...","00:03:28,879","00:03:30,867",False
+"751","1","13","Leonard","Will the gentleman from the great State of Denial yield for a question?","00:03:41,176","00:03:44,337",True
+"752","1","13","Leonard","After we go through the exercise of an annoying series of votes, all of which the gentleman will lose, does he then intend to threaten to quit - if he does not get his way? - He does.","00:03:46,233","00:03:54,219",False
+"753","1","13","Leonard","I move we are the Army Ants. All those in favor?","00:03:54,339","00:03:56,705",True
+"754","1","13","Leonard","I was actually the one who noticed. Okay, let's just start.","00:04:28,658","00:04:31,608",True
+"755","1","13","Penny","""What artificial satellite has seen glimpses of Einstein's predicted frame dragging?""","00:05:16,470","00:05:20,740",False
+"756","1","13","Sheldon","What do manners have to do with it? This is war. Were the Romans polite when they salted the ground of Carthage to make sure nothing would ever grow again?","00:05:30,207","00:05:39,208",True
+"757","1","13","Penny","Leonard, you said I only had to ask questions.","00:05:40,121","00:05:42,772",False
+"758","1","13","Sheldon","The objective of the competion is to give correct answers. If I know them, why shouldn't I give them?","00:05:44,882","00:05:49,474",False
+"759","1","13","Howard","Some of us might have the correct answers, too.","00:05:49,634","00:05:52,107",False
+"760","1","13","Sheldon","- Good idea. I need my wrist brace. All this button-pushing is aggravating my old Nintendo injury.","00:05:59,100","00:06:05,485",False
+"761","1","13","Leonard","Can it wait? I need to talk to you.","00:06:28,194","00:06:29,865",False
+"762","1","13","Sheldon","Just look. I've designed the perfect uniforms for our team. The colors are based on <i>Star Trek: The Original Series</i>. The three of you will wear Support Red, and I will wear Command Gold.","00:06:30,054","00:06:39,427",False
+"763","1","13","Leonard","Isn't that confusing? ""AA"" might mean something else to certain people.","00:06:45,995","00:06:49,654",False
+"764","1","13","Leonard","Well, you're a friend, and you like <i>Batman</i> and cookies, and you're off the team.","00:07:07,341","00:07:12,093",False
+"765","1","13","Leonard","Howard, Raj and I just had a team meeting.","00:07:17,154","00:07:19,306",False
+"766","1","13","Sheldon","Okay, I don't know where you just came from, but it could'nt have been a team meeting because I wasn't there. Ergo, the team did not meet.","00:07:22,119","00:07:29,335",True
+"767","1","13","Leonard","Okay, let me try it this way: I was at a coffee klatch with a couple of friends, and one thing led to another, and it turns out you're off the team.","00:07:30,204","00:07:39,264",True
+"768","1","13","Leonard","Because you're taking all the fun out of it.","00:07:41,542","00:07:43,625",False
+"769","1","13","Sheldon","I'm sorry, is the winner of the Physics Bowl the team that has the most fun?","00:07:44,028","00:07:47,785",False
+"770","1","13","Howard","- So who'd he get to be on his team?","00:08:28,648","00:08:31,464",False
+"771","1","13","Howard","That sounds more like, ""We are a tall, thin woman who wants to make a coat out of your Dalmatians.""","00:08:59,531","00:09:05,128",False
+"772","1","13","Howard","We're going to need a strong fourth for our team.","00:09:25,334","00:09:27,604",False
+"773","1","13","Raj","You know who is apparently very smart is the girl who played <i>TV's Blossom</i>.","00:09:28,070","00:09:31,566",False
+"774","1","13","Raj","She got a PhD. in neuroscience or something.","00:09:33,529","00:09:35,577",True
+"775","1","13","Howard","Gentlemen, I believe I've found the solution to all our problems.","00:09:45,618","00:09:49,251",False
+"776","1","13","Raj","Why? Because you slept together, and when she was done with you she discarded you like last night's chutney?","00:09:53,659","00:09:58,992",False
+"777","1","13","Howard","Sometimes you've got to take one for the team.","00:10:05,101","00:10:07,157",True
+"778","1","13","Leonard","So, Leslie, I have a question for you, and it might be a little awkward, you know, given that I...","00:10:22,759","00:10:29,093",False
+"779","1","13","Leslie","Leonard, there's no reason to feel uncomfortable just because we've seen each other's faces and naked bodies contorted in the sweet agony of coitus.","00:10:34,215","00:10:41,645",False
+"780","1","13","Leslie","Rest assured that any aspects of our sexual relationship regarding your preferences, your idiosyncrasies, your performance are still protected by the inherent confidentiality of the bedroom.","00:10:47,698","00:10:56,801",False
+"781","1","13","Leonard","That's all very comforting, but if it's okay, I'd like to get on to my question now.","00:10:56,921","00:11:00,874",False
+"782","1","13","Leonard","Yeah. You know, you don't have to stay for the whole thing.","00:11:49,038","00:11:51,672",True
+"783","1","13","Penny","Oh, no. I want to. Sounds really interesting.","00:11:51,834","00:11:54,593",False
+"784","1","13","Sheldon","Actually, I don't need a team. I could easily defeat you single-handedly, but the rules require four. So, may I introduce the third-floor janitor, the lady from the lunch room, and my Spanish is not good... either her son or her butcher. And what about your team? What rat have you recruited to the S.S. Sinking Ship?","00:12:18,665","00:12:37,977",False
+"785","1","13","Leslie","Yeah, Leslie Winkle. The answer to the question, ""Who made Sheldon Cooper cry like a little girl?""","00:12:44,163","00:12:49,355",False
+"787","1","13","Sheldon","The Velcro on my wrist brace caught on my shirt.","00:14:12,248","00:14:14,816",False
+"788","1","13","Sheldon","4.1855 times ten to the seventh ergs per calorie.","00:14:55,439","00:14:58,317",False
+"789","1","13","Leslie","Yes, assuming the hypothetical planet has a mass greater than the Earth.","00:15:14,923","00:15:18,254",False
+"790","1","13","Howard","Looks like something they found on the ship at Roswell.","00:15:52,639","00:15:56,125",False
+"791","1","13","Gablehouser","That's too bad because the answer your teammate gave was correct.","00:17:48,566","00:17:51,907",False
+"792","1","13","Sheldon","That trophy is meaningless. I forfeited, therefore you did not win.","00:19:01,548","00:19:04,814",False
+"794","1","13","Penny","""Marsha, Jan and Cindy were the three daughters ""in what TV family?""","00:19:31,806","00:19:35,971",False
+"796","1","13","Penny","""Sammy Hagar replaced David Lee Roth as the lead singer in what group?""","00:19:44,431","00:19:48,275",False
+"797","1","14","Sheldon","This sandwich is an unmitigated disaster. I asked for turkey and roast beef with lettuce and Swiss on whole wheat.","00:00:00,476","00:00:07,761",False
+"798","1","14","Sheldon","with lettuce and Swiss on whole wheat. - What did they give you? - Turkey and roast beef with Swiss and lettuce on whole wheat.","00:00:04,124","00:00:12,277",True
+"799","1","14","Sheldon","It's the right ingredients, but in the wrong order. In a proper sandwich, the cheese is adjacent to the bread to create a moisture barrier against the lettuce. They might as well have dragged this thing through a car wash.","00:00:18,063","00:00:31,743",True
+"800","1","14","Leonard","Some guy is auctioning off a miniature Time Machine prop from the original film, and no one is bidding on it.","00:00:36,247","00:00:41,335",False
+"801","1","14","Howard","A time machine from the movie <i>The Time Machine</i>?","00:00:41,496","00:00:44,255",False
+"802","1","14","Raj","Boy, Sophie could have used a time machine in that movie. Did you see it? It's rough.","00:00:47,900","00:00:52,452",True
+"803","1","14","Raj","You are the proud owner of a miniature time machine!","00:01:32,005","00:01:34,472",True
+"804","1","14","Sheldon","I wonder why no one else bid. This is a classic piece of sci-fi movie memorabilia.","00:01:37,719","00:01:41,893",False
+"805","1","14","Howard","- Why don't we share it? We'll each put in 200 bucks, we'll take turns having it in our house.","00:01:42,013","00:01:48,527",False
+"806","1","14","Howard","It's actually a tremendous bargain. Even with shipping, it works out to less than four dollars a pound.","00:02:57,700","00:03:02,900",True
+"807","1","14","Howard","If we take the dish off, it might fit in the elevator.","00:03:11,900","00:03:14,700",False
+"808","1","14","Sheldon","I've been meaning to ask you. Do you think we should make a call about that?","00:03:17,300","00:03:21,200",True
+"809","1","14","Howard","If I push any harder, I'm going to give birth to my colon.","00:03:55,800","00:03:59,100",True
+"810","1","14","Raj","If my fingers ever work again, I've got a job for the middle one.","00:04:07,000","00:04:10,300",True
+"811","1","14","Penny","- I don't have them. I'm running late.","00:04:30,700","00:04:33,700",False
+"812","1","14","Sheldon","I never joke when it comes to vertigo.","00:04:44,100","00:04:46,300",True
+"813","1","14","Leonard","If you wait for us to set up the time machine, I can drop you off at work yesterday.","00:04:51,800","00:04:55,900",True
+"815","1","14","Sheldon","For what it's worth, I thought it was humorous.","00:05:02,100","00:05:04,400",True
+"816","1","14","Sheldon","I don't know what you were worried about. I think it really works in the room.","00:05:20,200","00:05:23,900",True
+"817","1","14","Leonard","It is by far the coolest thing I have ever owned.","00:05:26,200","00:05:29,100",False
+"818","1","14","Sheldon","Gentlemen, we said we'd take turns, but I think you'll agree that practicality dictates it remain here.","00:06:05,400","00:06:10,800",False
+"819","1","14","Howard","You can't keep it here. What if I meet a girl and say, ""You wanna come up and see my time machine? It's at my friends' house."" How lame is that?","00:06:11,200","00:06:17,800",True
+"820","1","14","Sheldon","I think we're going to need some ground rules; in addition to the expected ""no shoes in the time machine,"" and ""no eating in the time machine,"" I propose we add ""pants must be worn at all times in the time machine.""","00:06:19,700","00:06:29,800",True
+"821","1","14","Raj","I still want it on my balcony. I say we move it on a bi-monthly basis.","00:06:38,600","00:06:42,600",False
+"822","1","14","Howard","Good choice, Alexander Graham Bell invents the telephone - and calls out for Dr. Watson. - Wait a minute.","00:07:14,100","00:07:18,700",False
+"823","1","14","Sheldon","But if we all go back to the same point, Bell's lab is going to get very crowded. He'll know something's up.","00:07:21,500","00:07:26,300",True
+"824","1","14","Raj","Also since the time machine doesn't move in space, you'll end up in 1876 Pasadena.","00:07:27,500","00:07:31,800",False
+"825","1","14","Howard","And even if you can make it to Boston, are you going knock on the door and say to Mrs. Bell, ""Big fan of your husband. ""Can I come in and watch him invent the telephone?""","00:07:31,900","00:07:39,000",True
+"826","1","14","Raj","Mrs. Bell was deaf. She's not even going to hear you knock.","00:07:39,700","00:07:42,300",True
+"827","1","14","Sheldon","I have a solution. First, go into the future - and obtain a cloaking device. - How far into the future?","00:07:43,700","00:07:49,100",False
+"828","1","14","Sheldon","If I remember correctly, Captain Kirk will steal a cloaking device from the Romulans on Stardate 5027.3, which would be January 10, 2328 by pre-Federation reckoning.","00:07:49,300","00:07:58,500",True
+"829","1","14","Penny","Second of all, the door to the stairwell of the other building was locked, so I had to go down the fire escape, which ends on the 3d floor, forcing me to crawl through the window of a lovely Armenian family who insisted I stay for lunch.","00:08:41,600","00:08:52,300",True
+"830","1","14","Penny","- It was eight courses of lamb, and they tried to fix me up with their son.","00:08:53,600","00:08:58,500",True
+"831","1","14","Leonard","The lights flash and the dish spins. You want to try it?","00:09:13,700","00:09:16,200",True
+"832","1","14","Penny","I don't want to try it! My God, you are grown men! How can you waste your lives with these stupid toys and costumes and comic books and now that?! That...","00:09:17,500","00:09:28,000",False
+"833","1","14","Penny","Please, it's not a time machine. If anything, it looks like something Elton John would drive through the Everglades.","00:09:32,000","00:09:37,500",True
+"834","1","14","Sheldon","It only moves in time. It would be worse than useless in a swamp.","00:09:43,300","00:09:47,900",True
+"835","1","14","Leonard","Because I want to go back and keep myself from getting a time machine.","00:10:31,900","00:10:35,400",False
+"836","1","14","Leonard","Can I go back and prevent you from explaing that to me?","00:10:49,600","00:10:52,600",True
+"837","1","14","Sheldon","- In addition, your premise is flawed. In the original film, Rod Taylor got Yvette Mimieux with that very time machine. In <i>Back to the Future</i>, Marty McFly got the opportunity to hook up with his extremely attractive young mother.","00:12:11,600","00:12:24,600",True
+"838","1","14","Howard","If I push any harder, I'm going to give birth to my colon.","00:03:55,800","00:03:59,100",True
+"840","1","14","Leonard","I'm packing up all my collectibles and taking them down to the comic book store to sell.","00:14:02,100","00:14:06,500",False
+"841","1","14","Leonard","Terrific. Does anyone want to buy my share of the time machine?","00:14:22,500","00:14:25,000",False
+"842","1","14","Sheldon","My Spidey sense tells me this has something to do with Penny.","00:14:29,800","00:14:32,900",True
+"843","1","14","Leonard","Look, do you want to buy me out or not?","00:14:33,300","00:14:35,700",False
+"844","1","14","Howard","Screw his balcony. I'll give you $120 and we'll put it in my garage.","00:14:39,800","00:14:42,600",False
+"845","1","14","Raj","Dude, everybody knows a time machine loses half its value the minute you drive it off the lot.","00:14:44,800","00:14:49,500",True
+"846","1","14","Leonard","No. No more toys or action figures or props or replicas or costumes or robots or Darth Vader voice changers. I'm getting rid of all of it.","00:14:58,700","00:15:08,900",False
+"847","1","14","Raj","I can and I did. Look up ""Dibs"" in Wikipedia.","00:15:29,700","00:15:32,200",True
+"848","1","14","Leonard","It's not a bidding war. I'm selling it all to Larry down at the comic book store.","00:15:34,900","00:15:38,900",False
+"849","1","14","Leonard","He offered me a fair price for the whole collection.","00:15:41,700","00:15:44,000",False
+"850","1","14","Howard","Mom? My bar mitzvah bonds. How much do I got? Thanks. I can go $2,600 and two trees in Israel.","00:15:52,500","00:15:58,600",True
+"851","1","14","Penny","- No, you didn't. You are a great guy and it is the things you love that make you who you are.","00:17:19,200","00:17:25,200",False
+"852","1","14","Leonard","Still, I think it's time for me to get rid of this stuff and, you know, move on with my life.","00:17:32,900","00:17:38,100",False
+"853","1","14","Sheldon","We have to get rid of the time machine.","00:19:04,800","00:19:07,000",True
+"854","1","14","Leonard","It is a little big for the living room, isn't it?","00:19:07,300","00:19:09,600",False
+"855","1","15","Leonard","On the other hand, some physicists are concerned that if this supercollider actually works, it'll create a black hole and swallow up the Earth, ending life as we know it.","00:00:00,080","00:00:08,336",False
+"856","1","15","Raj","What a bunch of crybabies. No guts, no glory, man.","00:00:08,456","00:00:12,432",True
+"857","1","15","Raj","""We are testing a new medication for social anxiety, ""panic attacks, agoraphobia and obsessive compulsive disorder.""","00:00:18,263","00:00:24,776",True
+"858","1","15","Raj","Why would they be looking for test subjects here?","00:00:26,545","00:00:28,782",True
+"859","1","15","Howard","I know, I'm disgusting. I should be punished... by her. Look, I did it again.","00:00:57,310","00:01:01,727",True
+"860","1","15","Howard","Sorry I'm late. I'm working on a project that may take me up on the next space shuttle.","00:01:20,577","00:01:26,072",True
+"861","1","15","Sheldon","How can you be late? I wasn't expecting you at all.","00:01:26,651","00:01:29,342",True
+"862","1","15","Missy","He once spent nine months with my legs wrapped around his head.","00:01:52,543","00:01:55,926",True
+"863","1","15","Sheldon","She's my twin sister. She thinks she's funny, but frankly, I've never been able to see it.","00:02:01,557","00:02:06,284",False
+"864","1","15","Missy","That's because you have no measurable sense of humor, Shelly.","00:02:06,404","00:02:09,090",False
+"865","1","15","Missy","So let me see if I got this. Leonard, Howard and... I'm sorry, what was your name again?","00:02:22,232","00:02:28,935",False
+"866","1","15","Leonard","So Missy, what brings you all the way from Texas?","00:03:20,843","00:03:23,030",False
+"867","1","15","Howard","Was it perhaps destiny? I think it was destiny.","00:03:23,150","00:03:25,393",False
+"868","1","15","Missy","And I had to drop off some papers for Shelly to sign for my Dad's estate.","00:03:33,172","00:03:36,428",False
+"869","1","15","Missy","I guess that's why they call you a genius.","00:03:40,259","00:03:42,559",False
+"870","1","15","Leonard","If the wedding's not until tomorrow, why don't you stay with us tonight?","00:03:57,249","00:04:00,744",False
+"871","1","15","Missy","I don't think so. Shelly doesn't like company. Even as a little boy, he'd send his imaginary friends home at the end of the day.","00:04:00,905","00:04:07,417",True
+"872","1","15","Sheldon","So what, I don't issue invitations to your mother.","00:04:18,542","00:04:21,290",True
+"873","1","15","Missy","It would be nice not to have to drive to Anaheim in rush hour.","00:04:22,406","00:04:25,143",False
+"874","1","15","Howard","Yeah, I'll walk you to your car. You're in structure 3, level C, right?","00:04:29,934","00:04:33,095",True
+"875","1","15","Missy","So anyway, we're eight years old and Sheldon converts my Easy Bake Oven to some kind of high-powered furnace.","00:04:40,985","00:04:47,165",True
+"876","1","15","Missy","He was trying to build some sort of armed robot to keep me out of his room.","00:04:55,818","00:04:59,426",False
+"877","1","15","Sheldon","Made necessary by her insistence on going into my room.","00:04:59,743","00:05:02,776",True
+"878","1","15","Missy","Anyway, I go to make those little corn muffins they give you. There's a big flash. Next thing you know my eyebrows are gone.","00:05:03,466","00:05:09,432",True
+"879","1","15","Missy","Yep, I had to go through the entire second grade with crooked eyebrows my mom drew on.","00:05:13,604","00:05:18,530",False
+"880","1","15","Sheldon","Is that what that was? I just assumed that the second grade curriculum had rendered you quizzical.","00:05:18,894","00:05:24,411",True
+"881","1","15","Penny","Really? They have your little name label in them.","00:05:39,638","00:05:42,745",False
+"882","1","15","Sheldon","Fraternal twins come from two separate eggs. They are no more alike than any other siblings.","00:06:11,917","00:06:16,211",False
+"883","1","15","Raj","Hey, guess what. I've been accepted as a test subject for a new miracle drug to overcome pathological shyness.","00:06:19,042","00:06:24,803",False
+"886","1","15","Howard","Do you like motorcycles? 'Cause I ride a hog.","00:06:55,579","00:06:58,380",False
+"887","1","15","Raj","A hog? You have a two-cylinder scooter with a basket in the front.","00:06:59,221","00:07:02,467",False
+"888","1","15","Penny","I didn't say you were. I just said she was cute.","00:07:25,655","00:07:28,423",False
+"889","1","15","Sheldon","I'm not ignoring my sister. I'm ignoring all of you.","00:07:41,905","00:07:44,960",False
+"890","1","15","Penny","Missy, I'm gonna go get my nails done. Do you want to come?","00:08:20,933","00:08:23,547",False
+"891","1","15","Raj","Why should I back off? You back off, dude.","00:08:38,078","00:08:39,981",False
+"892","1","15","Leonard","Excuse me, this is my apartment, and she's my roommate's sister.","00:08:40,141","00:08:42,692",False
+"893","1","15","Leonard","- How do I have Penny? In what universe do I have Penny?","00:08:42,853","00:08:47,530",False
+"895","1","15","Sheldon","I'm ordering pizza online. Is everyone okay with pepperoni?","00:08:56,215","00:08:59,417",False
+"896","1","15","Sheldon","Don't worry. I was going to order you cheese-less.","00:09:05,347","00:09:07,593",True
+"897","1","15","Raj","Hey, look at me. I don't have a foreskin.","00:09:17,858","00:09:20,232",False
+"898","1","15","Leonard","Are you aware that your sister is an incredibly attractive woman?","00:09:31,359","00:09:34,619",False
+"899","1","15","Sheldon","She certainly has the symmetry and low body fat that Western culture deems desirable. It's noteworthy, at other points in history, heavier women were the standard for beauty because their girth suggested affluence.","00:09:37,418","00:09:48,799",False
+"900","1","15","Sheldon","I didn't say it was fascinating. I said it was noteworthy.","00:09:51,186","00:09:53,924",True
+"901","1","15","Sheldon","So there is the possibility, however remote, that resting in her loins is the potential for another individual as remarkable as myself.","00:10:53,218","00:11:01,021",True
+"902","1","15","Leonard","And you owe it to yourself and to posterity to protect the genetic integrity of your sister's future offspring.","00:11:04,078","00:11:10,882",False
+"903","1","15","Raj","I am Shiva the Destroyer! I will have the woman.","00:11:28,393","00:11:32,067",True
+"904","1","15","Howard","I'm warning you, I was judo champion at math camp.","00:11:33,484","00:11:36,893",True
+"905","1","15","Leonard","He's the man of his family. You have to respect his wishes.","00:11:49,915","00:11:52,880",False
+"906","1","15","Sheldon","It's nothing personal. I'd just prefer if my future niece or nephew didn't become flatulent every time they ate an eskimo pie.","00:11:55,373","00:12:01,617",True
+"907","1","15","Sheldon","Now that Leonard's made me aware how high the genetic stakes are... we have to face the fact that none of you are suitable mates for my sister.","00:12:19,729","00:12:26,291",False
+"908","1","15","Howard","Wait a minute. Leonard made you aware of that?","00:12:26,761","00:12:29,271",True
+"909","1","15","Raj","Excuse me, I think you're missing a big opportunity here.","00:12:33,915","00:12:36,396",False
+"910","1","15","Raj","Everybody knows genetic diversity produces the strongest offspring. Why not put a little mocha in the family latte?","00:12:37,463","00:12:44,303",True
+"911","1","15","Sheldon","In principle, you have a point. But as a practical matter, need I remind you that it takes experimental pharmaceuticals to simply enable you to speak to the opposite sex.","00:12:47,456","00:12:55,895",False
+"912","1","15","Raj","I think you're focusing entirely too much on the drugs.","00:12:57,026","00:13:00,020",False
+"913","1","15","Howard","Is it 'cause I'm Jewish? 'Cause I'd kill my rabbi with a pork chop to be with your sister.","00:13:06,191","00:13:10,664",True
+"914","1","15","Sheldon","This has nothing to do with religion. This has to do with the fact that you're a tiny, tiny man who still lives with his mother.","00:13:17,433","00:13:23,901",False
+"915","1","15","Missy","Shelly, can I speak to you for a minute?","00:13:42,417","00:13:44,434",False
+"916","1","15","Sheldon","Why does everyone suddenly want to talk to me alone? Usually nobody wants to be alone with me.","00:13:46,278","00:13:51,068",True
+"917","1","15","Missy","I'm not even going to ask why you're pimping me out for cheese.","00:14:03,305","00:14:05,932",False
+"918","1","15","Missy","But since when do you care at all about who I sleep with?","00:14:07,761","00:14:11,021",False
+"919","1","15","Sheldon","Truthfully, I've never given it any thought, but it has been pointed out to me that you carry DNA of great potential.","00:14:11,528","00:14:17,068",False
+"920","1","15","Sheldon","Now, I am not saying that I should be the sole decider of who you mate with. If you're not attracted to the suitor, the likelihood of conception will be reduced.","00:14:47,707","00:14:55,564",False
+"921","1","15","Sheldon","I always thought I was more like a cuckoo bird. You know, a superior creature whose egg is placed in the nest of ordinary birds. Of course, the newly hatched cuckoo eats all the food, leaving the ordinary siblings to starve to death. Luckily for you, that's where the metaphor ended.","00:15:16,497","00:15:31,718",True
+"923","1","15","Missy","You listen to me. If you want to start acting like a brother who cares about me, then terrific. Bring it on. But you try one time to tell me who I should be sleeping with, and you and I are going to go round and round the way we did when we were little. Remember?","00:15:38,165","00:15:52,126",False
+"924","1","15","Leonard","If we're going to fight over Missy, let's do it the right way.","00:16:46,938","00:16:49,557",False
+"925","1","15","Leonard","Excuse me while I go tell Missy the good news.","00:17:17,993","00:17:20,559",True
+"926","1","15","Leonard","- Leonard. - Hi, Penny. How's it going? That guy Mike that you were dating, is that still going on?","00:17:27,371","00:17:31,804",False
+"927","1","15","Leonard","Nothing, just catching up. By the way, may I speak to Missy, please?","00:17:33,337","00:17:36,178",True
+"931","1","15","Missy","We had a dog who made a noise like that. Had to put him down.","00:20:07,017","00:20:11,400",True
+"932","1","15","Missy","Any news you want me to pass on to Mom?","00:20:14,256","00:20:16,482",False
+"933","1","15","Sheldon","Well, she might be interested to know that I have refocused my research from bosonic string theory to heterotic string theory.","00:20:17,130","00:20:23,560",False
+"934","1","15","Sheldon","Well, it was pleasant seeing you, other than that business with my testicles.","00:20:29,399","00:20:33,918",False
+"935","1","15","Missy","Yep, I'm always bragging to my friends about my brother, the rocket scientist.","00:20:46,659","00:20:50,412",False
+"936","1","16","Penny","Hey, guys, some of the other waitresses wanted me to ask you something.","00:00:06,354","00:00:09,523",False
+"937","1","16","Howard","It combines the physical strength of arm wrestling with the mental agility of Tetris into the ultimate sport.","00:00:11,132","00:00:16,603",True
+"938","1","16","Sheldon","We might as well stop. It's a stalemate. You're beating me in Tetris, but you've got the upper body strength of a Keebler elf.","00:00:26,856","00:00:32,911",True
+"939","1","16","Penny","So, Leonard, will we be seeing you on Saturday - for your free birthday cheesecake? - He can't eat cheesecake.","00:00:44,120","00:00:48,986",False
+"940","1","16","Penny","I did your horoscope, remember? I was gonna do everybody's, until Sheldon went on one of his typical psychotic rants.","00:00:59,098","00:01:04,234",True
+"941","1","16","Leonard","It's no big deal; it's just the way I was raised. My parents focused on celebrating achievements, and being expelled from a birth canal was not considered one of them.","00:01:26,708","00:01:34,764",True
+"942","1","16","Sheldon","It's actually based on very sound theories. - His mother published a paper on it. - What was it called?","00:01:37,395","00:01:42,435",True
+"943","1","16","Leonard","No, but it was okay. When I was little, I'd think maybe my parents would change their mind and surprise me with a party. Like this one birthday I came home from my cello lesson and I saw a lot of strange cars parked out front. When I got to the door, I could hear people whispering and I could smell German chocolate cake, which is my favorite.","00:02:15,548","00:02:31,988",False
+"944","1","16","Leonard","Well, it was kind of like a birthday party. I got to see all my cousins, and there was cake, so...","00:02:39,822","00:02:46,072",True
+"945","1","16","Sheldon","What would we talk about? We have no overlapping areas of interest I'm aware of. As you know, I don't care for chitchat.","00:03:45,600","00:03:51,700",True
+"946","1","16","Penny","He just doesn't know he wants one 'cause he's never had one.","00:04:09,400","00:04:12,500",False
+"947","1","16","Howard","I suppose that's possible, but for the record, I've never had a threesome and yet I still know I want one.","00:04:12,600","00:04:17,400",True
+"948","1","16","Penny","Howard, here's the difference... The possibility exists that Leonard could have a birthday party before hell freezes over.","00:04:19,900","00:04:25,800",True
+"949","1","16","Howard","Fine. If I do have a threesome, you can't be part of it.","00:04:28,000","00:04:30,700",True
+"950","1","16","Howard","I'm just kidding. Yes, you can. Can you bring a friend?","00:04:32,500","00:04:37,000",False
+"951","1","16","Sheldon","Year after year, I had to endure wearing comical hats while being forced into the crowded, sweaty hell of bouncy castles. Not to mention being blindfolded and spun toward a grotesque tailless donkey as the other children mocked my disorientation.","00:04:45,800","00:04:59,200",True
+"952","1","16","Sheldon","You can't do that. If you make a mark in a mint comic, it's no longer mint.","00:05:30,700","00:05:33,700",True
+"953","1","16","Sheldon","That's not the secret knock. This is the secret knock.","00:06:04,500","00:06:09,400",False
+"954","1","16","Sheldon","The whole point of a secret knock is to establish a non-verbal signal to verify the identity of one's co-conspirators.","00:06:14,800","00:06:20,800",True
+"955","1","16","Sheldon","Luckily for you, this is not a nuclear reactor.","00:06:26,300","00:06:29,000",True
+"956","1","16","Howard","Okay, well, he might like that. I've seen him get chilly.","00:06:44,700","00:06:47,600",True
+"957","1","16","Sheldon","- Let's say I go out and I spend $50 on you. It's a laborious activity because I have to imagine what you need, whereas you know what you need. Now, I could simplify things... just give you the $50 directly, and then you could give me $50 on my birthday, and so on, until one of us dies, leaving the other one old and $50 richer.","00:06:57,000","00:07:15,400",True
+"958","1","16","Sheldon","And I ask you, is it worth it?","00:07:17,800","00:07:19,700",False
+"959","1","16","Penny","Sheldon, you're his friend. Friends give each other presents.","00:07:23,200","00:07:26,400",False
+"960","1","16","Sheldon","Question. How am I going to get Leonard a present before the party? I don't drive and the only things available within walking distance are a Thai restaurant and a gas station. I suppose I could wrap up an order of mee krob and a couple of lottery scratchers.","00:07:52,200","00:08:04,200",True
+"961","1","16","Penny","And then, Raj, you bring the stuff across the hall and start setting up.","00:08:11,300","00:08:14,500",False
+"962","1","16","Howard","No, you've seen the 25th Anniversary Final Cut. This one has eight seconds of previously unseen footage. They say it completely changes the tone of the film.","00:08:47,400","00:08:56,700",False
+"963","1","16","Howard","Come on. Afterwards, there's a Q & A with Harrison Ford's body double.","00:08:59,100","00:09:03,100",True
+"964","1","16","Sheldon","Yes, but they have DVD burners over here. Leonard needs a DVD burner.","00:09:32,600","00:09:38,600",False
+"965","1","16","Penny","A gift shouldn't be something someone needs, it should be something fun. Something they wouldn't buy for themself.","00:09:39,700","00:09:45,500",False
+"966","1","16","Penny","It's a fun sweater. It's got a bold geometric print.","00:09:50,500","00:09:54,300",False
+"967","1","16","Penny","The point is one of the ways we show we care about people is by putting thought and imagination into the gifts we give them.","00:09:58,100","00:10:03,800",False
+"968","1","16","Sheldon","Something he wouldn't buy for himself, something fun, Something like... An 802-11n wireless router!","00:10:09,000","00:10:15,000",True
+"969","1","16","Leonard","If I had a gun there, would you have shot yourself?","00:10:55,900","00:10:58,800",False
+"970","1","16","Howard","Don't yell at me! I've got to go to the emergency room!","00:10:59,500","00:11:02,200",False
+"971","1","16","Howard","- Now?! - No, after my tongue has swollen to the size of a brisket!","00:11:02,300","00:11:06,200",False
+"973","1","16","Penny","I don't know. The man on the box looks so happy.","00:11:51,900","00:11:54,400",True
+"974","1","16","Sheldon","Penny, if I'm going to buy Leonard a gift, I'm going to do it right. I refuse to let him experience the same childhood trauma I did.","00:11:55,200","00:12:01,600",False
+"975","1","16","Random","Excuse me. Do you know anything about this stuff?","00:12:43,800","00:12:46,300",True
+"976","1","16","Woman","Okay, I have my own wholesale flower business and I want to hook up my computer in the front entrance with the one in my refrigerated warehouse.","00:12:48,800","00:12:56,000",True
+"977","1","16","Sheldon","No, she doesn't want that. She needs a point-to-point peer network with a range extender.","00:12:58,700","00:13:04,100",True
+"978","1","16","Howard","No, the only way I could get him to leave was to tell him I ate a peanut because I'm allergic to peanuts.","00:13:44,900","00:13:49,500",False
+"979","1","16","Howard","Okay, I get it. I know how the world works. How about if I were to introduce to you to the man who freed your people?","00:14:12,600","00:14:20,000",True
+"980","1","16","Penny","We all have to be there at the same time to yell surprise.","00:15:05,300","00:15:07,600",False
+"981","1","16","Howard","You have to understand something. We're in a hospital right now.","00:15:07,700","00:15:10,500",True
+"982","1","16","Penny","Okay, I don't need your attitude. Just hold him there a little longer.","00:15:15,900","00:15:19,100",False
+"983","1","16","Howard","I've done my best, but he wants to go home and I don't know how to stop him.","00:15:19,200","00:15:22,200",True
+"984","1","16","Penny","Okay, how about this? You keep him there a little longer, and when you get to the party, I'll point out which of my friends are easy?","00:15:23,200","00:15:28,800",True
+"985","1","16","Penny","I got a hot former fat girl with no self-esteem, a girl who punishes her father by sleeping around a alcoholic who's 2 tequila shots away from letting you wear her like a hat.","00:15:42,200","00:15:50,700",True
+"986","1","16","Penny","For one thing, we're late for Leonard's birthday party, and for another, I told him to call security.","00:16:30,600","00:16:35,300",True
+"987","1","16","Leonard","Excuse me, my friend is having an allergic reaction to peanuts.","00:16:49,400","00:16:52,300",False
+"988","1","16","Leonard","Say what you will about the healthcare system in this country, but when they're afraid of lawsuits, they sure test everything.","00:17:12,300","00:17:18,100",True
+"989","1","16","Leonard","You know, before you got all swollen up, I actually thought you were trying to keep me out of the apartment so you could throw me a surprise party.","00:17:24,600","00:17:31,400",True
+"990","1","16","Leonard","- Are you mad? - How could I be mad? You actually risked your life because you care about me.","00:17:49,900","00:17:56,600",False
+"991","1","16","Raj","Okay, Leonard. I am at your birthday party. I don't know where you are, dude, but it's really kick-ass! Everyone is very, very drunk and...","00:18:32,000","00:18:42,400",False
+"992","1","16","Raj","And look, there's a girl taking her shirt off!","00:18:44,500","00:18:47,300",False
+"994","1","17","Sheldon","How am I supposed to know that? As the teacher, it's your obligation to separate your personal idiosyncrasies from the subject matter.","00:00:24,112","00:00:30,325",True
+"995","1","17","Howard","You know, I'm really glad you decided to learn Mandarin.","00:00:30,842","00:00:33,284",False
+"996","1","17","Sheldon","I believe the Szechuan Palace has been passing off orange chicken as tangerine chicken and I intend to confront them.","00:00:53,568","00:00:59,390",True
+"997","1","17","Leonard","If I were you, I'd be more concerned about what they are passing off as chicken.","00:01:00,857","00:01:04,604",True
+"998","1","17","Leonard","I understand that breaking up with someone can be very painful...","00:02:16,705","00:02:19,635",True
+"999","1","17","Leonard","- Go away! - Okay, feel better! Bye!","00:02:19,755","00:02:21,888",False
+"1001","1","17","Raj","What else? Sell it on eBay as ""slightly used.""","00:03:05,036","00:03:07,667",True
+"1002","1","17","Howard","Apparently, he posted intimate details of their physical relationship on his blog which I cannot find anywhere.","00:03:10,957","00:03:17,650",True
+"1003","1","17","Howard","Good idea, sit with her. Hold her, comfort her. And if the moment feels right, see if you can cop a feel.","00:03:21,976","00:03:28,948",True
+"1004","1","17","Sheldon","I'm not aware of a new social convention that requires you to intervene at all.","00:03:33,236","00:03:36,943",False
+"1005","1","17","Sheldon","Twelfth century code of chivalry? Not exactly current. You'd also have to be knighted for that to apply.","00:03:39,335","00:03:45,569",True
+"1006","1","17","Leonard","I don't care. She's upset, I'm going over there.","00:03:46,705","00:03:49,177",True
+"1007","1","17","Howard","Remember to sit on your hands a bit, so they're warm.","00:03:49,297","00:03:52,187",False
+"1008","1","17","Leonard","I'm her friend. I'm not going to take advantage of her vulnerability.","00:03:53,603","00:03:56,865",True
+"1009","1","17","Leonard","Listen, I know you said you didn't want to talk...","00:04:13,541","00:04:15,701",True
+"1010","1","17","Penny","So I pick good guys but turn them into losers.","00:04:30,088","00:04:32,483",True
+"1011","1","17","Penny","I really thought Mike was different. I thought he was... sensitive and smart, I mean, not <i>you</i> smart, normal non-freaky smart.","00:04:45,396","00:04:53,873",True
+"1012","1","17","Penny","No, at the sub shop we were only making out.","00:06:09,270","00:06:11,249",False
+"1013","1","17","Penny","- Because I do that. I do overreact. Maybe I should call Mike and apologize.","00:06:21,657","00:06:26,384",False
+"1014","1","17","Penny","You're right. I should just say ""I am done with him.""","00:06:39,318","00:06:41,904",False
+"1015","1","17","Penny","But I never gave the man a chance to explain.","00:06:44,560","00:06:47,118",False
+"1016","1","17","Penny","No, you were right the first time. This is a man who loves me, but in his own stupid way, which is trying to show people how he feels.","00:06:52,617","00:07:01,499",True
+"1017","1","17","Penny","You did better than that. You helped me see it on my own.","00:07:06,255","00:07:08,806",False
+"1018","1","17","Penny","I'm going over to Mike's. Leonard, thank you so much.","00:07:13,590","00:07:16,105",False
+"1019","1","17","Sheldon","I'm going to need another Mandarin lesson. I obviously didn't make my point with those people.","00:07:33,449","00:07:38,481",True
+"1020","1","17","Sheldon","I like tangerine chicken, I'm just not getting tangerine chicken.","00:07:44,328","00:07:47,345",True
+"1021","1","17","Raj","Tell us again how you screwed up and got Penny back together with her boyfriend.","00:07:51,936","00:07:55,520",True
+"1022","1","17","Leonard","She was mad at him! She was done with him! The relationship was broken beyond repair, and I walked over there, and I fixed it.","00:08:06,650","00:08:14,449",False
+"1023","1","17","Howard","Boy, that story gets better every time you hear it.","00:08:15,909","00:08:18,668",True
+"1024","1","17","Sheldon","Actually, I thought the first two renditions were far more compelling. Previously, I felt sympathy for the Leonard character, now I just find him to be whiny and annoying.","00:08:20,037","00:08:28,391",True
+"1025","1","17","Sheldon","I'd love to, but I don't have tangerine chicken.","00:08:32,376","00:08:35,059",True
+"1026","1","17","Penny","Thank you so much for your stupid advice!","00:08:37,716","00:08:40,745",True
+"1027","1","17","Penny","I went over to Mike's to make up with him.","00:09:05,482","00:09:07,508",False
+"1028","1","17","Penny","That's what I said to the woman who had her legs around his neck.","00:09:14,217","00:09:18,178",True
+"1029","1","17","Penny","I swear to God I am done with guys like that. You know, macho with the perfect body and the hair and the money.","00:09:31,769","00:09:39,248",True
+"1030","1","17","Leonard","I was just going off your comment about the nice guy.","00:10:14,466","00:10:16,804",True
+"1031","1","17","Penny","Why not? I mean... What do I have to lose?","00:10:35,635","00:10:38,391",False
+"1032","1","17","Penny","I was just wondering if I could talk to you. It's about Leonard.","00:11:13,312","00:11:16,387",False
+"1033","1","17","Penny","Well, Raj can't talk to me unless he's drunk, and Wolowitz is, you know, disgusting.","00:11:20,230","00:11:25,251",True
+"1034","1","17","Penny","All I'm saying is, you know Leonard the best.","00:11:30,476","00:11:32,902",False
+"1035","1","17","Penny","Leonard might come home. Can we talk in my apartment?","00:12:06,769","00:12:09,148",True
+"1036","1","17","Sheldon","Why not? We're already through the looking glass anyway.","00:12:14,213","00:12:17,073",True
+"1037","1","17","Penny","Okay, so here's the thing... I guess you're aware that Leonard asked me out.","00:12:21,947","00:12:27,001",False
+"1038","1","17","Sheldon","He didn't actually say anything, but when he came back to the apartment he was doing a dance that brought to mind the happy hippos in <i>Fantasia</i>.","00:12:27,625","00:12:34,687",True
+"1039","1","17","Sheldon","There are a number of options and... I'm really not familiar enough with the cushion densities, air flow patterns and dispersion of unlight to make an informed choice.","00:12:55,813","00:13:05,616",True
+"1040","1","17","Penny","Why don't you just pick one at random and if you don't like it - you can sit somewhere else next time. - No. That's crazy.","00:13:06,156","00:13:11,946",True
+"1042","1","17","Sheldon","You go ahead and talk while I figure it out.","00:13:13,735","00:13:16,308",True
+"1043","1","17","Sheldon","I suppose so... in the same way Menelaus had a ""little crush"" on Helen of Troy.","00:13:28,680","00:13:32,707",False
+"1044","1","17","Sheldon","Leonard isn't the kind of guy I usually go out with. Leonard isn't the kind of guy anyone usually goes out with.","00:13:41,867","00:13:47,934",True
+"1045","1","17","Sheldon","Would you be open to rotating the couch clockwise 30 degrees?","00:13:49,065","00:13:51,955",True
+"1046","1","17","Penny","No. What I'm saying is Leonard might be different in a good way. Obviously, my usual choices have not worked out so well.","00:13:52,169","00:14:00,092",False
+"1047","1","17","Penny","On the other hand, if things don't go well with Leonard, I risk losing a really good friend. I'm guessing he's not looking for a fling. He's the kind of guy that gets into a relationship for... - like you would say, light years. - I would not say that.","00:14:08,630","00:14:20,654",True
+"1048","1","17","Sheldon","- I would not say that. No one would say that. A light year is a unit of distance not time.","00:14:18,026","00:14:25,044",True
+"1049","1","17","Sheldon","Of course you don't get it. I haven't made it yet.","00:15:47,406","00:15:49,877",True
+"1050","1","17","Sheldon","You'd have to be psychic to get it, and there's no such thing as ""psychic.""","00:15:51,395","00:15:54,129",True
+"1051","1","17","Penny","Okay, so you're saying I should go out with Leonard.","00:16:07,326","00:16:10,264",False
+"1052","1","17","Leonard","I don't think I can go out with her tonight.","00:16:50,061","00:16:52,096",True
+"1053","1","17","Leonard","Now that I'm actually about to go out with Penny, I'm not excited, I'm nauseous.","00:17:03,964","00:17:08,447",False
+"1054","1","17","Leonard","Sheldon, this date is probably my one chance with Penny. What happens if I blow it?","00:17:24,502","00:17:28,918",True
+"1055","1","17","Sheldon","What response on my part would bring this conversation to a speedy conclusion?","00:17:50,237","00:17:54,283",False
+"1056","1","17","Leonard","Tell me whether or not to go through with the date.","00:17:54,494","00:17:56,852",False
+"1057","1","17","Penny","Actually, I've heard far too much about Schrodinger's cat.","00:18:57,107","00:19:00,252",True
