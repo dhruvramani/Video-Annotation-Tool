@@ -162,7 +162,6 @@
                     type = file.type,
                     videoNode = document.getElementById('vidplay'),
                     fileURL = URL.createObjectURL(file);
-                alert("Done");
                 videoNode.src = fileURL;
                 $("#status").html("Episode "+ season +"x"+ episode +" - Video Loaded!<br>Click on Next Timestamp to start");
             }
