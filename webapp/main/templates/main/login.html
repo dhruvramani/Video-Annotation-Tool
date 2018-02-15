@@ -2,6 +2,11 @@
 {% block main %}
 
 <div class='container-fluid'>
+    {% if error %}
+    <div class="alert alert-warning">
+                <strong>Error : </strong> <span id="status">{{error}}</span>
+    </div>
+    {% endif %}
     <div class='row'>
         <div class='col-sm-12'>
             <h1>Login</h1>

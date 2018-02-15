@@ -64,20 +64,20 @@ def register(request):
         last_name = request.POST['last_name']
         email = request.POST['email']
 
-        user = User.objects.create_user(username=user_name.lower(), email=email, password=password, first_name=first_name, last_name=last_name)
-        if user == None :
-            return render('main/register.html', {'error' : "Authentication Error, Please Try Again."})
         try:
-            user = User._default_manager.get(username__iexact = username.lower())
+            user = User._default_manager.get(username__iexact = user_name.lower())
             return render(request, 'main/login.html', {'error':'User-Name Already Exists'})
         except User.DoesNotExist:
+            user = User.objects.create_user(username=user_name.lower(), email=email, password=password, first_name=first_name, last_name=last_name)
+            if user == None :
+                return render('main/register.html', {'error' : "Authentication Error, Please Try Again."})
             user.is_active = True
             user.save()
             response = Responses()
             response.user = user
             response.lastId = 0
             response.save()
-            user = authenticate(username = username, password = password)
+            user = authenticate(username = user_name, password = password)
             login(request, user)
         return redirect('/')
     return render(request, 'main/register.html', None)
