@@ -8,17 +8,15 @@ from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect, get_object_or_404
 
 BASE_DIR = os.path.dirname((os.path.dirname(os.path.abspath(__file__))))
-def get_link(season, episode):
-    return "foo"
 
 @csrf_exempt
 def savecsv(request):
     if(request.method == 'POST'):
         jsondat = request.POST['jsondata']
-        username = request.user.username
-        a = Responses()
-        a.username = username
-        a.jsonString = jsondat
+        last_id = request.POST['last_id']
+        a = Responses.objects.get(user=request.user)
+        a.jsonString += jsondat
+        a.lastId = last_id
         a.save()
     return redirect('/')
 
@@ -27,16 +25,13 @@ def index(request):
     if request.user.is_active == False:
         return redirect('/login')    
     if(request.method == 'POST'):
-        season = request.POST['season']
-        episode = request.POST['episode']
-        vidlink = get_link(season, episode)
-        print(season, episode)
         csvfile = ""
         with open(os.path.join(BASE_DIR, "main.csv"), "r") as f:
             csvfile = f.read()
-        return render(request, 'main/index.html', {'season' : int(season), 'episode' : int(episode), "csv" : csvfile, "username" : str(request.user.username), "status" : "Episode : {}x{}. Choose Video File.".format(season, episode)})
+        a = Responses.objects.get(user=request.user)
+        return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready!", "last_id" : a.lastId})
     
-    return render(request,'main/index.html', {'season' : "-1", 'episode' : "-1", "csv" : "none", "username" : "none", "status" : "Currently for Season 1 | Follow Instructions Below."})
+    return render(request,'main/index.html', {"csv" : "none", "username" : "none", "status" : "Currently for Season 1 - Follow Instructions Below.", "last_id" : -1})
 
 @csrf_exempt
 def signin(request):
@@ -69,12 +64,20 @@ def register(request):
         last_name = request.POST['last_name']
         email = request.POST['email']
 
-        user = User.objects.create_user(username=user_name, email=email, password=password, first_name=first_name, last_name=last_name)
+        user = User.objects.create_user(username=user_name.lower(), email=email, password=password, first_name=first_name, last_name=last_name)
         if user == None :
             return render('main/register.html', {'error' : "Authentication Error, Please Try Again."})
-
-        user.is_active = True
-        user.save()
-        login(request, user)
+        try:
+            user = User._default_manager.get(username__iexact = username.lower())
+            return render(request, 'main/login.html', {'error':'User-Name Already Exists'})
+        except User.DoesNotExist:
+            user.is_active = True
+            user.save()
+            response = Responses()
+            response.user = user
+            response.lastId = 0
+            response.save()
+            user = authenticate(username = username, password = password)
+            login(request, user)
         return redirect('/')
     return render(request, 'main/register.html', None)
