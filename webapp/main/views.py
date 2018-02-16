@@ -9,6 +9,10 @@ from django.shortcuts import render, redirect, get_object_or_404
 
 BASE_DIR = os.path.dirname((os.path.dirname(os.path.abspath(__file__))))
 
+csvfile = ""
+with open(os.path.join(BASE_DIR, "main.csv"), "r") as f:
+    csvfile = f.read()
+
 @csrf_exempt
 def savecsv(request):
     if(request.method == 'POST'):
@@ -23,15 +27,11 @@ def savecsv(request):
 @csrf_exempt
 def index(request):
     if request.user.is_active == False:
-        return redirect('/login')    
-    if(request.method == 'POST'):
-        csvfile = ""
-        with open(os.path.join(BASE_DIR, "main.csv"), "r") as f:
-            csvfile = f.read()
-        a = Responses.objects.get(user=request.user)
-        return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready!", "last_id" : a.lastId})
-    
-    return render(request,'main/index.html', {"csv" : "none", "username" : "none", "status" : "Currently for Season 1 - Follow Instructions Below.", "last_id" : -1})
+        return redirect('/login') 
+
+    a = Responses.objects.get(user=request.user)
+    return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready for S01", "last_id" : a.lastId})    
+
 
 @csrf_exempt
 def signin(request):
