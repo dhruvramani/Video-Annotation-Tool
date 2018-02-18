@@ -12,16 +12,33 @@
                 </div>
                 <div class="col-sm-6 col-lg-5">
                     <form>
-                        <input type="radio" name="action" onclick="modify_laugh('laugh');"> <i class="em em-laughing"></i> Funny!<br><br>
-                        <input type="radio" name="action" onclick="modify_laugh('no_laugh');"> <i class="em em-unamused"></i> Not Funny.<br><br>
-                        <input type="radio"  name="action" onclick="modify_laugh('sarcastic');"> <i class="em em-upside_down_face"></i> Sarcastic!<br><br>
-                        <input type="radio" name="action" onclick="modify_laugh('no_sarcastic');"> <i class="em em-face_with_rolling_eyes"></i> Not Sarcastic.<br><br>
-                    <input type="radio" name="action" onclick="modify_laugh('bad_sentence');"> <i class="em em-x"></i>Bad Sentence<br><br>
-                    </form>
-                    <div class='btn-group'>
-                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', true);">Previous Utterance</button>
-                            <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next', true);">Next Utterance</button>
+                        <div class='row'>
+                            <div class='col-sm-6'>
+                                <h5> <i class="em em-laughing"></i> Funny?</h5>
+                                <small style="font-size: 60%;">Click "Yes" if the utterance is funny, else no</small><br>
+                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', true);"> Yes<br>
+                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);"> No<br><br>
+                            </div>
+                            <div class='col-sm-6'>
+                                <h5><i class="em em-upside_down_face"></i> Sarcastic?</h5>
+                                <small style="font-size: 60%;">Click "Yes" if the utterance is sarcastic, else no</small><br>
+                                <input type="radio"  name="sarcasm" onclick="modify_laugh('sarcasm', true);"> Yes<br>
+                                <input type="radio" name="sarcasm" onclick="modify_laugh('sarcasm', false);"> No<br><br>
+                            </div>
+                        </div>
+                    <div class='row'>
+                        <div class='col-sm-12'>
+                            <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);"> <i class="em em-x"></i>Bad Sentence<br><br>
+                        </div>
                     </div>
+                    </form>
+                    <!-- 
+                    <div class='btn-group'>
+                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', false);">Previous Utterance</button>
+                            <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next', true);">Next Utterance</button>
+                    </div>  -->
+                    <br><br>
+                    <button type='button' class='btn btn-success btn-block' onclick="saveCSV();">Save and Next</button>
                 </div>
             </div>
 
@@ -51,7 +68,10 @@
             </div>
         </div>
         <script>
-            var tableCount = -1, 
+            var laugh = false,
+                sarcasm = false,
+                bad = false,
+                tableCount = -1, 
                 jsontosend = "",
                 info = document.getElementById("info"),
                 timeinfo = document.getElementById("timeinfo"),
@@ -59,7 +79,8 @@
                 seasoninfo = document.getElementById("seasoninfo"),
                 vid = document.getElementById("vidplay"),
                 end_timestamp = 1,
-                _URL = "http://matterhorn.d2.comp.nus.edu.sg/~devamanyu/BBT/";
+                _URL = "http://matterhorn.d2.comp.nus.edu.sg/~devamanyu/BBT/",
+                chose = false;
 
             
             {% if csv == "none" %}
@@ -79,7 +100,7 @@
                 return (+a[0]) * 60 * 60 + (+a[1]) * 60 + (+a[2]); 
             }
 
-            function moveTimeStamp(movetype, save=false) {
+            function moveTimeStamp(movetype) {
                 if(tableCount == -1)
                     return alert("Error : Please Click on \"Start!\"");
                 if(movetype == 'next')
@@ -93,14 +114,15 @@
                 id = main_data[tableCount][0]
                 vid.setAttribute("src", _URL + id + ".mp4")
                 vid.play();
-                if(save == true)
-                    saveCSV();
             }
 
             function saveCSV()
             {
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
+
+                if(chose == false)
+                    return alert("Error : Please choose one of the options");
 
                 var textElem = document.getElementById("jsoninput"),
                     idElem = document.getElementById("last_id");
@@ -109,13 +131,20 @@
                 $("#submitData").click();
             }
 
-            function modify_laugh(yayOrNay)
+            function modify_laugh(yayOrNay, val)
             {
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
 
-                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "emotion" : "' + yayOrNay +'" }, ';
+                if(yayOrNay == 'laugh')
+                    laugh = val;
+                else if(yayOrNay == 'sarcasm') 
+                    sarcasm = val;
+                else               
+                    bad = val;
 
+                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "laugh" : "' + laugh + '", "sarcasm" : "' + sarcasm + '", "bad_sentence" : "' + bad + '" }, ';
+                chose = true;
             }
             
         </script>
