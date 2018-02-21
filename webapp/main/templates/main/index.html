@@ -16,29 +16,36 @@
                             <div class='col-sm-6'>
                                 <h5> <i class="em em-laughing"></i> Funny?</h5>
                                 <small style="font-size: 60%;">Click "Yes" if the utterance is funny, else no</small><br>
-                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', true);"> Yes<br>
-                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);"> No<br><br>
+                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', true);" id='yes_laugh'> Yes<br>
+                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);" id='no_laugh'> No<br><br>
                             </div>
                             <div class='col-sm-6'>
                                 <h5><i class="em em-upside_down_face"></i> Sarcastic?</h5>
                                 <small style="font-size: 60%;">Click "Yes" if the utterance is sarcastic, else no</small><br>
-                                <input type="radio"  name="sarcasm" onclick="modify_laugh('sarcasm', true);"> Yes<br>
-                                <input type="radio" name="sarcasm" onclick="modify_laugh('sarcasm', false);"> No<br><br>
+                                <input type="radio"  name="sarcasm" onclick="modify_laugh('sarcasm', true);" id='yes_sar'> Yes<br>
+                                <input type="radio" name="sarcasm" onclick="modify_laugh('sarcasm', false);" id='no_sar'> No<br><br>
                             </div>
                         </div>
                     <div class='row'>
-                        <div class='col-sm-12'>
-                            <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);"> <i class="em em-x"></i>Bad Sentence<br><br>
+                         <div class='col-sm-8'>
+                                <h5>Sentiment</h5>
+                                <small style="font-size: 60%;">Click "Positive" if the utterance is positive, else "Negative"</small><br>
+                                <input type="radio"  name="sentiment" onclick="modify_laugh('sentiment', true);" id='yes_senti'> Positive<br>
+                                <input type="radio" name="sentiment" onclick="modify_laugh('sentiment', false);" id='no_senti'> Negative<br><br>
+                        </div>
+                        <div class='col-sm-4'>
+                            <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);" id='bad'> <i class="em em-x"></i><br>Bad Sentence<br><br>
                         </div>
                     </div>
                     </form>
-                    <!-- 
+                    
                     <div class='btn-group'>
                             <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', false);">Previous Utterance</button>
                             <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next', true);">Next Utterance</button>
-                    </div>  -->
+                    </div> 
                     <br><br>
-                    <button type='button' class='btn btn-success btn-block' onclick="saveCSV();">Save and Next</button>
+                    <button type='button' class='btn btn-success btn-block' onclick="saveCSV();">Save</button>
+                    <br><br>
                 </div>
             </div>
 
@@ -60,9 +67,12 @@
                 <div class="col-sm-12">
                     <h3 style="font-weight: lighter;">How to use this?</h3>
                     <ol>
-                        <li>The tool will automatically go through the respecitve utterances and you have to label them.</li>
-                        <li>Click on the respective options as per the video-stamp.</li>
-                        <li>Click "Next Timestamp" to go to the next utterance, and "Prev Timestamp" for the previous</li>
+                        <li>Each utterance video is to be annotated with the following labels: Funny and Sarcastic.</li>
+                        <li>If the utterance video is a joke or contains humor, then please select "Yes" for the Funny label, else "No".</li>
+                        <li>If the utterance video is a sarcastic statement made by the speaker, then please select "Yes" for the Sarcastic label, else "No".</li>
+                        <li>If the utterance video has a positive statement made by the speaker, then please select "Positive" for the Sentiment label, else "Negative".</li>
+                        <li>If you find any misalignment between the video, transcript or audio (eg. video is blank, audio or subtitle is wrong etc.) please select the "Bad Sentence" tag.</li>
+                        <li>Click "Submit & Next" to submit the labels for the current utterance.</li>
                     </ol>
                 </div>
             </div>
@@ -71,6 +81,7 @@
             var laugh = false,
                 sarcasm = false,
                 bad = false,
+                sentiment = false,
                 tableCount = -1, 
                 jsontosend = "",
                 info = document.getElementById("info"),
@@ -86,11 +97,18 @@
             {% if csv == "none" %}
             {% else %}
                 {% autoescape off %}
-                var stro = '{{ csv |escapejs}}';
-                main_data = Papa.parse(stro);
-                main_data = main_data["data"];
-                tableCount = {{ last_id }} + 1;
-                moveTimeStamp('next', false);
+                var stro = '{{ csv |escapejs}}',
+                main_data = Papa.parse(stro),
+                main_data = main_data["data"],
+                tableCount = {{ last_id }} + 1,
+                jsondata = JSON.parse('[' + '{{ jsondat|escapejs }}'.replace(/,\s*$/, "") + ']');
+                //moveTimeStamp('next', false);
+                seasoninfo.innerHTML = "<strong>Season</strong> : " + main_data[tableCount][1] + ", <strong>Episode</strong> : " + main_data[tableCount][2];
+                timeinfo.innerHTML = "<strong>Time</strong> : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
+                laughinfo.innerHTML = "<strong>" + main_data[tableCount][3] + "</strong> : " + main_data[tableCount][4];
+                id = main_data[tableCount][0]
+                vid.setAttribute("src", _URL + id + ".mp4")
+                vid.play();
                 {% endautoescape %}
             {% endif %}
 
@@ -103,10 +121,56 @@
             function moveTimeStamp(movetype) {
                 if(tableCount == -1)
                     return alert("Error : Please Click on \"Start!\"");
+
+                var orig = tableCount;
+                var all_ids = ["yes_laugh", "no_laugh", "yes_sar", "no_sar", "bad"];
+
                 if(movetype == 'next')
                     tableCount ++;
+
+                do 
+                {
+                    var isThere = -1;
+                    for(var i=0; i < jsondata.length && isThere == -1; i++)
+                        if(tableCount == jsondata[i]['id'])
+                            isThere = i;
+
+                    if(movetype == 'prev')
+                        tableCount--;
+                } while(isThere == -1 && movetype == 'prev');
+
+                if(isThere == -1 )
+                {
+                    tableCount = orig;
+                    if(movetype == 'next')
+                        alert("Please save before going to a different utterance");
+                    return ;
+                }
+
+                for(var i=0; i<all_ids.length; i++)                
+                    document.getElementById(all_ids[i]).checked = false;
+
+                id_list = [];
+                if(jsondata[isThere]['laugh'] == "true")
+                    id_list.push("yes_laugh");
                 else
-                    tableCount--;
+                    id_list.push("no_laugh");
+
+                if(jsondata[isThere]['sarcasm'] == "true")
+                    id_list.push("yes_sar");
+                else
+                    id_list.push("no_sar");
+
+                if(jsondata[isThere]['sentiment'] == "true")
+                    id_list.push("yes_senti");
+                else
+                    id_list.push("no_senti");
+
+                if(jsondata[isThere]['bad_sentence'] == "true")
+                    id_list.push("bad");
+
+                for(var i=0; i<id_list.length; i++)
+                    document.getElementById(id_list[i]).checked = true;
 
                 seasoninfo.innerHTML = "<strong>Season</strong> : " + main_data[tableCount][1] + ", <strong>Episode</strong> : " + main_data[tableCount][2];
                 timeinfo.innerHTML = "<strong>Time</strong> : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
@@ -114,6 +178,12 @@
                 id = main_data[tableCount][0]
                 vid.setAttribute("src", _URL + id + ".mp4")
                 vid.play();
+
+                /* if(movetype == 'prev')
+                    tableCount--;
+                else if(movetype == 'next')
+                    tableCount --; */
+
             }
 
             function saveCSV()
@@ -121,8 +191,27 @@
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
 
-                if(chose == false)
-                    return alert("Error : Please choose one of the options");
+                var lchoice = false,
+                    rchoice = false,
+                    schoice = false,
+                    laughs = document.getElementsByName("laugh"),
+                    sar = document.getElementsByName("sarcasm"),
+                    senti = document.getElementsByName("sentiment");
+
+                for(var i=0; i<laughs.length; i++)
+                     if(laughs[i].type == 'radio' && laughs[i].checked)
+                        lchoice = true;
+
+                for(var i=0; i<sar.length; i++)
+                     if(sar[i].type == 'radio' && sar[i].checked)
+                        rchoice = true;
+
+                for(var i=0; i<senti.length; i++)
+                     if(senti[i].type == 'radio' && senti[i].checked)
+                        schoice = true;
+
+                if(rchoice == false || lchoice == false || schoice == false)
+                    return alert("Error : Please select annotations.");
 
                 var textElem = document.getElementById("jsoninput"),
                     idElem = document.getElementById("last_id");
@@ -140,10 +229,12 @@
                     laugh = val;
                 else if(yayOrNay == 'sarcasm') 
                     sarcasm = val;
+                else if(yayOrNay == 'sentiment')
+                    sentiment = val;
                 else               
                     bad = val;
 
-                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "laugh" : "' + laugh + '", "sarcasm" : "' + sarcasm + '", "bad_sentence" : "' + bad + '" }, ';
+                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "laugh" : "' + laugh + '", "sarcasm" : "' + sarcasm + '", "sentiment" : "' + sentiment + '", "bad_sentence" : "' + bad + '" }, ';
                 chose = true;
             }
             

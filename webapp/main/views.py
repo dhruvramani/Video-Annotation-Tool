@@ -30,7 +30,7 @@ def index(request):
         return redirect('/login') 
 
     a = Responses.objects.get(user=request.user)
-    return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready for S01", "last_id" : a.lastId})    
+    return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready for S01", "last_id" : a.lastId, "jsondat" : a.jsonString})    
 
 
 @csrf_exempt
