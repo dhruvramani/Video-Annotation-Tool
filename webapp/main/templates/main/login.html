@@ -1,6 +1,8 @@
 {% extends 'main/base.html'%}
 {% block main %}
-
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="#main" style="color : #007DF7;">Laugh Annotation Tool</a>
+    </nav>
 <div class='container-fluid'>
     {% if error %}
     <div class="alert alert-warning">
@@ -10,21 +12,19 @@
     <div class='row'>
         <div class='col-sm-12'>
             <h1>Login</h1>
-            <a href="{% url 'register' %}"><h3>Or Register?</h3></a>
+            <a href="{% url 'register' %}" class='btn btn-outline-primary'><h3>// Or Register?</h3></a>
             <br><br>
         </div>
     </div>
     <div class='row'>
-        <div class='col-sm-8'>
+        <div class='col-sm-12'>
             <form method='POST'>
-                <input class='form-control' type='text' name='user_name' placeholder="User Name" required><br>
-                <input class='form-control' type='password' name='password' placeholder="Password" required><br>
-                <input type="submit" class='btn btn-success btn-block'><br>
-            </form>
-        </div>
-        <div class='col-sm-4'>
+                <input class='form-control' type='text' name='user_name' placeholder='Username' required><br>
+                <input class='form-control' type='password' name='password' placeholder='Password' required><br>
+                 <input type="submit" class='btn btn-block btn-success'><br>
         </div>
     </div>
+    </form>
 </div>
 
 {% endblock %}

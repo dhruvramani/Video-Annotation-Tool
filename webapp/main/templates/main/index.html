@@ -1,7 +1,30 @@
 {% extends 'main/base.html'%}
 {% block main %}
 {% load static %}
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="#main" style="color : #007DF7;">Laugh Annotation Tool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id='collapsibleNavbar' class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <form class="form-inline" action="{% url 'logout' %}">
+                    <input type='submit' value='Logout' class='btn btn-block btn-outline-danger'>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
    <div class="container-fluid" id="main-container">
+            <div class="row" id="main" style="margin-top: -15px;">
+                <div class='col-sm-12'>
+                    <h6>Watch the following video and answer the following questions according to your own <strong><i>perceptions</i></strong>.</h6><br>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-7">
                         <video width="100%" id="vidplay" height="70%" controls>
@@ -14,57 +37,57 @@
                     <form>
                         <div class='row'>
                             <div class='col-sm-6'>
-                                <h5> <i class="em em-laughing"></i> Funny?</h5>
-                                <small style="font-size: 60%;">Click "Yes" if the utterance is funny, else no</small><br>
+                                <h5>Is this utterance <i>funny</i>? <i class="em em-laughing"></i></h5>
+                                <small style="font-size: 60%;">Click "Yes" if the utterance is funny, else "No".</small><br>
                                 <input type="radio" name="laugh" onclick="modify_laugh('laugh', true);" id='yes_laugh'> Yes<br>
                                 <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);" id='no_laugh'> No<br><br>
                             </div>
                             <div class='col-sm-6'>
-                                <h5><i class="em em-upside_down_face"></i> Sarcastic?</h5>
-                                <small style="font-size: 60%;">Click "Yes" if the utterance is sarcastic, else no</small><br>
+                                <h5>Is this utterance <i>sarcastic</i>? <i class="em em-upside_down_face"></i></h5>
+                                <small style="font-size: 60%;">Click "Yes" if the utterance is sarcastic, else "No".</small><br>
                                 <input type="radio"  name="sarcasm" onclick="modify_laugh('sarcasm', true);" id='yes_sar'> Yes<br>
                                 <input type="radio" name="sarcasm" onclick="modify_laugh('sarcasm', false);" id='no_sar'> No<br><br>
                             </div>
                         </div>
                     <div class='row'>
                          <div class='col-sm-8'>
-                                <h5>Sentiment</h5>
-                                <small style="font-size: 60%;">Click "Positive" if the utterance is positive, else "Negative"</small><br>
+                                <h5>What is the <i>sentiment</i> depicted in the video?</h5>
+                                <small style="font-size: 60%;">Click "Positive" if the utterance is positive, else "Negative".</small><br>
                                 <input type="radio"  name="sentiment" onclick="modify_laugh('sentiment', true);" id='yes_senti'> Positive<br>
                                 <input type="radio" name="sentiment" onclick="modify_laugh('sentiment', false);" id='no_senti'> Negative<br><br>
                         </div>
                         <div class='col-sm-4'>
-                            <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);" id='bad'> <i class="em em-x"></i><br>Bad Sentence<br><br>
+                            <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);" id='bad'><h6>Utterance and subtitles not aligned properly.</h6><br><br>
                         </div>
                     </div>
                     </form>
                     
                     <div class='btn-group'>
                             <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', false);">Previous Utterance</button>
-                            <button type="button" class='btn btn-primary' onclick="moveTimeStamp('next', true);">Next Utterance</button>
+                            <button type="button" class='btn btn-success' onclick="moveTimeStamp('next', true);">Save & Go To Next Utterance</button>
                     </div> 
-                    <br><br>
-                    <button type='button' class='btn btn-success btn-block' onclick="saveCSV();">Save</button>
                     <br><br>
                 </div>
             </div>
-
-            <div class="alert alert-success">
-                    <p id='seasoninfo'></p>
-                    <p id='timeinfo'></p>
-            </div>
-
             <div class='row' style="visibility: hidden;">
                 <div class='col-sm-12' style="visibility: hidden;">
                     <form action="{% url 'savecsv' %}" method="POST" style="visibility: hidden;">
                         <input type="text" name="jsondata" id="jsoninput" required>
                         <input type="text" name='last_id' id='last_id' required>
+                        <input type='text' name='goto_id' id='goto_id' required>
                         <input type="submit" id="submitData">
                     </form>
                 </div>
             </div>
+
+            <div class="alert alert-success">
+                    <h4>Utterance Information</h4>
+                    <p id='seasoninfo'></p>
+                    <p id='timeinfo'></p>
+                    <p id='laugh2'></p>
+            </div>
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" id="faq">
                     <h3 style="font-weight: lighter;">How to use this?</h3>
                     <ol>
                         <li>Each utterance video is to be annotated with the following labels: Funny and Sarcastic.</li>
@@ -87,11 +110,13 @@
                 info = document.getElementById("info"),
                 timeinfo = document.getElementById("timeinfo"),
                 laughinfo = document.getElementById("laughinfo"),
+                laugh2 = document.getElementById("laugh2"),
                 seasoninfo = document.getElementById("seasoninfo"),
                 vid = document.getElementById("vidplay"),
                 end_timestamp = 1,
-                _URL = "http://matterhorn.d2.comp.nus.edu.sg/~devamanyu/BBT/",
-                chose = false;
+                _URL = "http://devamanyu.000webhostapp.com/BBT/",
+                chose = false,
+                moved = false;
 
             
             {% if csv == "none" %}
@@ -105,7 +130,9 @@
                 //moveTimeStamp('next', false);
                 seasoninfo.innerHTML = "<strong>Season</strong> : " + main_data[tableCount][1] + ", <strong>Episode</strong> : " + main_data[tableCount][2];
                 timeinfo.innerHTML = "<strong>Time</strong> : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
-                laughinfo.innerHTML = "<strong>" + main_data[tableCount][3] + "</strong> : " + main_data[tableCount][4];
+                var laugh_text = "<strong>" + main_data[tableCount][3] + "</strong> : " + main_data[tableCount][4];
+                laughinfo.innerHTML = laugh_text;
+                laugh2.innerHTML = laugh_text;
                 id = main_data[tableCount][0]
                 vid.setAttribute("src", _URL + id + ".mp4")
                 vid.play();
@@ -121,29 +148,32 @@
             function moveTimeStamp(movetype) {
                 if(tableCount == -1)
                     return alert("Error : Please Click on \"Start!\"");
+                if(moved == false)
+                {
+                    orig = tableCount;
+                    moved = true;
+                }
+                var all_ids = ["yes_laugh", "no_laugh", "yes_sar", "no_sar", "bad"],
+                chosa = chose;
 
-                var orig = tableCount;
-                var all_ids = ["yes_laugh", "no_laugh", "yes_sar", "no_sar", "bad"];
-
+                chose = false;
                 if(movetype == 'next')
                     tableCount ++;
+                else 
+                    tableCount --;
 
-                do 
-                {
-                    var isThere = -1;
-                    for(var i=0; i < jsondata.length && isThere == -1; i++)
-                        if(tableCount == jsondata[i]['id'])
-                            isThere = i;
+                if(jsondata[tableCount] == undefined && movetype == 'prev')
+                    tableCount--;
 
-                    if(movetype == 'prev')
-                        tableCount--;
-                } while(isThere == -1 && movetype == 'prev');
-
-                if(isThere == -1 )
+                if(tableCount >= jsondata.length)
                 {
                     tableCount = orig;
                     if(movetype == 'next')
-                        alert("Please save before going to a different utterance");
+                        saveCSV();
+                    return ;
+                } else if(chosa == true)
+                {
+                    saveCSV(orig);
                     return ;
                 }
 
@@ -151,22 +181,22 @@
                     document.getElementById(all_ids[i]).checked = false;
 
                 id_list = [];
-                if(jsondata[isThere]['laugh'] == "true")
+                if(jsondata[tableCount]['laugh'] == "true")
                     id_list.push("yes_laugh");
                 else
                     id_list.push("no_laugh");
 
-                if(jsondata[isThere]['sarcasm'] == "true")
+                if(jsondata[tableCount]['sarcasm'] == "true")
                     id_list.push("yes_sar");
                 else
                     id_list.push("no_sar");
 
-                if(jsondata[isThere]['sentiment'] == "true")
+                if(jsondata[tableCount]['sentiment'] == "true")
                     id_list.push("yes_senti");
                 else
                     id_list.push("no_senti");
 
-                if(jsondata[isThere]['bad_sentence'] == "true")
+                if(jsondata[tableCount]['bad_sentence'] == "true")
                     id_list.push("bad");
 
                 for(var i=0; i<id_list.length; i++)
@@ -174,19 +204,16 @@
 
                 seasoninfo.innerHTML = "<strong>Season</strong> : " + main_data[tableCount][1] + ", <strong>Episode</strong> : " + main_data[tableCount][2];
                 timeinfo.innerHTML = "<strong>Time</strong> : " + main_data[tableCount][5] + " - " + main_data[tableCount][6];
-                laughinfo.innerHTML = "<strong>" + main_data[tableCount][3] + "</strong> : " + main_data[tableCount][4];
+                laugh_text = "<strong>" + main_data[tableCount][3] + "</strong> : " + main_data[tableCount][4];
+                laughinfo.innerHTML = laugh_text;
+                laugh2.innerHTML = laugh_text;
                 id = main_data[tableCount][0]
                 vid.setAttribute("src", _URL + id + ".mp4")
                 vid.play();
 
-                /* if(movetype == 'prev')
-                    tableCount--;
-                else if(movetype == 'next')
-                    tableCount --; */
-
             }
 
-            function saveCSV()
+            function saveCSV(gotoI = -1)
             {
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
@@ -214,9 +241,14 @@
                     return alert("Error : Please select annotations.");
 
                 var textElem = document.getElementById("jsoninput"),
-                    idElem = document.getElementById("last_id");
+                    idElem = document.getElementById("last_id"),
+                    goto_id = document.getElementById("goto_id");
                 textElem.value = jsontosend;
                 idElem.value = tableCount;
+                if(gotoI != -1)
+                    goto_id.value = gotoI - 1;
+                else
+                    goto_id.value = tableCount;
                 $("#submitData").click();
             }
 

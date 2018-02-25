@@ -18,11 +18,18 @@ def savecsv(request):
     if(request.method == 'POST'):
         jsondat = request.POST['jsondata']
         last_id = request.POST['last_id']
+        goto_id = request.POST['goto_id']
         a = Responses.objects.get(user=request.user)
         a.jsonString += jsondat
-        a.lastId = last_id
+        a.lastId = int(last_id)
+        a.gotoId = int(goto_id)
         a.save()
     return redirect('/')
+
+@csrf_exempt
+def i_logout(request):
+    logout(request)
+    return redirect('/login')
 
 @csrf_exempt
 def index(request):
@@ -30,7 +37,7 @@ def index(request):
         return redirect('/login') 
 
     a = Responses.objects.get(user=request.user)
-    return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready for S01", "last_id" : a.lastId, "jsondat" : a.jsonString})    
+    return render(request, 'main/index.html', {"csv" : csvfile, "username" : str(request.user.username), "status" : "Ready for S01", "last_id" : a.gotoId, "jsondat" : a.jsonString})    
 
 
 @csrf_exempt
@@ -43,10 +50,7 @@ def signin(request):
         user = authenticate(username = user_name, password = password)
         if user == None :
             return render(request, 'main/login.html', {'error' : 'User-Name/Password Invalid'})
-        elif user.is_active == False :
-            login(request, user)
-            return redirect('/')
-        else : 
+        else:
             login(request, user)
             return redirect('/')
     
@@ -76,8 +80,9 @@ def register(request):
             response = Responses()
             response.user = user
             response.lastId = 0
+            response.gotoId = 0
             response.save()
-            user = authenticate(username = user_name, password = password)
+            #user = authenticate(username = user_name, password = password)
             login(request, user)
         return redirect('/')
     return render(request, 'main/register.html', None)
