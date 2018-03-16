@@ -3,7 +3,7 @@
 {% load static %}
 
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <a class="navbar-brand" href="#main" style="color : #007DF7;">Laugh Annotation Tool</a>
+        <a class="navbar-brand" href="#main" style="color : #007DF7;">Video Annotation Tool</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,10 +37,14 @@
                     <form>
                         <div class='row'>
                             <div class='col-sm-6'>
-                                <h5>Is this utterance <i>funny</i>? <i class="em em-laughing"></i></h5>
+                                <!-- <h5>Is this utterance <i>funny</i>? <i class="em em-laughing"></i></h5>
                                 <small style="font-size: 60%;">Click "Yes" if the utterance is funny, else "No".</small><br>
                                 <input type="radio" name="laugh" onclick="modify_laugh('laugh', true);" id='yes_laugh'> Yes<br>
-                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);" id='no_laugh'> No<br><br>
+                                <input type="radio" name="laugh" onclick="modify_laugh('laugh', false);" id='no_laugh'> No<br><br> -->
+                                <h5>What is the <i>sentiment</i> depicted in the video?</h5>
+                                <small style="font-size: 60%;">Click "Positive" if the utterance is positive, else "Negative".</small><br>
+                                <input type="radio"  name="sentiment" onclick="modify_laugh('sentiment', true);" id='yes_senti'> Positive<br>
+                                <input type="radio" name="sentiment" onclick="modify_laugh('sentiment', false);" id='no_senti'> Negative<br><br>
                             </div>
                             <div class='col-sm-6'>
                                 <h5>Is this utterance <i>sarcastic</i>? <i class="em em-upside_down_face"></i></h5>
@@ -50,22 +54,16 @@
                             </div>
                         </div>
                     <div class='row'>
-                         <div class='col-sm-8'>
-                                <h5>What is the <i>sentiment</i> depicted in the video?</h5>
-                                <small style="font-size: 60%;">Click "Positive" if the utterance is positive, else "Negative".</small><br>
-                                <input type="radio"  name="sentiment" onclick="modify_laugh('sentiment', true);" id='yes_senti'> Positive<br>
-                                <input type="radio" name="sentiment" onclick="modify_laugh('sentiment', false);" id='no_senti'> Negative<br><br>
-                        </div>
-                        <div class='col-sm-4'>
+                        <div class='col-sm-12'>
                             <input type="radio" name="bad_sentence" onclick="modify_laugh('bad_sentence', true);" id='bad'><h6>Utterance and subtitles not aligned properly.</h6><br><br>
                         </div>
                     </div>
                     </form>
                     
-                    <div class='btn-group'>
-                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', false);">Previous Utterance</button>
-                            <button type="button" class='btn btn-success' onclick="moveTimeStamp('next', true);">Save & Go To Next Utterance</button>
-                    </div> 
+                   <!-- <div class='btn-group'>
+                            <button type="button" class="btn btn-secondary" onclick="moveTimeStamp('prev', false);">Previous Utterance</button> -->
+                        <button type="button" class='btn btn-success btn-block' onclick="moveTimeStamp('next', true);">Save & Go To Next Utterance</button>
+                    <!-- </div> -->
                     <br><br>
                 </div>
             </div>
@@ -91,7 +89,7 @@
                     <h3 style="font-weight: lighter;">How to use this?</h3>
                     <ol>
                         <li>Each utterance video is to be annotated with the following labels: Funny and Sarcastic.</li>
-                        <li>If the utterance video is a joke or contains humor, then please select "Yes" for the Funny label, else "No".</li>
+                        <!-- <li>If the utterance video is a joke or contains humor, then please select "Yes" for the Funny label, else "No".</li> -->
                         <li>If the utterance video is a sarcastic statement made by the speaker, then please select "Yes" for the Sarcastic label, else "No".</li>
                         <li>If the utterance video has a positive statement made by the speaker, then please select "Positive" for the Sentiment label, else "Negative".</li>
                         <li>If you find any misalignment between the video, transcript or audio (eg. video is blank, audio or subtitle is wrong etc.) please select the "Bad Sentence" tag.</li>
@@ -101,8 +99,7 @@
             </div>
         </div>
         <script>
-            var laugh = false,
-                sarcasm = false,
+            var sarcasm = false,
                 bad = false,
                 sentiment = false,
                 tableCount = -1, 
@@ -159,23 +156,23 @@
                 chose = false;
                 if(movetype == 'next')
                     tableCount ++;
-                else 
+                /*else 
                     tableCount --;
 
                 if(jsondata[tableCount] == undefined && movetype == 'prev')
                     tableCount--;
-
+                */    
                 if(tableCount >= jsondata.length)
                 {
                     tableCount = orig;
                     if(movetype == 'next')
                         saveCSV();
                     return ;
-                } else if(chosa == true)
+                } /* else if(chosa == true)
                 {
                     saveCSV(orig);
                     return ;
-                }
+                } */
 
                 for(var i=0; i<all_ids.length; i++)                
                     document.getElementById(all_ids[i]).checked = false;
@@ -256,17 +253,14 @@
             {
                 if(tableCount == -1)
                     return alert("Error : Please select Season & Episode.");
-
-                if(yayOrNay == 'laugh')
-                    laugh = val;
-                else if(yayOrNay == 'sarcasm') 
+                if (yayOrNay == 'sarcasm') 
                     sarcasm = val;
                 else if(yayOrNay == 'sentiment')
                     sentiment = val;
                 else               
                     bad = val;
 
-                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "laugh" : "' + laugh + '", "sarcasm" : "' + sarcasm + '", "sentiment" : "' + sentiment + '", "bad_sentence" : "' + bad + '" }, ';
+                jsontosend = '{ "id" : "' + main_data[tableCount][0] + '", "init_timestamp" : "' + main_data[tableCount][5] + '", "end_timestamp" : "' + main_data[tableCount][6] + '", "sarcasm" : "' + sarcasm + '", "sentiment" : "' + sentiment + '", "bad_sentence" : "' + bad + '" }, ';
                 chose = true;
             }
             
